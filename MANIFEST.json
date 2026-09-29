@@ -1,0 +1,4169 @@
+{
+ "release": "NutriTURN",
+ "files": 1022,
+ "bytes": 367240411,
+ "by_directory": {
+  "ENVIRONMENT.md": {
+   "files": 1,
+   "bytes": 3278
+  },
+  "README.md": {
+   "files": 1,
+   "bytes": 5645
+  },
+  "REPRODUCE.md": {
+   "files": 1,
+   "bytes": 8069
+  },
+  "data": {
+   "files": 615,
+   "bytes": 282466172
+  },
+  "figures": {
+   "files": 8,
+   "bytes": 414653
+  },
+  "logs": {
+   "files": 123,
+   "bytes": 341598
+  },
+  "paper": {
+   "files": 2,
+   "bytes": 1041194
+  },
+  "requirements.txt": {
+   "files": 1,
+   "bytes": 695
+  },
+  "results": {
+   "files": 156,
+   "bytes": 82126982
+  },
+  "scripts": {
+   "files": 74,
+   "bytes": 716681
+  },
+  "tables": {
+   "files": 40,
+   "bytes": 115444
+  }
+ },
+ "seeds": {
+  "shared_seed": 3,
+  "percentile_bootstrap_resamples": 2000,
+  "wild_cluster_draws": 9999,
+  "null_control_draws": 1000,
+  "null_D_seeds": "130000-130999 under PYTHONHASHSEED=0"
+ },
+ "required_environment": {
+  "PYTHONHASHSEED": "0",
+  "PYTHONDONTWRITEBYTECODE": "1"
+ },
+ "library_versions": {
+  "python": "3.10.12",
+  "platform": "Linux-5.15.0-130-generic-x86_64-with-glibc2.35",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "sklearn": "1.7.2",
+  "pandas": "2.3.3",
+  "statsmodels": "0.15.0",
+  "xgboost": "3.2.0",
+  "matplotlib": "3.10.9"
+ },
+ "withheld": [
+  "abstract text (records ship identifiers, years, titles, publication types)",
+  "external corpora document inputs (unit-level label counts only)",
+  "model weights (downloaded from the Hugging Face Hub at pinned revisions)"
+ ],
+ "sha256_of_file_list": "a9603c5c8840621b45e17c632e23290a4f42c2773012673b3fd26d23d14ff6bc",
+ "file_hashes": {
+  "ENVIRONMENT.md": {
+   "sha256": "2e7d8f9dc65a1ff0ed2af419ab5bfb9b4021c55e42a5865ea3c2ec91ac6d89ac",
+   "bytes": 3278
+  },
+  "README.md": {
+   "sha256": "7f8a2e2328fee07912945461cb03cd3faf48a63b37a7d72b3e68188755eab26a",
+   "bytes": 5645
+  },
+  "REPRODUCE.md": {
+   "sha256": "27049bf172cb5ad767bedad7a4d21e5b038cb47779503326e0a655c1e490f1f4",
+   "bytes": 8069
+  },
+  "data/agreement_v2/agreement_audit_units.csv": {
+   "sha256": "9ce770f235c931ecac2ba57ea65967a77c7737f40864a2f24e4a5b1445a08c33",
+   "bytes": 106335
+  },
+  "data/agreement_v2/agreement_boundary_crossings.csv": {
+   "sha256": "c02a1d54ddbe69055d75d8383d0f0394dea42e769b38cb376a386c14478475b2",
+   "bytes": 1236
+  },
+  "data/associations.csv": {
+   "sha256": "26009ac16353373526de7ef7f796a8f3f01ae0847a2e3069c330e4112f9683f2",
+   "bytes": 6427633
+  },
+  "data/claim_semantic_orientation_audit.csv": {
+   "sha256": "e4e2f51764c570a8e48f08e4dd7dd1757428b0fc624543b0bb5c53305c1050c6",
+   "bytes": 22030
+  },
+  "data/claims.csv": {
+   "sha256": "2e3556c0933161a815101d1fc5b14a4fc4a32b1c0ba0b553c745ba65387e0e9d",
+   "bytes": 33626
+  },
+  "data/cumulative_targets.csv": {
+   "sha256": "79d39babd8effedfde9f4200f4d441f9573917a13854a066f4c38d5f51c74b59",
+   "bytes": 103686
+  },
+  "data/derived/agreement_sensitivity_features.csv": {
+   "sha256": "52fef42d52cc44aa1a5d69025847c4a56acc4b9fa81abb005d33a1e235f38c5a",
+   "bytes": 1012590
+  },
+  "data/derived/agreement_v2/agreement_audit_units.csv": {
+   "sha256": "9ce770f235c931ecac2ba57ea65967a77c7737f40864a2f24e4a5b1445a08c33",
+   "bytes": 106335
+  },
+  "data/derived/agreement_v2/agreement_boundary_crossings.csv": {
+   "sha256": "c02a1d54ddbe69055d75d8383d0f0394dea42e769b38cb376a386c14478475b2",
+   "bytes": 1236
+  },
+  "data/derived/calendar_forward_units.csv": {
+   "sha256": "799ad22d05263c60d3ed141e238351e144dc624784c7366a4d13a73ac6376693",
+   "bytes": 2736050
+  },
+  "data/derived/claim_semantic_orientation_audit.csv": {
+   "sha256": "e4e2f51764c570a8e48f08e4dd7dd1757428b0fc624543b0bb5c53305c1050c6",
+   "bytes": 22030
+  },
+  "data/derived/cumulative_target/examples_sub_only.csv": {
+   "sha256": "618aa57b981537144b760e2e81b7909102f347e166dc97d2917fee319fdd0db3",
+   "bytes": 3641
+  },
+  "data/derived/cumulative_targets.csv": {
+   "sha256": "79d39babd8effedfde9f4200f4d441f9573917a13854a066f4c38d5f51c74b59",
+   "bytes": 103686
+  },
+  "data/derived/numeric_anchor_v2_all_candidates.csv": {
+   "sha256": "0efdf5a9c9234a3198f10d8f79329bf5123a70c2df551fa588696ee8f31a7435",
+   "bytes": 10774330
+  },
+  "data/derived/numeric_anchor_v2_exclusions.csv": {
+   "sha256": "7ae3fd1d155fc832a5bf7445b6ccd2b3147c633406552786f82af872f3b4ac5b",
+   "bytes": 7735379
+  },
+  "data/derived/numeric_anchor_v2_high_confidence.csv": {
+   "sha256": "02f30d38cb40a6eb55e77023b69a7bbc9b442a0a514d73364c7cee7920388687",
+   "bytes": 133916
+  },
+  "data/derived/orientation_ambiguous_claims.csv": {
+   "sha256": "4fbba7c3b0341677b8e150836f21084622a52393b09c4e0472fa8e3290b5acd3",
+   "bytes": 12248
+  },
+  "data/derived/orientation_clean/orientation_clean_benchmark_core.csv": {
+   "sha256": "f0dbcf46700f1b633ac38ff887b5550789d7dfcf55a2e81bba24d85ccb75ce17",
+   "bytes": 602673
+  },
+  "data/derived/orientation_clean_benchmark.csv": {
+   "sha256": "6ef404efc0730a020e070d98136e720f5774e61ee03bcc84349166b6bd4e92f6",
+   "bytes": 548385
+  },
+  "data/llm_runs/controlled_cells/cellA.jsonl": {
+   "sha256": "749fb1125f30f6318e0b03ae3f6bf2d91025f6757b61085d899ccfeb48739d54",
+   "bytes": 9256509
+  },
+  "data/llm_runs/controlled_cells/cellAarch.jsonl": {
+   "sha256": "1e75182ea64e5d13130f2c71efcc5eb4386743b7c0a376f8f28e4408e274cadf",
+   "bytes": 9256335
+  },
+  "data/llm_runs/controlled_cells/cellAprime.jsonl": {
+   "sha256": "b5e36185db31d266ba05c32ff907cea42f1f06c56b82f48161e4eacec0145939",
+   "bytes": 9252834
+  },
+  "data/llm_runs/controlled_cells/cellB.jsonl": {
+   "sha256": "854b0034b8bab91d1f680cc90f4ffdfc7038ced83cdd8db42a6f5db40351b0e4",
+   "bytes": 9269664
+  },
+  "data/llm_runs/controlled_cells/cellC.jsonl": {
+   "sha256": "068d3474db24ab1e64f1ebf95afcf741ea2016a38a97231081454ccb2870db1e",
+   "bytes": 9186597
+  },
+  "data/llm_runs/controlled_cells/cellD.jsonl": {
+   "sha256": "c993bb9ed529593b7f8e7b4d9d70a68d663a45d216a97c01e678170f3dca2625",
+   "bytes": 9161544
+  },
+  "data/llm_runs/forecasters/llama70_digest_shard0.jsonl": {
+   "sha256": "b99ee74c5c4950f9cf523c8fe4e9049ad4c26a9a2e531c1503a5dfd081f8cf69",
+   "bytes": 159367
+  },
+  "data/llm_runs/forecasters/llama70_digest_shard1.jsonl": {
+   "sha256": "f82ed09adb5fa5a06fda75cd6dd0376e0d98a13ce81c970eecfc40c802b279a0",
+   "bytes": 159001
+  },
+  "data/llm_runs/forecasters/llama70_digest_shard2.jsonl": {
+   "sha256": "a5dcd38f6056bfbe1c69e6fad340b19e2a6ff578048c82f74e9b28d8c8e0ac43",
+   "bytes": 159043
+  },
+  "data/llm_runs/forecasters/llama70_digest_shard3.jsonl": {
+   "sha256": "a2d56181c581b95b938ec0854d9edbcaf70b538d13c547aa8f84b960166f1c58",
+   "bytes": 158577
+  },
+  "data/llm_runs/forecasters/llama70_digest_shard4.jsonl": {
+   "sha256": "fb04a5245995e2c0d030b69063f1e4f7c07a262fa3004cb6330ab466c18742fe",
+   "bytes": 158809
+  },
+  "data/llm_runs/forecasters/llama70_masked_shard0.jsonl": {
+   "sha256": "77d865de3ec12de46ec6d824845f95a99e0f37cf01d6afbcdfb405c050462c36",
+   "bytes": 159643
+  },
+  "data/llm_runs/forecasters/llama70_masked_shard1.jsonl": {
+   "sha256": "5e00e7c0d0d21d75a74da56fec587e4b1d281a6a243ce53589c9721b114b6da3",
+   "bytes": 159193
+  },
+  "data/llm_runs/forecasters/llama70_masked_shard2.jsonl": {
+   "sha256": "b37131bffa16da04f154f7ad05324aae6d367abe3ed73db3b5e9d1bdddd4955d",
+   "bytes": 159258
+  },
+  "data/llm_runs/forecasters/llama70_masked_shard3.jsonl": {
+   "sha256": "850913ce5566e66cbbe6ff168c93fc12738cde2948c3f8249bfd68ebdc119b5e",
+   "bytes": 158835
+  },
+  "data/llm_runs/forecasters/llama70_masked_shard4.jsonl": {
+   "sha256": "a76403a2193ad6a158bde6f02e461ac4ffb97bd489d5db996df018a4d4cffeee",
+   "bytes": 158982
+  },
+  "data/llm_runs/forecasters/llama70_text_shard0.jsonl": {
+   "sha256": "83ed5c4c1fed6e8f622fdc5a810b2213ffd63e7856acc099c0c35ab5d9d76969",
+   "bytes": 158783
+  },
+  "data/llm_runs/forecasters/llama70_text_shard1.jsonl": {
+   "sha256": "09adbc0a20c50836f6431165c0651b8ca5728b1817c4e6b09767fbd1eaf4bf4b",
+   "bytes": 158438
+  },
+  "data/llm_runs/forecasters/llama70_text_shard2.jsonl": {
+   "sha256": "0d92e687a812d92c7ae0461a100e1591ade43d20b2c4ecc4b2f8d11e56665b7a",
+   "bytes": 158441
+  },
+  "data/llm_runs/forecasters/llama70_text_shard3.jsonl": {
+   "sha256": "ddfa5e1d9b9c0598e3c2e1cedbab18d8ffb7c7fe8bb1a7aa8605d57bae5f002a",
+   "bytes": 157993
+  },
+  "data/llm_runs/forecasters/llama70_text_shard4.jsonl": {
+   "sha256": "aa7bd9e88823dca5ed1883a46ed3e06c48c791c16e9a87170570a291c2541860",
+   "bytes": 158318
+  },
+  "data/llm_runs/forecasters/llama_digest_shard0.jsonl": {
+   "sha256": "fe1b9192c2b756225c315f13465d05d05ae651beb1e38acb74791fe505afcb22",
+   "bytes": 784002
+  },
+  "data/llm_runs/forecasters/llama_masked_shard0.jsonl": {
+   "sha256": "b3586b14a8af8943b843eae42470390a2f24c3bed6f8e44173ebf7034c8a8107",
+   "bytes": 784339
+  },
+  "data/llm_runs/forecasters/llama_text_shard0.jsonl": {
+   "sha256": "006c3ab75a0b37d6c55a2b249dc4c68bb93a633c33c2867853ed1caa93efb724",
+   "bytes": 781217
+  },
+  "data/llm_runs/forecasters/qwen72_digest_shard0.jsonl": {
+   "sha256": "ded435a218c7d61dc0f930d43d149b4839837c1852bf8cfe141a758f30fe4630",
+   "bytes": 153526
+  },
+  "data/llm_runs/forecasters/qwen72_digest_shard1.jsonl": {
+   "sha256": "117d6ed6935005972e973e0c830b2d7b62906cd3455b27daa7486cb22c6e7448",
+   "bytes": 153164
+  },
+  "data/llm_runs/forecasters/qwen72_digest_shard2.jsonl": {
+   "sha256": "b84bf1d09112bf4672bfba75a728d8f05c6fa3f356477094b94db2ddfcb14d16",
+   "bytes": 153298
+  },
+  "data/llm_runs/forecasters/qwen72_digest_shard3.jsonl": {
+   "sha256": "d7649eb7d05ccd661c9a59ed0b7b35ad1504dec9b5890049ad343ba970b271ec",
+   "bytes": 152582
+  },
+  "data/llm_runs/forecasters/qwen72_digest_shard4.jsonl": {
+   "sha256": "f56a3e56ba34dce3c9aaab55612fbfdda1878d77fcab36da6dc7d6a61482076e",
+   "bytes": 152966
+  },
+  "data/llm_runs/forecasters/qwen_digest_shard0.jsonl": {
+   "sha256": "58062eb05b8e25c181c886d5c32890b8893e55e3f26750850e3505c4df51d741",
+   "bytes": 827683
+  },
+  "data/llm_runs/forecasters/qwen_text_shard0.jsonl": {
+   "sha256": "f3dac54110aed6e05e7f0654cadc32dca73af0d60ad7de01c861b41486810d60",
+   "bytes": 826248
+  },
+  "data/orientation_ambiguous_claims.csv": {
+   "sha256": "4fbba7c3b0341677b8e150836f21084622a52393b09c4e0472fa8e3290b5acd3",
+   "bytes": 12248
+  },
+  "data/protocol_snapshot/analyses_v2/tables/04_system_oof_predictions.csv": {
+   "sha256": "a2e1f563187466eb28cd080243ad34972c9eae1bd179301fc8ae12fee1aca99d",
+   "bytes": 61132
+  },
+  "data/protocol_snapshot/analyses_v2/tables/04_system_performance.csv": {
+   "sha256": "aacd04e8966ee631e121b961d66683d5b7ecac6a99e61b7b72d4954d9dbba686",
+   "bytes": 324
+  },
+  "data/protocol_snapshot/analyses_v2/tables/04_system_performance.json": {
+   "sha256": "df8b8b1a0ffa49f864b3192c7ff6f294de421ef8576b31127a1a0703a11ded4f",
+   "bytes": 1056
+  },
+  "data/protocol_snapshot/analyses_v2/tables/05_target_margins.csv": {
+   "sha256": "64b45f4e436ae77d31ebdf145910614f2ce715c6a8d2a8be94d052fec2178ba3",
+   "bytes": 846
+  },
+  "data/protocol_snapshot/analyses_v2/tables/05_target_margins.json": {
+   "sha256": "95e386e6eb6872c9e39e178e2781bd8190a08467b77999d1378d3d30a02c6bdd",
+   "bytes": 2536
+  },
+  "data/protocol_snapshot/analyses_v2/tables/06_fixed_horizons.csv": {
+   "sha256": "3502a67308afb62e72f5ae91257ff5385c62c4a01e2e8921d4e2ded86dd959b3",
+   "bytes": 331
+  },
+  "data/protocol_snapshot/analyses_v2/tables/06_fixed_horizons.json": {
+   "sha256": "dddf571ea78ba7c009192ebe2333049a43e2b882481c445379c490753dab0970",
+   "bytes": 1069
+  },
+  "data/protocol_snapshot/analyses_v2/tables/07_cutoff_design_draws.csv": {
+   "sha256": "62e48f905e614de476bc9b2d5e07232ba1c647686ce4eb12b58ed2371bc6ff23",
+   "bytes": 199554
+  },
+  "data/protocol_snapshot/analyses_v2/tables/07_cutoff_design_draws.json": {
+   "sha256": "590f90d0d6919aa7b65978ec09a1c49b3510d9fd6e69853db631522c16eb5a91",
+   "bytes": 476760
+  },
+  "data/protocol_snapshot/analyses_v2/tables/07_cutoff_designs.csv": {
+   "sha256": "54d2ab56a1834920049ef02c4a54453e16e15de86b865a4a99b91ddbab2c2942",
+   "bytes": 3222
+  },
+  "data/protocol_snapshot/analyses_v2/tables/07_cutoff_designs.json": {
+   "sha256": "f43ed80c6f6b457a04deadec41b3f55eb666cf1d452a86dcdbf2a6120c050ece",
+   "bytes": 7236
+  },
+  "data/protocol_snapshot/analyses_v2/tables/07_positive_claim_influence.csv": {
+   "sha256": "41beb842b13c0bfbc242118a09055aa86d31b752777322677247341840ee93b9",
+   "bytes": 3227
+  },
+  "data/protocol_snapshot/analyses_v2/tables/07_positive_claim_influence.json": {
+   "sha256": "37f409df53267ef83e1efdc56b46432180c52e2e59fc741b5e67eeca2f1d24c6",
+   "bytes": 12353
+  },
+  "data/protocol_snapshot/analyses_v2/tables/08_nested_selection.json": {
+   "sha256": "e3474ddff593be6e08a9dd7481d534525d4c2df3499aec24922e3ca56e507d52",
+   "bytes": 259146
+  },
+  "data/protocol_snapshot/analyses_v2/tables/08_oof_predictions.csv": {
+   "sha256": "621fc1f137e3e0698cd99325f844cadf9623f77e05f868dd5ab14bb64b0d6163",
+   "bytes": 276006
+  },
+  "data/protocol_snapshot/analyses_v2/tables/08_paired_comparisons.csv": {
+   "sha256": "6b0bed6d57aa709b145f743dc664e792018b1c25a5c4de888cf6c6433d6d73c6",
+   "bytes": 1112
+  },
+  "data/protocol_snapshot/analyses_v2/tables/08_paired_comparisons.json": {
+   "sha256": "6dc6fcf67031f166d0f3e133528371d0129dd733662e79973b512c44643e962c",
+   "bytes": 3092
+  },
+  "data/protocol_snapshot/analyses_v2/tables/08_strong_baselines.csv": {
+   "sha256": "1a42f6ecddd29d46102f053bda6a0b2afc113c36169ab3134f0a7baa5f80e7a4",
+   "bytes": 3055
+  },
+  "data/protocol_snapshot/analyses_v2/tables/08_strong_baselines.json": {
+   "sha256": "743def2660f60e4ecfc01477c33101fbee83f1009476ffc16e977a92bdc3eb10",
+   "bytes": 8704
+  },
+  "data/protocol_snapshot/analyses_v2/tables/11_calibration.csv": {
+   "sha256": "cf5af057a0c9de89f99e70000e5df50c152ca54f46482b58b48f091c07849e7e",
+   "bytes": 1454
+  },
+  "data/protocol_snapshot/analyses_v2/tables/11_calibration.json": {
+   "sha256": "26a87946d3a19e728bad72879e2f08cdc363b08f422cb5339b2e09f2e19fe83c",
+   "bytes": 3321
+  },
+  "data/protocol_snapshot/analyses_v2/tables/11_calibration_fold_choices.csv": {
+   "sha256": "555848f3cab7fe5459698d7ed1296c71685d2c212f98cd9717c1cf4b58f1677f",
+   "bytes": 12147
+  },
+  "data/protocol_snapshot/analyses_v2/tables/11_calibration_fold_choices.json": {
+   "sha256": "aab5d48b3414bc9a0477e254a32ac79d400c1a2dc765f4f7f8ca107db69d7722",
+   "bytes": 25973
+  },
+  "data/protocol_snapshot/analyses_v2/tables/11_calibration_oof_predictions.csv": {
+   "sha256": "061a65dbe5e9fc1ce45ea1f6217613a48d14606046f5573bf7b5cf872ff9c6b7",
+   "bytes": 161367
+  },
+  "data/protocol_snapshot/analyses_v2/tables/11_calibration_reliability.json": {
+   "sha256": "d06ed493a4b8d726a2da420e3958622358673c029fb2f9e858dbe507cc4eacdc",
+   "bytes": 5404
+  },
+  "data/protocol_snapshot/analyses_v2/tables/12_numeric_endpoint.csv": {
+   "sha256": "3082d78690de102bcac9618a6d24ca4b6b1856cffe32750dc05ba4526724f81d",
+   "bytes": 2192
+  },
+  "data/protocol_snapshot/analyses_v2/tables/12_numeric_endpoint.json": {
+   "sha256": "ff8bfa846bb89257cd7de0702d1bcb981d324aa4d2256859bcea43dca090cdc7",
+   "bytes": 6123
+  },
+  "data/protocol_snapshot/analyses_v2/tables/12_numeric_endpoint_parse_coverage.csv": {
+   "sha256": "54437b22f89331dbc6b556ed3411b3cd3e9e69665aa63289f9669d1dd673062a",
+   "bytes": 88
+  },
+  "data/protocol_snapshot/analyses_v2/tables/12_numeric_endpoint_parse_coverage.json": {
+   "sha256": "d8daf99b8d01f2d7a99358d7ce971ce061a97aecafe16c8d39fe4c37203a3047",
+   "bytes": 459
+  },
+  "data/protocol_snapshot/analyses_v2/tables/12_numeric_endpoint_units.csv": {
+   "sha256": "72c16f25cebe23f37605a851738119762083dc8e44536ebb43bddfc80dfaaa1a",
+   "bytes": 379767
+  },
+  "data/protocol_snapshot/analyses_v2/tables/13_cross_domain_features.csv": {
+   "sha256": "20b5aa224bbdccbe4664a9431423afdea57cdc1ef3acc1294108288c893fb901",
+   "bytes": 1106
+  },
+  "data/protocol_snapshot/analyses_v2/tables/13_cross_domain_features.json": {
+   "sha256": "4e4db5914b8a22cf02e593a7389fdcb70b6c49adf81e904585eabdf01a51f1ed",
+   "bytes": 4986
+  },
+  "data/protocol_snapshot/analyses_v2/tables/15_risk_coverage_curves.csv": {
+   "sha256": "fd91850676e5daefc4a8212eaf35e4d3ac2ef9b97de3b77a6bedf693634557ee",
+   "bytes": 167245
+  },
+  "data/protocol_snapshot/analyses_v2/tables/15_risk_coverage_curves.json": {
+   "sha256": "10db4bd178a0db30b2dd4e245aa894d5acc84196be20a539341cd2d7bc73a295",
+   "bytes": 550877
+  },
+  "data/protocol_snapshot/analyses_v2/tables/15_selective_prediction.csv": {
+   "sha256": "1042a7e27589eb3d408750be3b1729772179987d6eb3b3301b5d596994a64011",
+   "bytes": 2900
+  },
+  "data/protocol_snapshot/analyses_v2/tables/15_selective_prediction.json": {
+   "sha256": "8793af449f938763e426799cc10db99da099840855c83598b1b23639820c283a",
+   "bytes": 9004
+  },
+  "data/protocol_snapshot/analyses_v2/tables/15_selective_prediction_sensitivity.csv": {
+   "sha256": "45d77917e6d6502ee42837528308bddc1f0487a36f010c3fb7ccea17d793ba1e",
+   "bytes": 2878
+  },
+  "data/protocol_snapshot/analyses_v2/tables/15_selective_prediction_sensitivity.json": {
+   "sha256": "3fa7f54862cc8f74cd593e4b744b3aa55539218558550eab773cd03e171a42c5",
+   "bytes": 7840
+  },
+  "data/protocol_snapshot/analyses_v2/tables/16_later_change_by_state.csv": {
+   "sha256": "02a2e89e925d408f96891e27be0d3593090b4ffbbbf4ffb07e11e0aa6c258163",
+   "bytes": 229
+  },
+  "data/protocol_snapshot/analyses_v2/tables/16_later_change_by_state.json": {
+   "sha256": "d2e25fd43edab0091678a0dbc9415b5a3d270c981ea37b7d8b2daac2a51a695f",
+   "bytes": 730
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_auditor_as_reader.csv": {
+   "sha256": "87a49ff27296d9a6ee765d4e0f9ffc5aed41c639a6c6b7a7248d8803c09ba077",
+   "bytes": 776
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_auditor_as_reader.json": {
+   "sha256": "8d07b219286b5cc38dd914ed2d71717e38d4af083999b633fc8f095a8275b907",
+   "bytes": 1799
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_external_transfer.csv": {
+   "sha256": "0844dfc6e3ec5a942202d33e3ad5c3aefd3b8d7c2e4ffd43d6f5d03d54b3764c",
+   "bytes": 1340
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_external_transfer.json": {
+   "sha256": "2a056b5c42dc0bc7714d022d896c864ac3965aa910e5139e90aabfbbc527b7b2",
+   "bytes": 3947
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_pmid_components.csv": {
+   "sha256": "7f62fa77b9723c7aa4df818dfd62cf73671cb692a3e6c838017b3f8a9cbf1e3e",
+   "bytes": 72
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_pmid_components.json": {
+   "sha256": "860919a71a77522683f8c46b7328be818928d0a94a3db2141e71a7dce73a8ad8",
+   "bytes": 416
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_pmid_disjoint.csv": {
+   "sha256": "8f23ac5519f1ac178cafc3f7800f87e4959eab1c5af16a5f6fa6740d4e72301f",
+   "bytes": 919
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_pmid_disjoint.json": {
+   "sha256": "03c2da438178e7bc78da248aad04ffe03bd9adf73e2f01e06848518e3684a4a4",
+   "bytes": 1780
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_post_nonnull.csv": {
+   "sha256": "dbdef4fcccdd4076e95d3aa296c76dfdadb9f8121b32a1b6e766ec21b460d25d",
+   "bytes": 2540
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_post_nonnull.json": {
+   "sha256": "42ed886220fc8520b341d7888d6e122b843603549a88dedc4077b594c6e5cec5",
+   "bytes": 5468
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_route_a_tiefree.csv": {
+   "sha256": "97ca53e175d963d9438eece9fc5b9c38eabc469ba5133c9abaa737e1eebb7409",
+   "bytes": 9743
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_route_a_tiefree.json": {
+   "sha256": "b5e2ac9227780a65bab4f6cb50eb4438b030a7c2dacebb4941f6d07cd4bd797b",
+   "bytes": 26825
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_target_counts.csv": {
+   "sha256": "3925e3e2b32fd0d158b4d9a6ae2746685d1264eceb1502427cee55ad00b8ed6f",
+   "bytes": 426
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_target_counts.json": {
+   "sha256": "db1c46a6c9d8fc5c76deea0f2658d79cf9f9ea8f6dfd4ec1a4b17d0009f9f910",
+   "bytes": 1570
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_tie_units.csv": {
+   "sha256": "3a8aa295a9f8d0a3566bee2e35e84de3c4b71acf1700113bb9ca3ef57e3ebcd2",
+   "bytes": 3376
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_tie_units.json": {
+   "sha256": "59b064679cbd7c698e010a0caa18d097bc202f44f633c4048dc37ad504e403e1",
+   "bytes": 12173
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_zero_exclusion.csv": {
+   "sha256": "4fe5bb998cd32d3cdb181cb94d655aa2a5db360c938ed55c534286315d20a2f9",
+   "bytes": 2253
+  },
+  "data/protocol_snapshot/analyses_v2/tables/v2_zero_exclusion.json": {
+   "sha256": "7caf9915c667e68ca8be30283d78c2586636c96de598a47c2cdbcaf24da7a598",
+   "bytes": 5103
+  },
+  "data/protocol_snapshot/benchmark/benchmark_meta.json": {
+   "sha256": "e61aad83e47e931ac0d7b50b1eef1dc714ab5cd2f11a5af9c28c033b6370c2d7",
+   "bytes": 477
+  },
+  "data/protocol_snapshot/benchmark/hand_added_claims.json": {
+   "sha256": "4675ec9131e53bd4b5a87090943290f492daf89561e430fa75a0fb6e2ceed6ae",
+   "bytes": 646
+  },
+  "data/protocol_snapshot/benchmark/uncapped_benchmark.csv": {
+   "sha256": "1fdca2deb0f931f290bcef9a83e2fd173f8210ee2d9f146786714ca33a64890f",
+   "bytes": 1325018
+  },
+  "data/protocol_snapshot/benchmark/uncapped_benchmark_systematic_only.csv": {
+   "sha256": "16e6138a778d113504005b4ef466a96929f95e38eefdd7e50042d3308c5b80d8",
+   "bytes": 1160348
+  },
+  "data/protocol_snapshot/claim_queries.json": {
+   "sha256": "9f061c7203d7ecbc32d7012b1c9075b24dd45af0d7fe68919f814a2dc4f4e621",
+   "bytes": 79875
+  },
+  "data/protocol_snapshot/directions/added_sugar_diabetes.json": {
+   "sha256": "f32b12c2b3812ec16666e983082c0e898af3b9c715e3e9ca17a09115fc520bbd",
+   "bytes": 101077
+  },
+  "data/protocol_snapshot/directions/added_sugar_weight_gain.json": {
+   "sha256": "903a99f378634d792c979a34ff23cf9ac212620d2b69d1dd636b2f0536d5b047",
+   "bytes": 63405
+  },
+  "data/protocol_snapshot/directions/aflatoxin_liver_cancer.json": {
+   "sha256": "04d69bbc3bb17e175fcfb81544b43a12ec5d9222086eb55a729c0d0c9b46f76c",
+   "bytes": 188141
+  },
+  "data/protocol_snapshot/directions/alcohol_breast_cancer.json": {
+   "sha256": "fa7549be279e2e9462ab90380d2a74b76b21e273e05e9694615d778e7951ed4f",
+   "bytes": 112323
+  },
+  "data/protocol_snapshot/directions/alcohol_colorectal_cancer.json": {
+   "sha256": "85ebd9170c37b4e88c7585c32e23f539d27305c96abed5cb35847dbf1c79f49d",
+   "bytes": 103887
+  },
+  "data/protocol_snapshot/directions/alcohol_esophageal_cancer.json": {
+   "sha256": "29dbef2ae373fc67279466a3e2de17fd5ba1c54da5b86105d1898d73126c2263",
+   "bytes": 125191
+  },
+  "data/protocol_snapshot/directions/alcohol_laryngeal_cancer.json": {
+   "sha256": "c9171f008b34a1c71cd51e318f1ed23acd6e5914b4b190dfb3c7ac025358ebfc",
+   "bytes": 65555
+  },
+  "data/protocol_snapshot/directions/alcohol_oral_cancer.json": {
+   "sha256": "68c1523186b297e04ff204d0207af75ef6e523261bd4be43102de9785b327f66",
+   "bytes": 188620
+  },
+  "data/protocol_snapshot/directions/alcohol_pharyngeal_cancer.json": {
+   "sha256": "9ff8359b8cc17f61ccd8f2ca15bc3bdd216c8aacab5e1495be245cbb2ab063f1",
+   "bytes": 79587
+  },
+  "data/protocol_snapshot/directions/alcoholic_drinks_liver_cancer.json": {
+   "sha256": "80a09b1be9ddead7aea745e5d67ef69c0f7486b3a8778cd37e90cbd614ce8552",
+   "bytes": 199983
+  },
+  "data/protocol_snapshot/directions/alternate_day_fasting_weight_loss.json": {
+   "sha256": "67b04fd76eee893596a866137a866fd63090ffd91ba88d3ec7349f4346bed544",
+   "bytes": 92788
+  },
+  "data/protocol_snapshot/directions/beta_carotene_cancer.json": {
+   "sha256": "18b0995fa136c70b1e0ab79cbc9206def670a42e037c859a62966b91e7ef4c58",
+   "bytes": 113789
+  },
+  "data/protocol_snapshot/directions/breakfast_skipping_cvd.json": {
+   "sha256": "02abbaedb2adbde1fdf3c1247dcf0c31f34c7c280e4c05e3e71f9aad73ae27b3",
+   "bytes": 40213
+  },
+  "data/protocol_snapshot/directions/breakfast_skipping_obesity.json": {
+   "sha256": "aeec6de68ec1917ee195883ca81eb48385d6a8316b986665a2e1282a5fe8a7b4",
+   "bytes": 113144
+  },
+  "data/protocol_snapshot/directions/breastfeeding_breast_cancer.json": {
+   "sha256": "cff7e93adc9b7f1ee3beda5e41ef10c17f66dfd7128ba64ae7245b2ea6bb9bac",
+   "bytes": 124353
+  },
+  "data/protocol_snapshot/directions/breastfeeding_childhood_infections.json": {
+   "sha256": "776136f8d269328e1a79281f45fb35de2c66ebc641124af0e38902015b206f2c",
+   "bytes": 113272
+  },
+  "data/protocol_snapshot/directions/breastfeeding_necrotizing_enterocolitis_preterm.json": {
+   "sha256": "f1175cf3a7098a75696537c4ae984491cce3967ac6b608266b746f589c82a864",
+   "bytes": 350955
+  },
+  "data/protocol_snapshot/directions/butter_cvd.json": {
+   "sha256": "bf4ad23797313abf905cc8ebe39fc5f5951e8abb5b9819b7d4c51d48da259edf",
+   "bytes": 27322
+  },
+  "data/protocol_snapshot/directions/calcium_preeclampsia_low_intake.json": {
+   "sha256": "711c4934c4eaa22ce5693ec3fde22405bf6e4c0ce174ce891d91e024f1125e77",
+   "bytes": 13575
+  },
+  "data/protocol_snapshot/directions/cheese_cvd.json": {
+   "sha256": "07aa78ff2eb53317048cd59b58428c6541ec6f5f6fe539b5b16f24b9ba4d0b93",
+   "bytes": 27886
+  },
+  "data/protocol_snapshot/directions/cocoa_cvd.json": {
+   "sha256": "5e26709b49bf755ba0e9a60f54d4db36817aa605d100117397d162fcd2ce693b",
+   "bytes": 24019
+  },
+  "data/protocol_snapshot/directions/coconut_oil_ldl_cholesterol.json": {
+   "sha256": "dc06c2aad2741a300c4930510f81dfb23be336817ba0fc8bbf43709f99be06a6",
+   "bytes": 35018
+  },
+  "data/protocol_snapshot/directions/coconut_oil_weight_loss.json": {
+   "sha256": "5016744206d14593a056d36168f6f10290965725d4c72d4f0db60eb60a86bf36",
+   "bytes": 104437
+  },
+  "data/protocol_snapshot/directions/coffee_arrhythmia.json": {
+   "sha256": "ab4034145eabe8e9834f600226b99534dde7fddd8f9cdeb5e50bbc914507c872",
+   "bytes": 8266
+  },
+  "data/protocol_snapshot/directions/coffee_blood_pressure.json": {
+   "sha256": "552e6af51a3951566493f5562be1b59c4dac859eddf955b5ea19b61a8db38f46",
+   "bytes": 112686
+  },
+  "data/protocol_snapshot/directions/coffee_cancer.json": {
+   "sha256": "8fb5dcda46f7cc8b651652cf0025895b01bba1a01e30df14acef74f30a42d2b6",
+   "bytes": 112862
+  },
+  "data/protocol_snapshot/directions/coffee_cognition.json": {
+   "sha256": "9af4dc4d7b3de6f4a9c066a4c710fe2e7203f62b35740c31855da2eae2a0d2e6",
+   "bytes": 14870
+  },
+  "data/protocol_snapshot/directions/coffee_cvd.json": {
+   "sha256": "ecdccb96abf92986d954cdd6ba3f889e85d211e9ed5fd0c455b41ffe73ca9413",
+   "bytes": 70502
+  },
+  "data/protocol_snapshot/directions/coffee_gut_microbiome.json": {
+   "sha256": "7efde427e23ec1c81e3dda13f88f7b1787168e87abb7a1a8f2e17128864678e8",
+   "bytes": 22104
+  },
+  "data/protocol_snapshot/directions/dairy_allcause_mortality.json": {
+   "sha256": "e4ecc47b0c37a878e1b987991aef691e970d33eb2dd17db82956743621cb59ea",
+   "bytes": 113487
+  },
+  "data/protocol_snapshot/directions/dairy_type2_diabetes.json": {
+   "sha256": "58e1fa71adcfbec62b7c995ccb8685adcbbe252d7f86cbbca0a52f376fabaf70",
+   "bytes": 102579
+  },
+  "data/protocol_snapshot/directions/dark_chocolate_blood_pressure.json": {
+   "sha256": "d93e2436a7a8abf160033e51486a73ac8bd11f9397bafa46c7924d459334879d",
+   "bytes": 14974
+  },
+  "data/protocol_snapshot/directions/dash_diet_hypertension.json": {
+   "sha256": "cd4aa1c6ec025605e3d54af4467e4a163c37c463cd44614940f5ad37d0b23f90",
+   "bytes": 113722
+  },
+  "data/protocol_snapshot/directions/dietary_cholesterol_cvd.json": {
+   "sha256": "ff5f83a612a6c396fdbb53f56df833cee1d4c2c9d725c76c30fd84ab23a078f1",
+   "bytes": 29775
+  },
+  "data/protocol_snapshot/directions/dietary_cholesterol_type2_diabetes.json": {
+   "sha256": "3386ac3cf019646d65401508faf127eb34c94f5962b44e379891e541887ec193",
+   "bytes": 113513
+  },
+  "data/protocol_snapshot/directions/dietary_fiber_constipation.json": {
+   "sha256": "8ed57aa8b3d3e4fb7aee28870e3b695b1710ffb314cb511b684e7e7417164675",
+   "bytes": 114378
+  },
+  "data/protocol_snapshot/directions/dietary_fiber_type2_diabetes.json": {
+   "sha256": "e49e861bfe302ea824c9e1353737a82632926e8660497f8870fc1a062263d5db",
+   "bytes": 222700
+  },
+  "data/protocol_snapshot/directions/dietary_fiber_weight_gain.json": {
+   "sha256": "09ca3c47674aef6eab99497e42ec0c93c4647248fcbf08d6a26ac97296acb711",
+   "bytes": 158044
+  },
+  "data/protocol_snapshot/directions/dietary_pattern_diabetes.json": {
+   "sha256": "620451655d0fe191aa5ef433be711c8a795e65ed7807a21ba05379d31ed9f2d9",
+   "bytes": 112799
+  },
+  "data/protocol_snapshot/directions/early_time_restricted_eating_blood_pressure.json": {
+   "sha256": "51210230f8bd46dcbd1c96dce33ef0d2d8d80bad1a655b7b6e50314e96825a79",
+   "bytes": 33113
+  },
+  "data/protocol_snapshot/directions/eggs_cholesterol.json": {
+   "sha256": "4cc06b006b76832a09746817f3a77bbc2b0a0c635a75406caa79b9bab0444d6e",
+   "bytes": 113428
+  },
+  "data/protocol_snapshot/directions/eggs_cvd_events.json": {
+   "sha256": "ec20e19a93c4c982059a0c3f66d983617d28846526266d9230ca0fad788540c1",
+   "bytes": 209299
+  },
+  "data/protocol_snapshot/directions/eggs_type2_diabetes.json": {
+   "sha256": "b569b7ecd8ef228a262555736951ff47f2a634269cd4d831f5fce54af6e0584d",
+   "bytes": 102805
+  },
+  "data/protocol_snapshot/directions/energy_deficit_weight_loss.json": {
+   "sha256": "839b5e86ba885434cdb4c46fd97fa7576ed2ca07df09c8591213c3e790147041",
+   "bytes": 114329
+  },
+  "data/protocol_snapshot/directions/fermented_foods_inflammation.json": {
+   "sha256": "64df274ec03aea5d7a796174cdf21c05ddebfd3a8fa8e083090b7150df284b07",
+   "bytes": 115259
+  },
+  "data/protocol_snapshot/directions/fermented_foods_microbiome_diversity.json": {
+   "sha256": "44be611fc386e3afe41c9e0d70cae586f6c656449d75653942b060f3e5400658",
+   "bytes": 146841
+  },
+  "data/protocol_snapshot/directions/fiber_colorectal.json": {
+   "sha256": "9568de85f1261b3cf2ab04c97e490bbf8913d931e70b30f27a017deafb35987d",
+   "bytes": 113497
+  },
+  "data/protocol_snapshot/directions/fish_cvd.json": {
+   "sha256": "fbde52848767ae86fc78cfc3522b833507744b08b83b6d066fa28cb0da1d0944",
+   "bytes": 111950
+  },
+  "data/protocol_snapshot/directions/fish_oil_atrial_fibrillation.json": {
+   "sha256": "2478979e9be818b4ad04d3ac25a9112c52cd65660728778c0dd9f4ba27149d7c",
+   "bytes": 22647
+  },
+  "data/protocol_snapshot/directions/folate_cvd.json": {
+   "sha256": "fe11763d84a50e9b13092ebf3420cfe655d5681693abee11093b2a14fec691ca",
+   "bytes": 113243
+  },
+  "data/protocol_snapshot/directions/folate_neural_tube.json": {
+   "sha256": "fb6e0819eefedda32a79f373c79f1458327effaa25c199ca26c34bc130c9cb0a",
+   "bytes": 112693
+  },
+  "data/protocol_snapshot/directions/folic_acid_b12_lung_cancer.json": {
+   "sha256": "54f8141f55313718c6598534091a2f74b79f4ea7e0d4b9484b34d0da657ba6db",
+   "bytes": 114228
+  },
+  "data/protocol_snapshot/directions/folic_acid_colorectal.json": {
+   "sha256": "9ef4239ae45b8776d2de1d144ab7d71f6345f3085cdf8b66d1ceaa38a5795c00",
+   "bytes": 689289
+  },
+  "data/protocol_snapshot/directions/food_additives_colorectal_cancer.json": {
+   "sha256": "2c1fa92d2f16c33dfbf1a2ae9791d57fbc279d7646bea61914ca78a008298325",
+   "bytes": 14105
+  },
+  "data/protocol_snapshot/directions/fruit_veg_allcause.json": {
+   "sha256": "ee59c5cfb3ade72d76aed8c66110dec7f95fa4f84fdd6babde217f5843fc849a",
+   "bytes": 113128
+  },
+  "data/protocol_snapshot/directions/full_fat_dairy_cvd.json": {
+   "sha256": "1c749c063c33ad67e2e867fe8a780f224922ca6381c9019176c293d7a7988991",
+   "bytes": 113120
+  },
+  "data/protocol_snapshot/directions/gluten_free_diet_celiac_symptom_control.json": {
+   "sha256": "330aae9162d699c56c5ebf066ab3b835021cd6d232ffa2e579aedd378ab9fe7b",
+   "bytes": 114267
+  },
+  "data/protocol_snapshot/directions/green_tea_type2_diabetes.json": {
+   "sha256": "70ab2b698f24b7aab8248ec7a3ff5956d97a775a0215ae96278d2e19d1260b54",
+   "bytes": 68739
+  },
+  "data/protocol_snapshot/directions/green_tea_weight_loss.json": {
+   "sha256": "ef266ae0292d611c8d916324f31a349c772505f4a285d3b49b8e5e768d2fbbf3",
+   "bytes": 64888
+  },
+  "data/protocol_snapshot/directions/heme_iron_bioavailability.json": {
+   "sha256": "aa673aae559c4da3f138d7e4a504d7ed1a95e07bf2620a01baa33e8fdccb88e9",
+   "bytes": 235806
+  },
+  "data/protocol_snapshot/directions/hormone_replacement_breast_cancer.json": {
+   "sha256": "0e1cffecdd00df496e48882ff1078e7d8c0ca473227f8b17a9e91c8b3fcbfb6f",
+   "bytes": 113179
+  },
+  "data/protocol_snapshot/directions/hormone_replacement_cvd.json": {
+   "sha256": "d27e65d02e97ed8ba0a5777fa0baeecb1a356fd0f8db295d222df6301a8ca46f",
+   "bytes": 112783
+  },
+  "data/protocol_snapshot/directions/intermittent_fasting_cvd.json": {
+   "sha256": "13bf156b1a6f09c793407761c51142d8808b3abf0f796a410b666b1a615cb123",
+   "bytes": 18143
+  },
+  "data/protocol_snapshot/directions/intermittent_fasting_type2_diabetes.json": {
+   "sha256": "03f2c8f13584003ae36fc9bd409162699b5f133ed4e33bf841a62dbd9d90953c",
+   "bytes": 41822
+  },
+  "data/protocol_snapshot/directions/iodine_deficiency_fetal_neurodevelopment.json": {
+   "sha256": "555541956d2eaa4c957cd76b8b546d0043a65137f0e6b1cc73385ce0f41b46e4",
+   "bytes": 10311
+  },
+  "data/protocol_snapshot/directions/iodine_deficiency_goiter.json": {
+   "sha256": "f75aae8434046e4079875ef91a910af2beab8381c87d2edbd3d16d5fd0f7a263",
+   "bytes": 113623
+  },
+  "data/protocol_snapshot/directions/iodized_salt_iodine_deficiency_prevention.json": {
+   "sha256": "e878697ab9d8be0524671634c8a55b556fbfee718154cfa443289961cb4e6fde",
+   "bytes": 99126
+  },
+  "data/protocol_snapshot/directions/ketogenic_diet_cvd_events.json": {
+   "sha256": "b37b4602e9eb942d2781f4910b97f7c79025ca9c5473292168717360d0e960af",
+   "bytes": 76838
+  },
+  "data/protocol_snapshot/directions/ketogenic_diet_ldl_cholesterol.json": {
+   "sha256": "fb1410dde56a9ee759cf17ea8b7a14652148d6e637ad60e058264ed8a5b21577",
+   "bytes": 54050
+  },
+  "data/protocol_snapshot/directions/ketogenic_diet_type2_diabetes_remission.json": {
+   "sha256": "78d458f80a3361e0fe7a415235df88d102c5b838967d8b6912b29b3836f69b72",
+   "bytes": 14272
+  },
+  "data/protocol_snapshot/directions/lactose_intolerance_lactose_symptoms.json": {
+   "sha256": "531c24922a1d956f53fdff1253f389c1b597415117ea9c4a2df5971453c10eb8",
+   "bytes": 113765
+  },
+  "data/protocol_snapshot/directions/late_night_eating_obesity.json": {
+   "sha256": "451fae667e6cd29053ce758dd9921e45239e899c2ef98f456609d98c97154ee5",
+   "bytes": 34855
+  },
+  "data/protocol_snapshot/directions/legumes_cvd.json": {
+   "sha256": "ffd6f0bcb177cf4d4644549e93cf3c90dc4fd96b263c8c195cdd6f7b3cb921ff",
+   "bytes": 51034
+  },
+  "data/protocol_snapshot/directions/low_fat_diet_obesity.json": {
+   "sha256": "7155e989c8aea471e3b05b11291ce51491dea952593b4ffc22e57626c998bb33",
+   "bytes": 196007
+  },
+  "data/protocol_snapshot/directions/magnesium_hypertension.json": {
+   "sha256": "8f525e01e0745de51cf31899b56cd8ab90d13eb8c560bd7a5e52683f6bcf7f40",
+   "bytes": 113201
+  },
+  "data/protocol_snapshot/directions/magnesium_migraine.json": {
+   "sha256": "6995065e420b435e57fda25f59cbaf3dc1d577924a6cdd22c8d9a27d8b8cb518",
+   "bytes": 48555
+  },
+  "data/protocol_snapshot/directions/magnesium_osteoporosis.json": {
+   "sha256": "17412a338fd99e525f6327f15d326338a7f3197b3fe68be1b352ef6873f4642c",
+   "bytes": 113743
+  },
+  "data/protocol_snapshot/directions/magnesium_type2_diabetes.json": {
+   "sha256": "00d188572ba51ab33c98124daae346a395d45e1b65522d2322680ec6c4158163",
+   "bytes": 120537
+  },
+  "data/protocol_snapshot/directions/milk_cvd.json": {
+   "sha256": "cd3fb98601d994ddd39b8161c0623a02a50c635773e082cb358c24e2a4762aa0",
+   "bytes": 112855
+  },
+  "data/protocol_snapshot/directions/multivitamin_cancer.json": {
+   "sha256": "8851d6a7517d081576bf15aa5d4261b19a6914fcaa1c9be57437295e0cbcbfc1",
+   "bytes": 54375
+  },
+  "data/protocol_snapshot/directions/multivitamin_cognition.json": {
+   "sha256": "769473b50b11b9b85996c165cf229bae872cc9df3d6686b22c0200790ca3983a",
+   "bytes": 25013
+  },
+  "data/protocol_snapshot/directions/multivitamin_mortality.json": {
+   "sha256": "efce312415f95ec5d055df30a32522c35d8349f2bf7e6d3869a255060fd14cc7",
+   "bytes": 31821
+  },
+  "data/protocol_snapshot/directions/niacin_cvd.json": {
+   "sha256": "c6d7f9bff4cbce0b09b8e0f0b0df49b3ee600a779edb0960d05b258fcb674484",
+   "bytes": 83721
+  },
+  "data/protocol_snapshot/directions/niacin_deficiency_pellagra.json": {
+   "sha256": "38b0e5f5bc2fb04824aff693979225a7c72251319a59e72f2686d99988bc1357",
+   "bytes": 12990
+  },
+  "data/protocol_snapshot/directions/nuts_cvd.json": {
+   "sha256": "956c9727f512441b19113e04ece17440f3f82746ae4a68b6810cf24ab7d4ecc1",
+   "bytes": 99405
+  },
+  "data/protocol_snapshot/directions/nuts_ldl_cholesterol.json": {
+   "sha256": "1aa8afd92ebeef055bb83753eed8c2abc4dc3b26cf6ea5e2305c81be406ecff2",
+   "bytes": 110584
+  },
+  "data/protocol_snapshot/directions/obesity_colorectal_cancer.json": {
+   "sha256": "8d37663bc6b309825ee80f24353bf5e718cf4870f51564336a546c18b9aeb02f",
+   "bytes": 384892
+  },
+  "data/protocol_snapshot/directions/obesity_endometrial_cancer.json": {
+   "sha256": "e82bde730c8a44f4e27f34aba2503e489de4062928edb12a6834b5981b914d26",
+   "bytes": 197201
+  },
+  "data/protocol_snapshot/directions/obesity_esophageal_adenocarcinoma.json": {
+   "sha256": "75d33afc5a7c3fd2377b9b4777e74867bc30c3911ea3ab41eb5a0786366a9538",
+   "bytes": 108713
+  },
+  "data/protocol_snapshot/directions/obesity_kidney_cancer.json": {
+   "sha256": "0d1a4c96b18da11aca2edd97eeb3afc9d863d7c05f2a944d508cd31671d1b7c8",
+   "bytes": 93567
+  },
+  "data/protocol_snapshot/directions/obesity_pancreatic_cancer.json": {
+   "sha256": "f2c142389879dcb45aa1b2cac5393bc3237c4e5b09a8423b1b7ae96d15d82e52",
+   "bytes": 123447
+  },
+  "data/protocol_snapshot/directions/obesity_postmenopausal_breast_cancer.json": {
+   "sha256": "9d91ee842adbac7f3c8af396004d32f53f2d29fa1a75fb90ba57e0e60efa539f",
+   "bytes": 212719
+  },
+  "data/protocol_snapshot/directions/obesity_type2_diabetes.json": {
+   "sha256": "59a7417004f21c1305d29ce18a3cd531622a9f6ee23ed2186f0eaccf81114018",
+   "bytes": 113634
+  },
+  "data/protocol_snapshot/directions/olive_oil_cvd.json": {
+   "sha256": "1c6511d6f5938429ee78ca01c57054c8bd5236b794670f1078f3e01a3f8ccd86",
+   "bytes": 80060
+  },
+  "data/protocol_snapshot/directions/omega3_cancer.json": {
+   "sha256": "ecfc6b073bd6c27a730623b4313171be571c6ec4368edf98279b6f002a9534cb",
+   "bytes": 12449
+  },
+  "data/protocol_snapshot/directions/omega3_cognition.json": {
+   "sha256": "50d373f534e3e133a7aaecbb2ad0501fe9f45057304374c8870318fcaa45988f",
+   "bytes": 113493
+  },
+  "data/protocol_snapshot/directions/omega3_cvd.json": {
+   "sha256": "d5d0b59803c941de7c0b09fc9b611e4d27240edbedbc7bef8b9ef4f541d6a1e6",
+   "bytes": 8497
+  },
+  "data/protocol_snapshot/directions/omega3_dry_eye.json": {
+   "sha256": "ad5d8c5efab6f5e7a6c136eacd5895df1ea8c255ea214c2199636c4f526f7d9c",
+   "bytes": 162176
+  },
+  "data/protocol_snapshot/directions/omega3_triglycerides.json": {
+   "sha256": "c4c68753ec7d9aa207d41f8c8eeee46987f5ea4dabd85c966a40fb5dae575d80",
+   "bytes": 8104
+  },
+  "data/protocol_snapshot/directions/oral_iron_hemoglobin_response.json": {
+   "sha256": "3a295faed103c8b3cf943908e78e28897dcfe45f77ec6cd0c86288466f7ad3a0",
+   "bytes": 81032
+  },
+  "data/protocol_snapshot/directions/peanut_early_introduction_allergy_prevention.json": {
+   "sha256": "927c82d1369bcf4e938135777966e426839868da736dbf5d759d8ea38c67745f",
+   "bytes": 37518
+  },
+  "data/protocol_snapshot/directions/physical_activity_colon_cancer.json": {
+   "sha256": "6476887574849e3be73e7bdc3a8b8e45d871a8729622f93e4fd6608ab7e69774",
+   "bytes": 113505
+  },
+  "data/protocol_snapshot/directions/physical_activity_endometrial_cancer.json": {
+   "sha256": "f1632a6cb524673c3a4205edb1e3362baec2742a58b8fa56bdbacc395680b487",
+   "bytes": 24638
+  },
+  "data/protocol_snapshot/directions/physical_activity_postmenopausal_breast_cancer.json": {
+   "sha256": "34dcf5296b4aba9aa2c1cc4a998106a8090e7524a367045ed7d7a6f051eb7f4c",
+   "bytes": 107561
+  },
+  "data/protocol_snapshot/directions/plant_based_diet_bone_fracture.json": {
+   "sha256": "580d5749f01c89d6d9d36a663ffeea0731a3713b6c916fc9ca72881562a0aa5c",
+   "bytes": 14740
+  },
+  "data/protocol_snapshot/directions/plant_based_diet_cancer.json": {
+   "sha256": "7e9134f61f226077b6c7d7644ab05014732313f75d4eb374352efed6fdc7541b",
+   "bytes": 39649
+  },
+  "data/protocol_snapshot/directions/plant_sterols_ldl_cholesterol.json": {
+   "sha256": "424e3441d7536c5b5c299cb95b43d8378c2b462017eb349b431bd4720a83c011",
+   "bytes": 113685
+  },
+  "data/protocol_snapshot/directions/prebiotics_obesity.json": {
+   "sha256": "8ed418b8b3619091c6622e26d9cdfcb64f7d65716e01e0e7c2436311fef00d32",
+   "bytes": 177731
+  },
+  "data/protocol_snapshot/directions/probiotics_antibiotic_associated_diarrhea.json": {
+   "sha256": "084e7872a5946a66c27e765b27b1ee1dc4716afcc7a127c17856864d0a10965a",
+   "bytes": 85873
+  },
+  "data/protocol_snapshot/directions/probiotics_atopic_dermatitis.json": {
+   "sha256": "7dc58dcbe9269a213872187653e9abf13f16bd3cf19f2c38957ecf643d359852",
+   "bytes": 134979
+  },
+  "data/protocol_snapshot/directions/probiotics_hypercholesterolemia.json": {
+   "sha256": "8179392b0e7bacc3772388ada392b1ba86f4fe5502078bfb0dfe913eca1399f4",
+   "bytes": 34493
+  },
+  "data/protocol_snapshot/directions/probiotics_ibs.json": {
+   "sha256": "e6dda2bf55969046a4e7fe5cb8e63a2c96e55db18717dab9716672e28bb97cef",
+   "bytes": 127239
+  },
+  "data/protocol_snapshot/directions/probiotics_necrotizing_enterocolitis.json": {
+   "sha256": "e9dd722a2b979d59f6738799f81abb12cae9a44d98c26e98df01e263d73d4d9e",
+   "bytes": 124137
+  },
+  "data/protocol_snapshot/directions/processed_meat_colorectal_cancer.json": {
+   "sha256": "3621507651913fbec80d460c9066558b0e0b01548b3247aa7ff5ca06b13e65b0",
+   "bytes": 17736
+  },
+  "data/protocol_snapshot/directions/protein_energy_malnutrition_child_growth.json": {
+   "sha256": "461a6987d433b02f957a49ce79b04f5a1d292d7227985c42eec48952f8524eb8",
+   "bytes": 113566
+  },
+  "data/protocol_snapshot/directions/red_meat_cancer.json": {
+   "sha256": "04fab214001b884be3a1d034e0284aa94c5a14f71ac28e5fdef8b7e6c28655d9",
+   "bytes": 112126
+  },
+  "data/protocol_snapshot/directions/red_meat_cvd.json": {
+   "sha256": "6c6ecbbf12486472bd4497126af643a9d28ba1ab155ff9e4b5abb7968a1e046b",
+   "bytes": 55549
+  },
+  "data/protocol_snapshot/directions/red_meat_type2_diabetes.json": {
+   "sha256": "92bbe979d30b124d77bf0ed93906d8cb45556fc7bf01333c51c301dc9b0deb0f",
+   "bytes": 44318
+  },
+  "data/protocol_snapshot/directions/replacing_saturated_fat_polyunsaturated_fat_cvd.json": {
+   "sha256": "20889022f9dcf50e6625438b2f4ba691e456f6d28e36feb233a7f255b2332286",
+   "bytes": 32887
+  },
+  "data/protocol_snapshot/directions/selenium_cognition.json": {
+   "sha256": "4551f0ef885ad7913df8fd27deb6d8159f15c3be20743fbb2e2fb07bbb3f69d0",
+   "bytes": 19602
+  },
+  "data/protocol_snapshot/directions/selenium_cvd.json": {
+   "sha256": "d70386a0c42df7c4c3516d1da7ba87764416ec8de3054aac90d722d88debc064",
+   "bytes": 68348
+  },
+  "data/protocol_snapshot/directions/selenium_male_fertility.json": {
+   "sha256": "158c69dcd0f4faa125b623bbb369effa9fbb89899f23974e56943f1ee62d2b4c",
+   "bytes": 66215
+  },
+  "data/protocol_snapshot/directions/selenium_prostate_cancer.json": {
+   "sha256": "1a5a443db3005c67dadf193b8a6250fa135ba9137944514828811996d2cb2ca2",
+   "bytes": 85232
+  },
+  "data/protocol_snapshot/directions/sodium_bp.json": {
+   "sha256": "49b2701f27f93ad3784b98f8b84e57b887fd848e7236cec1c3dca9bb8925594c",
+   "bytes": 8738
+  },
+  "data/protocol_snapshot/directions/soluble_fiber_ldl_cholesterol.json": {
+   "sha256": "bc7ea4b8b59edc2dcd3e159a904ea70aa721ff6731f1901b9d3f46e0c0ecbce2",
+   "bytes": 43036
+  },
+  "data/protocol_snapshot/directions/soy_menopause.json": {
+   "sha256": "534ea7621207afd8edab0118b15dc253df8a3ce753099537d07228e224ac9ec9",
+   "bytes": 8150
+  },
+  "data/protocol_snapshot/directions/sugar_sweetened_beverages_dental_caries.json": {
+   "sha256": "69aa930e91105c970ae3531641dfbb548d78b433c8014eb674c1f8931601a357",
+   "bytes": 25304
+  },
+  "data/protocol_snapshot/directions/sugar_sweetened_beverages_type2_diabetes.json": {
+   "sha256": "3fa9649eb5f5cc210fcb20ab3dbbe8946bb89882dcdd5a7a80966514d61709db",
+   "bytes": 46957
+  },
+  "data/protocol_snapshot/directions/sugar_sweetened_obesity.json": {
+   "sha256": "3db7bd657ab99dc4aa05d3518ac72ae4a19b81e6ba92e749d8f91e60c0749a02",
+   "bytes": 113004
+  },
+  "data/protocol_snapshot/directions/tea_cvd.json": {
+   "sha256": "2549114ac7e0d8db291aac7a0b72b78266c32e62c194199d93e0d26993ed8d74",
+   "bytes": 87949
+  },
+  "data/protocol_snapshot/directions/thiamin_deficiency_beriberi.json": {
+   "sha256": "b721f53339ba825eaae4eca3a2f316a7ce87ffe55427c95c80aa340db7f3ab50",
+   "bytes": 113922
+  },
+  "data/protocol_snapshot/directions/time_restricted_eating_circadian_metabolism.json": {
+   "sha256": "24825647a5d864940edeb556d6931035e57ada6bc8d656cad1cc752b60f729b9",
+   "bytes": 124966
+  },
+  "data/protocol_snapshot/directions/time_restricted_eating_glycemic_control.json": {
+   "sha256": "8987e832f429f9df0ea29e9ad6f02230e058db0f4508edbfbd9f1656b20893a0",
+   "bytes": 100730
+  },
+  "data/protocol_snapshot/directions/time_restricted_eating_obesity.json": {
+   "sha256": "af74689c6a68b9f4064cf472ad2f24bd6175c00c64bff0337ba45a0bf1a89891",
+   "bytes": 114312
+  },
+  "data/protocol_snapshot/directions/trans_fat_cvd.json": {
+   "sha256": "f50a90425c4b2dca13f819e3bab8cf077dfcbe107ae4d49244b23e46411b9dc5",
+   "bytes": 43625
+  },
+  "data/protocol_snapshot/directions/trans_fat_ldl_cholesterol.json": {
+   "sha256": "c80f378a27ddf16179f503eca7266d7f5f5e51968e4df94d477fba465ed7c91d",
+   "bytes": 82236
+  },
+  "data/protocol_snapshot/directions/ultra_processed_foods_ibd.json": {
+   "sha256": "e173fc4c030196175ae6a9f4c08db73e66fda1e321457cd77a15263a0666be69",
+   "bytes": 78721
+  },
+  "data/protocol_snapshot/directions/vitamin_a_cancer.json": {
+   "sha256": "f4f088fb44f902c09be81488faeccc4d942293ee8b80999c1a26bb73c54e6286",
+   "bytes": 114116
+  },
+  "data/protocol_snapshot/directions/vitamin_a_deficiency_night_blindness.json": {
+   "sha256": "6c9e067c7fc07266223d3564e249d0932379562c1493e8fd4cc31db5cbc6c62f",
+   "bytes": 72543
+  },
+  "data/protocol_snapshot/directions/vitamin_b12_cancer.json": {
+   "sha256": "17f8802bda0790520a43285004a6f9fd6ef42ee6dad20c41f51c867ddb4a554e",
+   "bytes": 112691
+  },
+  "data/protocol_snapshot/directions/vitamin_b12_cognition.json": {
+   "sha256": "0e3835e1ba7e50f8866a80178118a69201693e3902d777c8f2c24b6a7fd6f248",
+   "bytes": 30216
+  },
+  "data/protocol_snapshot/directions/vitamin_b12_dementia.json": {
+   "sha256": "e7dba264838954b23ff00248e690fdbd70dba362e268a47a26707d8e256378b3",
+   "bytes": 87865
+  },
+  "data/protocol_snapshot/directions/vitamin_b12_vegan_deficiency_risk.json": {
+   "sha256": "0b617c75ffd52e9664a8cb87030159e06db4f29348e8d696ff5f63fbd2faac94",
+   "bytes": 16891
+  },
+  "data/protocol_snapshot/directions/vitamin_c_cancer.json": {
+   "sha256": "f0256ba5c148fb621ce5dd2fa1ad072f35fd1c756e9fac11d84b0595c7718ebe",
+   "bytes": 114127
+  },
+  "data/protocol_snapshot/directions/vitamin_c_cognition.json": {
+   "sha256": "0d726b53f6065ccb5560d642d46dfaa7cdc2e728ce2e50c181a65059d08db368",
+   "bytes": 11853
+  },
+  "data/protocol_snapshot/directions/vitamin_c_common_cold.json": {
+   "sha256": "48b0768ad2266ae1bdd83dfd19690211755bc3308adbc72d854e94c460b8b1fd",
+   "bytes": 135178
+  },
+  "data/protocol_snapshot/directions/vitamin_c_cvd_prevention.json": {
+   "sha256": "7bad5b896b39c3ab7cbd0cea82728057cf5407d12548ca30c677781949cece56",
+   "bytes": 114050
+  },
+  "data/protocol_snapshot/directions/vitamin_c_deficiency_scurvy.json": {
+   "sha256": "746c1958ca213ef2c60e245c3ca645c070713508e4ff28d1b62b883fe0353e35",
+   "bytes": 115190
+  },
+  "data/protocol_snapshot/directions/vitamin_c_nonheme_iron_absorption.json": {
+   "sha256": "db47a3d3008081f3e42ad245c0af080ce5ba9f011b3deac2b74f472dfb4a5d75",
+   "bytes": 114668
+  },
+  "data/protocol_snapshot/directions/vitamin_d_deficiency_rickets.json": {
+   "sha256": "56be9945fd3c3d9a64ce7fc3be9ee2baab7eb29174e6ac457b070918627b9844",
+   "bytes": 112665
+  },
+  "data/protocol_snapshot/directions/vitamin_d_depression.json": {
+   "sha256": "15accedce39223033d3a285cd4343a2fd93d1e0da74f745390da384353b5e5be",
+   "bytes": 112321
+  },
+  "data/protocol_snapshot/directions/vitamin_d_multiple_sclerosis.json": {
+   "sha256": "cf60f52241e0e278a2c13b81764f0f6d4b4ac09d99ec651abfe42aca20056a97",
+   "bytes": 113778
+  },
+  "data/protocol_snapshot/directions/vitamin_d_type2_diabetes.json": {
+   "sha256": "eeeeb6151e9b987a0974ebd2c22643ee9b8260bb621ad89b51e91067799f06f1",
+   "bytes": 11446
+  },
+  "data/protocol_snapshot/directions/vitamin_d_weight_loss.json": {
+   "sha256": "78a16068e25d1dd5624d2a0f4511a0a19733e32fb484c45eafee673dbeb0bbd1",
+   "bytes": 113070
+  },
+  "data/protocol_snapshot/directions/vitamin_e_alzheimers_progression.json": {
+   "sha256": "c770bcff985f813aac7da0ec8ae5866d65c0853dbf948d00f436d941bd2aef92",
+   "bytes": 113766
+  },
+  "data/protocol_snapshot/directions/vitamin_e_cognition.json": {
+   "sha256": "4186fbcc556724325f0b2d049f5ea137f35a0f74fb34636286fc0f40d8a5acbc",
+   "bytes": 28803
+  },
+  "data/protocol_snapshot/directions/vitamin_e_cvd.json": {
+   "sha256": "5d3c5085fc79094e8bd95bb8362bc8ba0c7ee4132b6aa03e3b3aa5eee0b5daae",
+   "bytes": 112835
+  },
+  "data/protocol_snapshot/directions/vitamin_k_deficiency_bleeding.json": {
+   "sha256": "413d6bf76fea64ae58c81398058dd9f96f98e1248f80cd908a5275a34f64cf78",
+   "bytes": 89184
+  },
+  "data/protocol_snapshot/directions/vitamin_k_newborn_bleeding_prevention.json": {
+   "sha256": "3c00aa6f75515d14bcbabb6ac240754e884bb176e8e361c33bdfaec9f8774ba3",
+   "bytes": 74392
+  },
+  "data/protocol_snapshot/directions/whole_grains_colorectal_cancer.json": {
+   "sha256": "35f773b215749abed1f706e26268e97ec48db3ca07a27204d4514724e27751c2",
+   "bytes": 15195
+  },
+  "data/protocol_snapshot/directions/whole_grains_type2_diabetes.json": {
+   "sha256": "3affdc96158653c62561fa60367495b815e69ed5c54945fdf12d42565b802170",
+   "bytes": 42839
+  },
+  "data/protocol_snapshot/directions/yogurt_type2_diabetes.json": {
+   "sha256": "7240bcccc651c6efa219a1f4f64658f0791f6b4d8c5105db72376ea92ed010ab",
+   "bytes": 69913
+  },
+  "data/protocol_snapshot/directions/zinc_childhood_diarrhea_duration.json": {
+   "sha256": "4545c4dd8eb91752f768f83ce4f134d824fa7c2238bf5e5310955c75f9e99c4d",
+   "bytes": 345777
+  },
+  "data/protocol_snapshot/directions/zinc_common_cold_duration.json": {
+   "sha256": "e4ab7c230870fef9c29b62eaeebcb5fa59f722e2fe3cadb698bcf55e1e5d1e37",
+   "bytes": 345770
+  },
+  "data/protocol_snapshot/directions/zinc_type2_diabetes.json": {
+   "sha256": "dd07a724b927b16d95de928656a3e9a18e694bc80cce54dd3957a87a26a02dbf",
+   "bytes": 145321
+  },
+  "data/protocol_snapshot/effects_cache/added_sugar_diabetes.json": {
+   "sha256": "6e58c6110f7f0bb4a0631c5acf3f5acad00e55b665c7608b737c3b2b41746e13",
+   "bytes": 15631
+  },
+  "data/protocol_snapshot/effects_cache/added_sugar_weight_gain.json": {
+   "sha256": "51966288fbf01c9617c56b15bd078cb3a31245bb5aeced4020dab94bf76c2fe8",
+   "bytes": 9167
+  },
+  "data/protocol_snapshot/effects_cache/aflatoxin_liver_cancer.json": {
+   "sha256": "5471af9a3cc515b78ac32c1c6a88037bc2f218d0612abf061b2a1757ccb5777d",
+   "bytes": 20545
+  },
+  "data/protocol_snapshot/effects_cache/alcohol_breast_cancer.json": {
+   "sha256": "f02ed9fb097e272bf6e7916f4cf3ed56ee2a9589c420e9d82f531b7e0e4e33f1",
+   "bytes": 45338
+  },
+  "data/protocol_snapshot/effects_cache/alcohol_colorectal_cancer.json": {
+   "sha256": "b8f206f36c2109ed49ea65d8dd6e0b3c8e40e4f6c3670f7d49c9b586bff04e4a",
+   "bytes": 55622
+  },
+  "data/protocol_snapshot/effects_cache/alcohol_esophageal_cancer.json": {
+   "sha256": "35c4b2a690119d20285599fb6cf581f37abb3ffb7eb61b6834f0eb6b622c5650",
+   "bytes": 40886
+  },
+  "data/protocol_snapshot/effects_cache/alcohol_laryngeal_cancer.json": {
+   "sha256": "e05bd46b406db1f60dfee00e42e5a147aacbb09e360d6c90495cb0f7155885c6",
+   "bytes": 15475
+  },
+  "data/protocol_snapshot/effects_cache/alcohol_oral_cancer.json": {
+   "sha256": "b984fa6df79db88281b48eb8c1f0ff568a12706ec228423dd08ecec22d0328ae",
+   "bytes": 49020
+  },
+  "data/protocol_snapshot/effects_cache/alcohol_pharyngeal_cancer.json": {
+   "sha256": "d1788d1284dd1b686e5be6fbd52935b64d8984e1173636a11e017194b5cd2605",
+   "bytes": 22720
+  },
+  "data/protocol_snapshot/effects_cache/alcoholic_drinks_liver_cancer.json": {
+   "sha256": "4b22648ec0d26124e454da72c4f2ec801424f2a34fb51d3288cd51d288dca316",
+   "bytes": 28025
+  },
+  "data/protocol_snapshot/effects_cache/alternate_day_fasting_weight_loss.json": {
+   "sha256": "24bf7ae00a31b0484342b7a0cdeaf2dc95d64fb1b6c332c5dd3cccea67c060a0",
+   "bytes": 15491
+  },
+  "data/protocol_snapshot/effects_cache/beta_carotene_cancer.json": {
+   "sha256": "a6d7d4d27fb981b6f2f372cd35aa87081d0ec2565b666d9476acd031ac8b4d8e",
+   "bytes": 35118
+  },
+  "data/protocol_snapshot/effects_cache/breakfast_skipping_cvd.json": {
+   "sha256": "025cb4359d92f3d34515828f99b79896ebf2dc821635936c351b58bbbcd49cb3",
+   "bytes": 11960
+  },
+  "data/protocol_snapshot/effects_cache/breakfast_skipping_obesity.json": {
+   "sha256": "c2e31c96893efe5322e4945d82926154aaa783002ccab807096ab8511992292d",
+   "bytes": 32520
+  },
+  "data/protocol_snapshot/effects_cache/breastfeeding_breast_cancer.json": {
+   "sha256": "d274cacc5cd2453ee8896388664f294c1acc7e6454cb5ca01fe7568c1651d719",
+   "bytes": 31380
+  },
+  "data/protocol_snapshot/effects_cache/breastfeeding_childhood_infections.json": {
+   "sha256": "fb94f20799515c2c2a9c3cff74ce6022c3ee40c33af3055157464e1e8435f3ae",
+   "bytes": 28019
+  },
+  "data/protocol_snapshot/effects_cache/breastfeeding_necrotizing_enterocolitis_preterm.json": {
+   "sha256": "e50ac5086611c31fba0933730509b0892b559736f31be1745719f12b76e2194f",
+   "bytes": 69622
+  },
+  "data/protocol_snapshot/effects_cache/butter_cvd.json": {
+   "sha256": "ad3957ecb85b0aedf8e4027eb2b28b585f0cea68063c751377550f415c2de768",
+   "bytes": 6750
+  },
+  "data/protocol_snapshot/effects_cache/calcium_preeclampsia_low_intake.json": {
+   "sha256": "41ba940e6b5d5f3f4d776897c081a416c9ba572b61a095893f63ea34e5b93890",
+   "bytes": 2510
+  },
+  "data/protocol_snapshot/effects_cache/cheese_cvd.json": {
+   "sha256": "af41bd206a29b4c739440b3e0a2e04776bdf85727697acabc4cb673f26100405",
+   "bytes": 8119
+  },
+  "data/protocol_snapshot/effects_cache/cocoa_cvd.json": {
+   "sha256": "cc3905d6866590e75ceb76b9e0a1e6d2adeb5fab6b974a923452a93092e23956",
+   "bytes": 4379
+  },
+  "data/protocol_snapshot/effects_cache/coconut_oil_ldl_cholesterol.json": {
+   "sha256": "825a9a622bd688a703465b15b074d5d46151085107297cf7c4d9ab9da4d5249e",
+   "bytes": 3588
+  },
+  "data/protocol_snapshot/effects_cache/coconut_oil_weight_loss.json": {
+   "sha256": "e71cac943d4a568e10e807e9ae27e21fa47aad3292b7bd0ac8233112b3778b2a",
+   "bytes": 10245
+  },
+  "data/protocol_snapshot/effects_cache/coffee_arrhythmia.json": {
+   "sha256": "1acd7512c6090e71e5ca7aa24ce27860d96e2352272d9a8426ee63d15ce3d298",
+   "bytes": 1720
+  },
+  "data/protocol_snapshot/effects_cache/coffee_blood_pressure.json": {
+   "sha256": "f2d9c422f60005996063cfb7e1d74f78d8221fa9bfbd801a51b5a97b542997d5",
+   "bytes": 24683
+  },
+  "data/protocol_snapshot/effects_cache/coffee_cancer.json": {
+   "sha256": "84d90082c05feec19707d57b27d2dca5931402312baea5c25ea848c0d2e064ec",
+   "bytes": 44007
+  },
+  "data/protocol_snapshot/effects_cache/coffee_cognition.json": {
+   "sha256": "d63c685b77fcc28f500779b16c3928998c0533974d034bffc5a49890ca021a75",
+   "bytes": 3049
+  },
+  "data/protocol_snapshot/effects_cache/coffee_cvd.json": {
+   "sha256": "efb4fcd6b7fbb1f8164bc294515da168763476ba6693786ec82258813605281e",
+   "bytes": 20975
+  },
+  "data/protocol_snapshot/effects_cache/coffee_gut_microbiome.json": {
+   "sha256": "c8c312259bfca90d81de747e9fa595d90c29c3dd3ce9cc98d0929a72814f6482",
+   "bytes": 2473
+  },
+  "data/protocol_snapshot/effects_cache/dairy_allcause_mortality.json": {
+   "sha256": "3549c5f1498397252b7ceddfeb0003969c7b34f5a089d4540c7ef145eb349e68",
+   "bytes": 30494
+  },
+  "data/protocol_snapshot/effects_cache/dairy_type2_diabetes.json": {
+   "sha256": "9ff7837ec15be8cdae83370c1a84a6ea12a34d97b2af9f16a6d793e8b6bf0dcf",
+   "bytes": 19810
+  },
+  "data/protocol_snapshot/effects_cache/dark_chocolate_blood_pressure.json": {
+   "sha256": "82aace7a0b9722d6489cb0046a06724a2fd7af18bbc8052571e7360dcd6db13a",
+   "bytes": 1975
+  },
+  "data/protocol_snapshot/effects_cache/dash_diet_hypertension.json": {
+   "sha256": "0233030fe105be367c2de9a39f59544dca272dcefbee5e589bf36e82f3b0b860",
+   "bytes": 39936
+  },
+  "data/protocol_snapshot/effects_cache/dietary_cholesterol_cvd.json": {
+   "sha256": "4acef1f6457d5c835c0cd9ebfbcc13db434659ba729b3360d2d2564e18f157ec",
+   "bytes": 5560
+  },
+  "data/protocol_snapshot/effects_cache/dietary_cholesterol_type2_diabetes.json": {
+   "sha256": "fce323bd2047c7cc3f9848f1411ad2da1a9371d69ed6011197ec057c9cbc5a5e",
+   "bytes": 26602
+  },
+  "data/protocol_snapshot/effects_cache/dietary_fiber_constipation.json": {
+   "sha256": "287bce668240e2687086f16d52e476bdcee875594670508c076290b7aa196fb1",
+   "bytes": 21175
+  },
+  "data/protocol_snapshot/effects_cache/dietary_fiber_type2_diabetes.json": {
+   "sha256": "41d7bcc9072514abd9fd3c7925d1290afe45ce4fb9746597fdfdfa8d51665667",
+   "bytes": 38103
+  },
+  "data/protocol_snapshot/effects_cache/dietary_fiber_weight_gain.json": {
+   "sha256": "024764688b4bc6bba6c788a3d37574195efa0a4ab92e55c94f87e16c8e327d4b",
+   "bytes": 17647
+  },
+  "data/protocol_snapshot/effects_cache/dietary_pattern_diabetes.json": {
+   "sha256": "9a8b5511e66c845676404072025fad5a97f702e988024c5e9f60e003acc2bf2d",
+   "bytes": 42878
+  },
+  "data/protocol_snapshot/effects_cache/early_time_restricted_eating_blood_pressure.json": {
+   "sha256": "67d3cfc50808608061fb3757afd138b70ff2361d1de6f1dc5827d6d434a5a4a0",
+   "bytes": 8268
+  },
+  "data/protocol_snapshot/effects_cache/eggs_cholesterol.json": {
+   "sha256": "a0c3835ecbd9d5efd0638c0853ff7d610d0636b4d3ef76b6491fd663986fbac5",
+   "bytes": 18000
+  },
+  "data/protocol_snapshot/effects_cache/eggs_cvd_events.json": {
+   "sha256": "3527f89491a502e34457f40287eee2b60c6b36f13c02bfb08fd539984f70b078",
+   "bytes": 33368
+  },
+  "data/protocol_snapshot/effects_cache/eggs_type2_diabetes.json": {
+   "sha256": "463b1d1cccfe233f82222e3a63cf5c2d4c889da403183ea64276ca8bf5e91290",
+   "bytes": 24343
+  },
+  "data/protocol_snapshot/effects_cache/energy_deficit_weight_loss.json": {
+   "sha256": "97fe28c975e06f6d356f9bbc75991fbf06f71b7dfaf3508f36fd46c3c5dca2b3",
+   "bytes": 16653
+  },
+  "data/protocol_snapshot/effects_cache/fermented_foods_inflammation.json": {
+   "sha256": "77487b62106a29b2757e7cbfb45e84cf3e44c988b23b65b58d1bdd8174c4b8b7",
+   "bytes": 12986
+  },
+  "data/protocol_snapshot/effects_cache/fermented_foods_microbiome_diversity.json": {
+   "sha256": "202ae95060e7cc768a6886be3e3ef40e38bca9753ff00118b0c64e3035e21154",
+   "bytes": 12430
+  },
+  "data/protocol_snapshot/effects_cache/fiber_colorectal.json": {
+   "sha256": "9a994199c2e1df7c8fda28d0dfebc0c007977f802920f957e788af42b2720eda",
+   "bytes": 26322
+  },
+  "data/protocol_snapshot/effects_cache/fish_cvd.json": {
+   "sha256": "ea72183811c0d48f3848601e29b66a5f64523da188b72948490d549bb2ee8c57",
+   "bytes": 19944
+  },
+  "data/protocol_snapshot/effects_cache/fish_oil_atrial_fibrillation.json": {
+   "sha256": "5fdeb58e16657c1ccb7d8b8f38e8a2be6896e068a9cf4993f0b90b894b1314e8",
+   "bytes": 3676
+  },
+  "data/protocol_snapshot/effects_cache/folate_cvd.json": {
+   "sha256": "009d01bfe43ec8a8403c5d248bb06ed6e8ecaa00798d73159428f464525b6cf6",
+   "bytes": 28034
+  },
+  "data/protocol_snapshot/effects_cache/folate_neural_tube.json": {
+   "sha256": "736f745b3dd5ede34c8d2d8ea294a262b9c48ed90d2f4c8969e7948712f7584e",
+   "bytes": 30909
+  },
+  "data/protocol_snapshot/effects_cache/folic_acid_b12_lung_cancer.json": {
+   "sha256": "3df54b918cc6fff65eb62989fc1ab8ec05123afd0f6b68614da55fa62dfba1be",
+   "bytes": 17317
+  },
+  "data/protocol_snapshot/effects_cache/folic_acid_colorectal.json": {
+   "sha256": "8c4ff23bc85f30e7c9d2ac30f6c09549e75aa1b8090787d111ea310094d5d60a",
+   "bytes": 145741
+  },
+  "data/protocol_snapshot/effects_cache/food_additives_colorectal_cancer.json": {
+   "sha256": "47e1d53b0e50646e182457b1076597f3a418aa6c4de6ed7ac2ac328d16f3c223",
+   "bytes": 3034
+  },
+  "data/protocol_snapshot/effects_cache/fruit_veg_allcause.json": {
+   "sha256": "e9c1264cc0b735b705b27308360abe25fedd3176c52cd90e3011bc62481abe7e",
+   "bytes": 33373
+  },
+  "data/protocol_snapshot/effects_cache/full_fat_dairy_cvd.json": {
+   "sha256": "09b021b0f979274940eb4b713f040f746905aaa0b188cabb7935bd6bbb70ca8e",
+   "bytes": 26898
+  },
+  "data/protocol_snapshot/effects_cache/gluten_free_diet_celiac_symptom_control.json": {
+   "sha256": "21699e00735a1d22f21b7e73a9835a35e8e38d9ddc269451f2394538e3ab7d7b",
+   "bytes": 16225
+  },
+  "data/protocol_snapshot/effects_cache/green_tea_type2_diabetes.json": {
+   "sha256": "b4d4b832237795c81897cd9e3e8412f0b13d7313550fc45a932707670ab44295",
+   "bytes": 13953
+  },
+  "data/protocol_snapshot/effects_cache/green_tea_weight_loss.json": {
+   "sha256": "e64f427f8e08fffa4d9490cc60326f63d69f6bff238c17ccca92f1ab36de505a",
+   "bytes": 8832
+  },
+  "data/protocol_snapshot/effects_cache/heme_iron_bioavailability.json": {
+   "sha256": "8399de024d46c469f3803e68a71d18e6f9758500185abdf79e076c78c7a9b56b",
+   "bytes": 22799
+  },
+  "data/protocol_snapshot/effects_cache/hormone_replacement_breast_cancer.json": {
+   "sha256": "af3c410c6fa6f64458a87a885da60c637871a0ab786b6c1809e8f11136faa6a2",
+   "bytes": 36515
+  },
+  "data/protocol_snapshot/effects_cache/hormone_replacement_cvd.json": {
+   "sha256": "f9129ca47104fa898ef92381b33836cb9be1912668f45e06c9fa175a04df88b9",
+   "bytes": 19382
+  },
+  "data/protocol_snapshot/effects_cache/intermittent_fasting_cvd.json": {
+   "sha256": "e51afa46cc98cf3dd1ec9dbbeb56378e0e788beef2fa1879c1cf3dac408a25ed",
+   "bytes": 3083
+  },
+  "data/protocol_snapshot/effects_cache/intermittent_fasting_type2_diabetes.json": {
+   "sha256": "20066fe99c6aa2085fa1be4de78db1b02ec908f766e4d3ac1174d7ecd5d78008",
+   "bytes": 7251
+  },
+  "data/protocol_snapshot/effects_cache/iodine_deficiency_fetal_neurodevelopment.json": {
+   "sha256": "37d89b770e5afdb93dba4ef8d637afa69510b8b03c951f4fff120e2575f5226e",
+   "bytes": 1600
+  },
+  "data/protocol_snapshot/effects_cache/iodine_deficiency_goiter.json": {
+   "sha256": "d58b7f14cfba4262bd97c992ef026bcc47d47e28ed4f65e3dc0e270db270699d",
+   "bytes": 17737
+  },
+  "data/protocol_snapshot/effects_cache/iodized_salt_iodine_deficiency_prevention.json": {
+   "sha256": "b5ae7b6441497537493775b7ca7669382d7e29b7ab388870c43b4f16f0508fbd",
+   "bytes": 14286
+  },
+  "data/protocol_snapshot/effects_cache/ketogenic_diet_cvd_events.json": {
+   "sha256": "0b593a626683218e7e2469877d156a1aa6f15de3264f29d7297b55ad26c2c413",
+   "bytes": 9506
+  },
+  "data/protocol_snapshot/effects_cache/ketogenic_diet_ldl_cholesterol.json": {
+   "sha256": "e776c0bae1f2c2b6a20c4221d2a4813c6bc6e7bf4d2b25bc74dbedacdedb8b31",
+   "bytes": 8502
+  },
+  "data/protocol_snapshot/effects_cache/ketogenic_diet_type2_diabetes_remission.json": {
+   "sha256": "b467144aed66c8d25f82db493ebaa15d5efdf8898db7bf9673fd96bc2bbc7722",
+   "bytes": 1885
+  },
+  "data/protocol_snapshot/effects_cache/lactose_intolerance_lactose_symptoms.json": {
+   "sha256": "d961bf778641290ab3ee24cf4627b06c9cec5239642a35a9c540dc3e9cb666c4",
+   "bytes": 13389
+  },
+  "data/protocol_snapshot/effects_cache/late_night_eating_obesity.json": {
+   "sha256": "37a1b08e390f92a4b6c446dec7c77cab8dd3879561187fc250d35b7ea83f9dab",
+   "bytes": 6681
+  },
+  "data/protocol_snapshot/effects_cache/legumes_cvd.json": {
+   "sha256": "581fe4da4582858e14a29f73cbbdf5744476d693050ef12ca50cbc871862a73b",
+   "bytes": 11495
+  },
+  "data/protocol_snapshot/effects_cache/low_fat_diet_obesity.json": {
+   "sha256": "936da252c998587ac8e08fb4b4646701a5eec4ad466640341c95265c63322ed4",
+   "bytes": 27644
+  },
+  "data/protocol_snapshot/effects_cache/magnesium_hypertension.json": {
+   "sha256": "1f7cf3e37ea71ef093b4a38c69a49e714153396525b19fd05d2831cf77c36e74",
+   "bytes": 24900
+  },
+  "data/protocol_snapshot/effects_cache/magnesium_migraine.json": {
+   "sha256": "b7c2f9f3ad1ec51eaa712905f20274650dce34dd97b8362c12ae3fa21dce74cb",
+   "bytes": 5042
+  },
+  "data/protocol_snapshot/effects_cache/magnesium_osteoporosis.json": {
+   "sha256": "c3630a88955aa08b87c3422fb08b875d1a79fce8a8cce812ab94e473d66bf37e",
+   "bytes": 13041
+  },
+  "data/protocol_snapshot/effects_cache/magnesium_type2_diabetes.json": {
+   "sha256": "d0c40cb452ccf95cf312957ccf31c6799da72bfe624a24ad6cfc3312598a97d0",
+   "bytes": 20424
+  },
+  "data/protocol_snapshot/effects_cache/milk_cvd.json": {
+   "sha256": "c4290c0489544a826cd69a97bcd68352e8e22cf2911e3e45fd17985f98ed3efd",
+   "bytes": 26070
+  },
+  "data/protocol_snapshot/effects_cache/multivitamin_cancer.json": {
+   "sha256": "a9f2004289dec66273d2027faade2b15c8bcdb901af9ef1d5bd88a4316cfb333",
+   "bytes": 25474
+  },
+  "data/protocol_snapshot/effects_cache/multivitamin_cognition.json": {
+   "sha256": "d8af47137fb5362ea727f80604cff29cebd170e393a0488b212d8c23e53c84eb",
+   "bytes": 4394
+  },
+  "data/protocol_snapshot/effects_cache/multivitamin_mortality.json": {
+   "sha256": "7a0172d67a36858aa2d017355c712f516c45252f01648d820df25078649880eb",
+   "bytes": 17675
+  },
+  "data/protocol_snapshot/effects_cache/niacin_cvd.json": {
+   "sha256": "d9f8738f3153b9bc20304e19de598da3e012132e29220ad7f08f60427ef8604b",
+   "bytes": 11736
+  },
+  "data/protocol_snapshot/effects_cache/niacin_deficiency_pellagra.json": {
+   "sha256": "038f41852dcbd2eebab329f79c46261ecb675da85e8b0f7f5ec69ea7243e5686",
+   "bytes": 1213
+  },
+  "data/protocol_snapshot/effects_cache/nuts_cvd.json": {
+   "sha256": "5ee7c6d6889fb383b28ab3707c5b6ae0d6b57af2931756f341d0dafd23672b99",
+   "bytes": 30928
+  },
+  "data/protocol_snapshot/effects_cache/nuts_ldl_cholesterol.json": {
+   "sha256": "e44c3bd81b5b3cc8803b9b01194393a57c6489cabf2f69680c827801ae32cf60",
+   "bytes": 20742
+  },
+  "data/protocol_snapshot/effects_cache/obesity_colorectal_cancer.json": {
+   "sha256": "a117bfe2320758e6af280de3a2977da00ff0fcb0e1cf1d63b2d65056b791a915",
+   "bytes": 128227
+  },
+  "data/protocol_snapshot/effects_cache/obesity_endometrial_cancer.json": {
+   "sha256": "6c52ba92347b037de01dcb9301e7625b442ffcfa97a70f0a74878de40275b1ad",
+   "bytes": 57823
+  },
+  "data/protocol_snapshot/effects_cache/obesity_esophageal_adenocarcinoma.json": {
+   "sha256": "5bf6cf5a13cf5dbfac9990a276543c83291bb53d767b31b4fe513ceb4075df54",
+   "bytes": 31300
+  },
+  "data/protocol_snapshot/effects_cache/obesity_kidney_cancer.json": {
+   "sha256": "66891c1aa3237aaecb0f90b52d5b1c2a0f330943905b184659eec3f0038a1aae",
+   "bytes": 28292
+  },
+  "data/protocol_snapshot/effects_cache/obesity_pancreatic_cancer.json": {
+   "sha256": "dea4d0f6c105accf4b1a280d674a32de5b6c00a3071a411b0bfd687011a45422",
+   "bytes": 33014
+  },
+  "data/protocol_snapshot/effects_cache/obesity_postmenopausal_breast_cancer.json": {
+   "sha256": "4e03a03e15283b5181a56576d6839d5527ed0f5b3fd7e7b256909698eb55a9fb",
+   "bytes": 74680
+  },
+  "data/protocol_snapshot/effects_cache/obesity_type2_diabetes.json": {
+   "sha256": "df40b047d3c36f14983b105730d1250c2afc1ad9a3d9595ed858512b8cafd745",
+   "bytes": 22128
+  },
+  "data/protocol_snapshot/effects_cache/olive_oil_cvd.json": {
+   "sha256": "084d6fcda3253d12d3486ed29d1bd6abaad5ee8e345b1e5b53641e567869bc99",
+   "bytes": 16021
+  },
+  "data/protocol_snapshot/effects_cache/omega3_cancer.json": {
+   "sha256": "c8f16d4cef39fc371b6634e2607b1b2fe4388dc8172efc9f9450773bc0d65136",
+   "bytes": 1650
+  },
+  "data/protocol_snapshot/effects_cache/omega3_cognition.json": {
+   "sha256": "63dd9945924d00bbbfc22a23ccfc1b49d1664067604423dcc28e849947828920",
+   "bytes": 18643
+  },
+  "data/protocol_snapshot/effects_cache/omega3_cvd.json": {
+   "sha256": "001d6b53d4cd3dc79575eb8f634fced66e9ef0f6f864c7bbea9f504f681efaea",
+   "bytes": 1593
+  },
+  "data/protocol_snapshot/effects_cache/omega3_dry_eye.json": {
+   "sha256": "bf1098ec2310d18ad9180d5b0de79cab86677cda70eaffe07a7eaadc433e5028",
+   "bytes": 23375
+  },
+  "data/protocol_snapshot/effects_cache/omega3_triglycerides.json": {
+   "sha256": "ef005233f800c59c82d20d95be1ebf832ba4d4e41d05b17208ae3f8940dfcdd6",
+   "bytes": 2191
+  },
+  "data/protocol_snapshot/effects_cache/oral_iron_hemoglobin_response.json": {
+   "sha256": "5d2da08b2e73a5cd14dd4186350e02116b67a935f8e59f38f223a3af3439d852",
+   "bytes": 13226
+  },
+  "data/protocol_snapshot/effects_cache/peanut_early_introduction_allergy_prevention.json": {
+   "sha256": "52f3e38a81e9a1fdd1e4e7aacb018a69cfa06ae91b7b98a10f2102a4af523d59",
+   "bytes": 5358
+  },
+  "data/protocol_snapshot/effects_cache/physical_activity_colon_cancer.json": {
+   "sha256": "9698f6c003931c044c7dbd36b760c6d0ae24e06d45a11296ad8ee7ff438e8693",
+   "bytes": 31607
+  },
+  "data/protocol_snapshot/effects_cache/physical_activity_endometrial_cancer.json": {
+   "sha256": "0b7c84d375c4402372a872dfdecb04304a801f0377c85a8d75152da55809a4f8",
+   "bytes": 10761
+  },
+  "data/protocol_snapshot/effects_cache/physical_activity_postmenopausal_breast_cancer.json": {
+   "sha256": "39afbf24394689c6f80c9a9026e3be32027ad1904f4699679b0ed9dc59a00b35",
+   "bytes": 37798
+  },
+  "data/protocol_snapshot/effects_cache/plant_based_diet_bone_fracture.json": {
+   "sha256": "47817441a7ddd6ec36b54accdb82181b43fd59fd534ae558d78dd0ceb4c2370f",
+   "bytes": 3861
+  },
+  "data/protocol_snapshot/effects_cache/plant_based_diet_cancer.json": {
+   "sha256": "58bfdfbcb1352131e924e974d1d4b0eed906f4dd61456148610fec788d52ce76",
+   "bytes": 16348
+  },
+  "data/protocol_snapshot/effects_cache/plant_sterols_ldl_cholesterol.json": {
+   "sha256": "6d41498bc7f5fa5149807b8defcd721d09702bdcba2a34945dd762520d4547cc",
+   "bytes": 13904
+  },
+  "data/protocol_snapshot/effects_cache/prebiotics_obesity.json": {
+   "sha256": "cebee31b3fedca8cceda7ca4ffe77da81d1a4f82dc677fef45a9332b766f0270",
+   "bytes": 17693
+  },
+  "data/protocol_snapshot/effects_cache/probiotics_antibiotic_associated_diarrhea.json": {
+   "sha256": "aa54375790437d232890fff176601b5eeb201973584495ff46a1f34be8404130",
+   "bytes": 10423
+  },
+  "data/protocol_snapshot/effects_cache/probiotics_atopic_dermatitis.json": {
+   "sha256": "d87b30e5e3b9fc140915886f54a514b5f8de2eae4ea208d7f663c4a9deb19edd",
+   "bytes": 21889
+  },
+  "data/protocol_snapshot/effects_cache/probiotics_hypercholesterolemia.json": {
+   "sha256": "64f7c550ae7761db418fec6abdce168f20e4bb79f58eeabdbe512946e87257ee",
+   "bytes": 3323
+  },
+  "data/protocol_snapshot/effects_cache/probiotics_ibs.json": {
+   "sha256": "5eef6e595373f08ad54d357841f58ab88b4e4408c91c0f7702021c640a386373",
+   "bytes": 14714
+  },
+  "data/protocol_snapshot/effects_cache/probiotics_necrotizing_enterocolitis.json": {
+   "sha256": "d0bf362713c6e764346e3a4f0484b91e75f01c72f51e7c852d7e0b66874dd6e5",
+   "bytes": 29225
+  },
+  "data/protocol_snapshot/effects_cache/processed_meat_colorectal_cancer.json": {
+   "sha256": "072fe38ff9bd9fcda763fa6f90bd98af790e1c97ff4b8a61339e1dbdbf0a7dc9",
+   "bytes": 6472
+  },
+  "data/protocol_snapshot/effects_cache/protein_energy_malnutrition_child_growth.json": {
+   "sha256": "82e3e61fe24f6994fff70e8c945b0b4a96caefa4cf69578639d7c75c523c7cc5",
+   "bytes": 15218
+  },
+  "data/protocol_snapshot/effects_cache/red_meat_cancer.json": {
+   "sha256": "45065cb064f0660c07578f3fa074363bda82f82756730f290e46a8976daf67c7",
+   "bytes": 43293
+  },
+  "data/protocol_snapshot/effects_cache/red_meat_cvd.json": {
+   "sha256": "c8e330ac770fded819a7a3649277cbbab0974a0cb92b0ee7a3ff06839cd8f1fa",
+   "bytes": 18727
+  },
+  "data/protocol_snapshot/effects_cache/red_meat_type2_diabetes.json": {
+   "sha256": "325745972660aec5b5e7688c8d7d8195f6a9d2fc8e8cee3bee9d488d3a2ce791",
+   "bytes": 14483
+  },
+  "data/protocol_snapshot/effects_cache/replacing_saturated_fat_polyunsaturated_fat_cvd.json": {
+   "sha256": "9b3a763cd72d519e04a28fbaae1df340204481c2f2916a1f80c1d9a9c0196d23",
+   "bytes": 7190
+  },
+  "data/protocol_snapshot/effects_cache/selenium_cognition.json": {
+   "sha256": "ca1c8444113b0240cd112fdb07256ab6748f23d58767128c31d329dfbfb71da7",
+   "bytes": 4776
+  },
+  "data/protocol_snapshot/effects_cache/selenium_cvd.json": {
+   "sha256": "870d88b83f22cf39e429e011418f9afc87c9acfac77dd1f61fd0bef1ec2a7a53",
+   "bytes": 15108
+  },
+  "data/protocol_snapshot/effects_cache/selenium_male_fertility.json": {
+   "sha256": "65144e96d7dc06395f24494520d2bf973a287808c3ac0b281e7dd49ae4d95501",
+   "bytes": 7721
+  },
+  "data/protocol_snapshot/effects_cache/selenium_prostate_cancer.json": {
+   "sha256": "44c4dd6e944054b3a69decc9c36ff30a7976cf866e97df53f70798c1ceacde9a",
+   "bytes": 13880
+  },
+  "data/protocol_snapshot/effects_cache/sodium_bp.json": {
+   "sha256": "6f9c400898f485c2da19157f10f2098f1b9c5720f247e25ae845c365227b568d",
+   "bytes": 1359
+  },
+  "data/protocol_snapshot/effects_cache/soluble_fiber_ldl_cholesterol.json": {
+   "sha256": "323830d2ee3aa914bab718328ded41e887a8d96f84375070f8c5572c485b9272",
+   "bytes": 5029
+  },
+  "data/protocol_snapshot/effects_cache/soy_menopause.json": {
+   "sha256": "1fbfd67aaf59422d728845f0309e8cbc4965855fcf7adf0660364de364debfed",
+   "bytes": 1333
+  },
+  "data/protocol_snapshot/effects_cache/sugar_sweetened_beverages_dental_caries.json": {
+   "sha256": "f66f3ef981b1a4c835017cb7a5eb3dc6c622c8f3df84a27112737d84d0a34b81",
+   "bytes": 7374
+  },
+  "data/protocol_snapshot/effects_cache/sugar_sweetened_beverages_type2_diabetes.json": {
+   "sha256": "7b430667376e7df18d7a39fbae0d33659b98b65c11065fad5c49e9d91a723a27",
+   "bytes": 11925
+  },
+  "data/protocol_snapshot/effects_cache/sugar_sweetened_obesity.json": {
+   "sha256": "774e8a55bf798db4e5c2bb99135f6292692b99e41902eafa52f644adcbd524ad",
+   "bytes": 30956
+  },
+  "data/protocol_snapshot/effects_cache/tea_cvd.json": {
+   "sha256": "21baf38d38037e1cbaed34ee6656babae67faf9c79cc6dce50a69ad09db11f42",
+   "bytes": 18535
+  },
+  "data/protocol_snapshot/effects_cache/thiamin_deficiency_beriberi.json": {
+   "sha256": "9e4a2ba48b0a8688b43b057a02eb96b8dbcaadb05b2bb0ffc4289947eebc03cc",
+   "bytes": 10147
+  },
+  "data/protocol_snapshot/effects_cache/time_restricted_eating_circadian_metabolism.json": {
+   "sha256": "5c18d1c0dd3887382ddff8edd070d54d2609f26f031202904dda0805a1afc804",
+   "bytes": 17447
+  },
+  "data/protocol_snapshot/effects_cache/time_restricted_eating_glycemic_control.json": {
+   "sha256": "ce9dde9c494ea379ea28632c767de8c714c98a07f96354206e6a7e6d85876544",
+   "bytes": 17267
+  },
+  "data/protocol_snapshot/effects_cache/time_restricted_eating_obesity.json": {
+   "sha256": "5b03948dde4a4f2b6059748bdd0856aa94ef26109f3a1afbd3a4a647a89efaf1",
+   "bytes": 19428
+  },
+  "data/protocol_snapshot/effects_cache/trans_fat_cvd.json": {
+   "sha256": "2022f2322687ffb8035ed77a1ea913ebe4e3e66f7b1bca2e3bbda817a530e6cd",
+   "bytes": 6444
+  },
+  "data/protocol_snapshot/effects_cache/trans_fat_ldl_cholesterol.json": {
+   "sha256": "32c82169a5062b9fe7a69f70853e08851b7ae04f59cfd33f72e6e3b35cc5d3b8",
+   "bytes": 10486
+  },
+  "data/protocol_snapshot/effects_cache/ultra_processed_foods_ibd.json": {
+   "sha256": "28fa55e249650dc74e2d2cd8095fa407ab5737563d5044ef794f6eadbf67327a",
+   "bytes": 9717
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_a_cancer.json": {
+   "sha256": "22b3d4b4cb3950053898e5cb07e4daa288aaa6df0ce1be1d4205bf35fccdc182",
+   "bytes": 19386
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_a_deficiency_night_blindness.json": {
+   "sha256": "7fedbe47f908bf0dc4e667e549619a501dedb154d402dd8a8f85338bb9fb808d",
+   "bytes": 14606
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_b12_cancer.json": {
+   "sha256": "29e6ad83cb9ccd9fe510c727bfb3b457c3b7a891507cfa372485dc204ea163d6",
+   "bytes": 25727
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_b12_cognition.json": {
+   "sha256": "f7217455dfd3c2a1e215c66ee9e6d6fe5f15f0fce36ade85cd1b43d6ab3fc481",
+   "bytes": 5745
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_b12_dementia.json": {
+   "sha256": "6f0d1d5834199b165a60040841b86ad2f613e73b4a723ccbb2d7080083a17734",
+   "bytes": 13024
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_b12_vegan_deficiency_risk.json": {
+   "sha256": "7e758889a2180e257e889eb54d32538aa49f48fecb44e666702c06b2a5ff6f66",
+   "bytes": 1602
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_c_cancer.json": {
+   "sha256": "b48e960551cb668410b450edf25c9d0802baf4f6e188da7c3d696ae4d034eb54",
+   "bytes": 13539
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_c_cognition.json": {
+   "sha256": "ef179a8bb7e9cbe44f5ba5296e2c285cd1f8afdbd5452a23007dcd515bf841ad",
+   "bytes": 2679
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_c_common_cold.json": {
+   "sha256": "1690fc344980c93e09304a9d407bd5fea861dfe0d38caa8bc4836d4269326c2e",
+   "bytes": 13663
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_c_cvd_prevention.json": {
+   "sha256": "e03daae3a87637aaac85f58e31334f0db55f589d57c9d08fe4dee65dfa04f155",
+   "bytes": 22014
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_c_deficiency_scurvy.json": {
+   "sha256": "518ed8b98800c3977df42450851d2225d11f9e61a9003b4357ac126527910a5c",
+   "bytes": 10181
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_c_nonheme_iron_absorption.json": {
+   "sha256": "e39fa0fc8fd4ba8a7d865b658960e173baa0fe566be4c6c87cd07ec6b997f777",
+   "bytes": 9913
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_d_deficiency_rickets.json": {
+   "sha256": "d8f59a325eabda0fb209a7decd765c74a6a04e2d84227e25c69a864b2460067e",
+   "bytes": 13943
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_d_depression.json": {
+   "sha256": "b43f1047fd0141558157ecdf68f3f458e4ff7bf1d8d4a8cd682c60eef981e7f6",
+   "bytes": 27569
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_d_multiple_sclerosis.json": {
+   "sha256": "5fe84d58e5c0c2edc5134095e5ce1c58d372cf259b02700531485d105e0f4746",
+   "bytes": 18382
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_d_type2_diabetes.json": {
+   "sha256": "94568cd1973ea480283f2ef334484a51ff18983e3273e0cdbedb49fd8ff74ad6",
+   "bytes": 1660
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_d_weight_loss.json": {
+   "sha256": "cfc583f36d96c281fac920f18cacbe381adca0724050c2c224a8cbf73c3306c2",
+   "bytes": 14630
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_e_alzheimers_progression.json": {
+   "sha256": "12e18fde2764fb809834bded8a1d96f4ac8900eda0a23e5b613b16e3e70d8814",
+   "bytes": 18791
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_e_cognition.json": {
+   "sha256": "42258c990c7d9e2bfb05714b1884f725a2a40812fe0fd3e69574b421eb2ca043",
+   "bytes": 6036
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_e_cvd.json": {
+   "sha256": "28667a14a0ac6680685e73a586366813a23c01fbf789ec3e7a2ea1ddd7cb0d15",
+   "bytes": 25127
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_k_deficiency_bleeding.json": {
+   "sha256": "6e3ea0203feaa8cfd22abbf347eb198ffed785901c170e1af79d057dd2976eb8",
+   "bytes": 9133
+  },
+  "data/protocol_snapshot/effects_cache/vitamin_k_newborn_bleeding_prevention.json": {
+   "sha256": "f5e0780260cc4c4ba08585f055297b3e5c43cdd479da630c120a5c403927441d",
+   "bytes": 8740
+  },
+  "data/protocol_snapshot/effects_cache/whole_grains_colorectal_cancer.json": {
+   "sha256": "e3936cca6e766f692be3084194c057313a8c8686ab3918c2609d4633638304c5",
+   "bytes": 7401
+  },
+  "data/protocol_snapshot/effects_cache/whole_grains_type2_diabetes.json": {
+   "sha256": "a12a98ec289966a60484817d94c8121d404091f7aeab4ed7d84037c63b9da406",
+   "bytes": 11789
+  },
+  "data/protocol_snapshot/effects_cache/yogurt_type2_diabetes.json": {
+   "sha256": "db3eed81708eaf7159d7240ad3557af9030855f0a9ba58208f3feecbdcc9f64c",
+   "bytes": 12745
+  },
+  "data/protocol_snapshot/effects_cache/zinc_childhood_diarrhea_duration.json": {
+   "sha256": "41a94357a9b5c6be8efef2fe42ffe6f2318987d5548afdb8312c7f509ab65d93",
+   "bytes": 54285
+  },
+  "data/protocol_snapshot/effects_cache/zinc_common_cold_duration.json": {
+   "sha256": "41a94357a9b5c6be8efef2fe42ffe6f2318987d5548afdb8312c7f509ab65d93",
+   "bytes": 54285
+  },
+  "data/protocol_snapshot/effects_cache/zinc_type2_diabetes.json": {
+   "sha256": "7a0c90b9310bb434d118f07c9b583d45a4897b63adc4bf75e36a3c8e754d7885",
+   "bytes": 21933
+  },
+  "data/protocol_snapshot/external/external1_benchmark.csv": {
+   "sha256": "8fc66301a376f0f86e11bf6bb310e5df1f5755cda2f37b9733bbdd02a9d41a79",
+   "bytes": 387392
+  },
+  "data/protocol_snapshot/external/external2_benchmark.csv": {
+   "sha256": "b39fc6e1420cbf4ab4c0a38df9731d053190ca91c1335ae55c0e60d3ff446c6e",
+   "bytes": 1494443
+  },
+  "data/protocol_snapshot/external/external_numeric_endpoint_units.csv": {
+   "sha256": "fd3d4e91fbf04115c53225ebe21184176f3bc78c70c225d12bc5c7be65f1a856",
+   "bytes": 264012
+  },
+  "data/protocol_snapshot/records/added_sugar_diabetes.json": {
+   "sha256": "31c50d53c6088a4bc61eb0c3e0b7dec7bced60c408e9f5228388404d3c9f440f",
+   "bytes": 160032
+  },
+  "data/protocol_snapshot/records/added_sugar_weight_gain.json": {
+   "sha256": "f589a760c898206ce53d4516ab2d714b1ad3d4c8fad9feaf24a33f8562b4e724",
+   "bytes": 103470
+  },
+  "data/protocol_snapshot/records/aflatoxin_liver_cancer.json": {
+   "sha256": "787823e9aadd07596c02aa12159676c6d99ebace211e62fa9536096e078d3a93",
+   "bytes": 275997
+  },
+  "data/protocol_snapshot/records/alcohol_breast_cancer.json": {
+   "sha256": "08e5b9853386e446c1496ab9153c7ae753359a5ef9a8d225ce1b1f6b3efa974f",
+   "bytes": 173679
+  },
+  "data/protocol_snapshot/records/alcohol_colorectal_cancer.json": {
+   "sha256": "e840ed81b1146d27682e6576dc63666009c3db20319a9e044bc028605569fafa",
+   "bytes": 158973
+  },
+  "data/protocol_snapshot/records/alcohol_esophageal_cancer.json": {
+   "sha256": "99276384dea6f5848a975343af92d780b658b4a8d19d908147995203d3e72ed3",
+   "bytes": 189766
+  },
+  "data/protocol_snapshot/records/alcohol_laryngeal_cancer.json": {
+   "sha256": "8fc6b60ccbcb73a277c830365eae3d59f68814c45de3455d64200bddecc0cb11",
+   "bytes": 93360
+  },
+  "data/protocol_snapshot/records/alcohol_oral_cancer.json": {
+   "sha256": "86ea9ac509953e0be80cba6907e6ab1056ec0efba75fce7a5a94dd106f0f452f",
+   "bytes": 267441
+  },
+  "data/protocol_snapshot/records/alcohol_pharyngeal_cancer.json": {
+   "sha256": "d0e5bfc6d35f6e6ecf8602002691012d19b40d1bf19fee36d444fd6cbdd3fb36",
+   "bytes": 119186
+  },
+  "data/protocol_snapshot/records/alcoholic_drinks_liver_cancer.json": {
+   "sha256": "fe28c112c484851d4cdbc96d19465db638d75a40efd833438d10bf1bf5623e2d",
+   "bytes": 288089
+  },
+  "data/protocol_snapshot/records/alternate_day_fasting_weight_loss.json": {
+   "sha256": "e19abc3ae586225db0ef149e7682fa6b4ca0de3dd83a8beac11f2ba977b9b590",
+   "bytes": 148572
+  },
+  "data/protocol_snapshot/records/beta_carotene_cancer.json": {
+   "sha256": "b2d79a2efdc766b1450ff2dc8f132c513746b91bf08134d6d9746578113dca6b",
+   "bytes": 179555
+  },
+  "data/protocol_snapshot/records/breakfast_skipping_cvd.json": {
+   "sha256": "2f58909393b8c3298807d2fa176533694cf62c7738f77824dfe93323ae4077e5",
+   "bytes": 68818
+  },
+  "data/protocol_snapshot/records/breakfast_skipping_obesity.json": {
+   "sha256": "a26b382795eadcc756676f3a9005a7808a0ca1e698b811f92a370f2c6e26ba0a",
+   "bytes": 184175
+  },
+  "data/protocol_snapshot/records/breastfeeding_breast_cancer.json": {
+   "sha256": "6c41f61416bbbc3dbc12bdea05633cd435654311afcf09bcc96a69b8f3acc910",
+   "bytes": 169501
+  },
+  "data/protocol_snapshot/records/breastfeeding_childhood_infections.json": {
+   "sha256": "a5c3d78ea225d6e9243e24bd9c01f0a5d72a32d3f0b1c602a51be8f3fa54d40c",
+   "bytes": 177008
+  },
+  "data/protocol_snapshot/records/breastfeeding_necrotizing_enterocolitis_preterm.json": {
+   "sha256": "143b364681b907bbfa200d7a2c046e64e9ef86146de9ca14fe55258b0a94a6d7",
+   "bytes": 519395
+  },
+  "data/protocol_snapshot/records/butter_cvd.json": {
+   "sha256": "a4dd59789fa7faf267abb525d50f784a0c9ecd271c5dfd07e8e8cc562a40d9f7",
+   "bytes": 45363
+  },
+  "data/protocol_snapshot/records/calcium_preeclampsia_low_intake.json": {
+   "sha256": "6e94576cde2f81fd3a271a219111634b1c31f3abc8e922711ab3757f19e2cd69",
+   "bytes": 19127
+  },
+  "data/protocol_snapshot/records/cheese_cvd.json": {
+   "sha256": "bea43e0b679478fe6565f7178e47d471f5caf54596d5f16fde69151edd5b7e95",
+   "bytes": 45551
+  },
+  "data/protocol_snapshot/records/cocoa_cvd.json": {
+   "sha256": "695d226b0937ac7f6cca68879d8c4fc27451395b4f8f612dd9a2ddc9978b21c2",
+   "bytes": 38220
+  },
+  "data/protocol_snapshot/records/coconut_oil_ldl_cholesterol.json": {
+   "sha256": "41367fd27713c552afe5a87bbaf80f3ee586caabd344d89a3307f8eee1f38d89",
+   "bytes": 58177
+  },
+  "data/protocol_snapshot/records/coconut_oil_weight_loss.json": {
+   "sha256": "e1b8a72bb34c1c27da6af996de5722ef6f59c39b359848294f45badcf7f628e1",
+   "bytes": 167984
+  },
+  "data/protocol_snapshot/records/coffee_arrhythmia.json": {
+   "sha256": "717abac1013b4efbc910618bce975e7074c6b90c8663b7a1dab73904bfcf91fb",
+   "bytes": 11126
+  },
+  "data/protocol_snapshot/records/coffee_blood_pressure.json": {
+   "sha256": "058dccbb7e7a440d5ac1d502996281d07c953963141fc6d40dc9f60fad327d3d",
+   "bytes": 171254
+  },
+  "data/protocol_snapshot/records/coffee_cancer.json": {
+   "sha256": "f0dcf7d13e957860fa2e5758b657c11acab9c768795bef0dd018ddf99ad60668",
+   "bytes": 166653
+  },
+  "data/protocol_snapshot/records/coffee_cognition.json": {
+   "sha256": "a0fefea4cf131e23b482c6fccf4e5ae40a96861c5ed42945e3508dbbbfdc3b40",
+   "bytes": 22684
+  },
+  "data/protocol_snapshot/records/coffee_cvd.json": {
+   "sha256": "108ea3db60dd5df5c9a2cfbd9f6466c0fc9b495cd12a66227bc56b9e0d91bce7",
+   "bytes": 106418
+  },
+  "data/protocol_snapshot/records/coffee_gut_microbiome.json": {
+   "sha256": "13e040cdf0e958d68cf30d3a7902ac957d2a0b375df40dce704695e24c359777",
+   "bytes": 32487
+  },
+  "data/protocol_snapshot/records/dairy_allcause_mortality.json": {
+   "sha256": "0f827d3015ec2ef70bcadaaf87a5a9f337d2d8bf65bf98e2143d3060e04418f4",
+   "bytes": 178264
+  },
+  "data/protocol_snapshot/records/dairy_type2_diabetes.json": {
+   "sha256": "f22c2e6888c63bbe900387ede231418ddc38e17af3be4510a0dfdf1ba72b0028",
+   "bytes": 168499
+  },
+  "data/protocol_snapshot/records/dark_chocolate_blood_pressure.json": {
+   "sha256": "dcf3a8c3b0bf5c71d0813445a447872f411ab210ac218a73b151b5a73d0d8f8d",
+   "bytes": 23716
+  },
+  "data/protocol_snapshot/records/dash_diet_hypertension.json": {
+   "sha256": "b14bf68ddcdece27f446a944192880a971eb90540ca0fcd521bb7aefaf727cf7",
+   "bytes": 190417
+  },
+  "data/protocol_snapshot/records/dietary_cholesterol_cvd.json": {
+   "sha256": "c54ccb1e1b90bb98e754d30175dc586a5082aaba595f0bb4780c428bea87d2a9",
+   "bytes": 46392
+  },
+  "data/protocol_snapshot/records/dietary_cholesterol_type2_diabetes.json": {
+   "sha256": "210ea2756b8da1ebeb19b863144739d4e055dcf26f2c0675ae89313f1b650bd7",
+   "bytes": 198026
+  },
+  "data/protocol_snapshot/records/dietary_fiber_constipation.json": {
+   "sha256": "73e1aeafd38f7a1b6d64ad17654c50a0f03ffcea64091aa1e4cd4bd25ee74277",
+   "bytes": 164182
+  },
+  "data/protocol_snapshot/records/dietary_fiber_type2_diabetes.json": {
+   "sha256": "c2e0901a054e83eb38a11d7a697c4b3e723811acf92dc2d23c2991988911aad0",
+   "bytes": 356106
+  },
+  "data/protocol_snapshot/records/dietary_fiber_weight_gain.json": {
+   "sha256": "ee045c9498abe3e40ae8d07df45d6bfe7a13cd88372e26ea551369c378cad68e",
+   "bytes": 256067
+  },
+  "data/protocol_snapshot/records/dietary_pattern_diabetes.json": {
+   "sha256": "378954799414fa1ac108b6e6c26752e52f17cc14856b7b73a5bb9679fa1b8952",
+   "bytes": 180501
+  },
+  "data/protocol_snapshot/records/early_time_restricted_eating_blood_pressure.json": {
+   "sha256": "103a1479b2e9e199c2e7a77dd5dab73ab167fe1b570fae7679507dad37e76b35",
+   "bytes": 55531
+  },
+  "data/protocol_snapshot/records/eggs_cholesterol.json": {
+   "sha256": "45fa52a300a8c12492fbf3d613dfee9fff9df2f2a4b827f266d7810872308b6c",
+   "bytes": 180399
+  },
+  "data/protocol_snapshot/records/eggs_cvd_events.json": {
+   "sha256": "1dd40d5315547f4983ae370444ff2946c24d0e4ee3078ab0662eac30051eca28",
+   "bytes": 319582
+  },
+  "data/protocol_snapshot/records/eggs_type2_diabetes.json": {
+   "sha256": "23418d0bf799bbb8d2a1cfb6ee5d10084f36cf56be9c51f06032b2dd075e6a82",
+   "bytes": 157166
+  },
+  "data/protocol_snapshot/records/energy_deficit_weight_loss.json": {
+   "sha256": "b96c6f244dc79c60cc6723718d6a9fb003df79b8d18446389d8d78a91b2342d1",
+   "bytes": 195439
+  },
+  "data/protocol_snapshot/records/fermented_foods_inflammation.json": {
+   "sha256": "fe192e17265b476377308e9fcf1e07e82b03208d5a170cf3eb0651654d23dabc",
+   "bytes": 180713
+  },
+  "data/protocol_snapshot/records/fermented_foods_microbiome_diversity.json": {
+   "sha256": "f3d3c485dc174b40c8d938a403c34c6d3aa6134c1957395e8bea1f83a110f060",
+   "bytes": 223980
+  },
+  "data/protocol_snapshot/records/fiber_colorectal.json": {
+   "sha256": "e9ad6ac1dbc6557302d06d2ff6dac29d14db81c98135002e1c0435799bbee48d",
+   "bytes": 173026
+  },
+  "data/protocol_snapshot/records/fish_cvd.json": {
+   "sha256": "a05e9be7e9a65cea7e7967d46e85a68f30e5de6e0670ddab07e7ff550b980a18",
+   "bytes": 168497
+  },
+  "data/protocol_snapshot/records/fish_oil_atrial_fibrillation.json": {
+   "sha256": "3d26f8d24684b8fc327ff90570c1aac7db07f8ce4c28dadd384343887e243229",
+   "bytes": 35791
+  },
+  "data/protocol_snapshot/records/folate_cvd.json": {
+   "sha256": "40c1c9f0fd88ab20537847d2236970e170ba580e3d133219771b9091b2ff723c",
+   "bytes": 180520
+  },
+  "data/protocol_snapshot/records/folate_neural_tube.json": {
+   "sha256": "67bb6d4be1d2ee740c1cca5ad777021331f43db74c20a31c94608f34f6c8c87e",
+   "bytes": 170129
+  },
+  "data/protocol_snapshot/records/folic_acid_b12_lung_cancer.json": {
+   "sha256": "8157a205daaca5667fb0f5e9198431de101cad2c63b75db6dc289d73e6e910ab",
+   "bytes": 187658
+  },
+  "data/protocol_snapshot/records/folic_acid_colorectal.json": {
+   "sha256": "461b7578c1ec8cf25f2d426896bb5e9b52071227c5745ce26d6a777de5c4c7be",
+   "bytes": 1246804
+  },
+  "data/protocol_snapshot/records/food_additives_colorectal_cancer.json": {
+   "sha256": "36435c502cf35c31462f4757a3c6944888cb05afa99ceabde7ed539da4620cac",
+   "bytes": 20135
+  },
+  "data/protocol_snapshot/records/fruit_veg_allcause.json": {
+   "sha256": "e317b289a52257bfd256a4ee5b030d10e8f94c91d705aa31f07b81a23750d928",
+   "bytes": 173520
+  },
+  "data/protocol_snapshot/records/full_fat_dairy_cvd.json": {
+   "sha256": "db1ff29aa58cb6aee5f27617a09bed54085e06f71f85f0f7a587257f947104a2",
+   "bytes": 182395
+  },
+  "data/protocol_snapshot/records/gluten_free_diet_celiac_symptom_control.json": {
+   "sha256": "0d7ad5ce31dbd6daabbe85580675af847cb349eea07c30eac6612e11e8623e51",
+   "bytes": 164004
+  },
+  "data/protocol_snapshot/records/green_tea_type2_diabetes.json": {
+   "sha256": "9e0a415e733d3fe3a0c4c3faf91a7bcf31c6b0c47f783dc03b1a821ce8561fdd",
+   "bytes": 110109
+  },
+  "data/protocol_snapshot/records/green_tea_weight_loss.json": {
+   "sha256": "fe8f2ec592975fb4374c7ffd3f90d3783080fb4bd0e489040d285f3963cac4d4",
+   "bytes": 99292
+  },
+  "data/protocol_snapshot/records/heme_iron_bioavailability.json": {
+   "sha256": "94954654013839677d5ade8533be04c40731053ab9eeb0640b23615221ec1a65",
+   "bytes": 355149
+  },
+  "data/protocol_snapshot/records/hormone_replacement_breast_cancer.json": {
+   "sha256": "4704d92f24c5b63689535241394b8c1228e085ddd9641dd7d885d13b0645faa0",
+   "bytes": 172451
+  },
+  "data/protocol_snapshot/records/hormone_replacement_cvd.json": {
+   "sha256": "2e36e3c5b18a34f726193d2a33e28dc0ba4698fd3f8004a3a0f82725bbb45fd0",
+   "bytes": 163395
+  },
+  "data/protocol_snapshot/records/intermittent_fasting_cvd.json": {
+   "sha256": "060a2337f313a6a12cfe2c5c9f7a95544b25bf1db5466784ad280859bb7cfd08",
+   "bytes": 27759
+  },
+  "data/protocol_snapshot/records/intermittent_fasting_type2_diabetes.json": {
+   "sha256": "f60df14336a017aa09ecdd845859990e4a7b5f8e095b028f475a1a584d278fe4",
+   "bytes": 70478
+  },
+  "data/protocol_snapshot/records/iodine_deficiency_fetal_neurodevelopment.json": {
+   "sha256": "e48ad5c5fa0cd0e7675dc37814812603c808bb49a4e418788ad05d3f9d2ad39f",
+   "bytes": 14914
+  },
+  "data/protocol_snapshot/records/iodine_deficiency_goiter.json": {
+   "sha256": "c2b5fab5fb90e80399a1f2cfdf566ff790ca1c708297621832ce69b08283f00c",
+   "bytes": 161781
+  },
+  "data/protocol_snapshot/records/iodized_salt_iodine_deficiency_prevention.json": {
+   "sha256": "985f969db4d56720dfae98030fb20a9baa1dec2590f1b74606d52b3318dcc3b4",
+   "bytes": 141310
+  },
+  "data/protocol_snapshot/records/ketogenic_diet_cvd_events.json": {
+   "sha256": "d8cb50fe2a2e0286542817896baf61c5714caeef698e75aaa28fcfc58f4151d6",
+   "bytes": 116498
+  },
+  "data/protocol_snapshot/records/ketogenic_diet_ldl_cholesterol.json": {
+   "sha256": "9b45c031a93211b920708faa8dfd0a49becb0db2094c13c94e4c335ae25b656c",
+   "bytes": 85713
+  },
+  "data/protocol_snapshot/records/ketogenic_diet_type2_diabetes_remission.json": {
+   "sha256": "1cb24287f6f2d85ebd0b7015115bd98a5f48f28bd6fc5f696b2e357a22bb0808",
+   "bytes": 20871
+  },
+  "data/protocol_snapshot/records/lactose_intolerance_lactose_symptoms.json": {
+   "sha256": "7dfc43fb5b059707ae543b65a929a2871b674f2685f9f68f4b1b554b6d84077f",
+   "bytes": 162346
+  },
+  "data/protocol_snapshot/records/late_night_eating_obesity.json": {
+   "sha256": "0a772fbffae80b52b0874380e73f3c34363aa04e89c522911cb971fd453e176c",
+   "bytes": 52672
+  },
+  "data/protocol_snapshot/records/legumes_cvd.json": {
+   "sha256": "479ed51210351136e31e040dd960f751ae5f783942a65d2f5698a994685ca4b0",
+   "bytes": 82076
+  },
+  "data/protocol_snapshot/records/low_fat_diet_obesity.json": {
+   "sha256": "34567460dcf39913c59b4c856e5863aa098d16de7f5586fda7c5bb4aa05e285e",
+   "bytes": 327000
+  },
+  "data/protocol_snapshot/records/magnesium_hypertension.json": {
+   "sha256": "b2a4c5dbc09b94385f5f337a9656d5424f75fbc0c93667a64d2e4c2ec7788df8",
+   "bytes": 170108
+  },
+  "data/protocol_snapshot/records/magnesium_migraine.json": {
+   "sha256": "e95786961262bf7a0a3f8249b7a224fd774343f7cb945bd7705c3369839649c9",
+   "bytes": 63892
+  },
+  "data/protocol_snapshot/records/magnesium_osteoporosis.json": {
+   "sha256": "656597b1a64976677796e12643eb6269297ae89af3842d14037df193b0b340ab",
+   "bytes": 162254
+  },
+  "data/protocol_snapshot/records/magnesium_type2_diabetes.json": {
+   "sha256": "99c4c7b95af591e4a061d5a68cdb41126cce087eb98f22ead20693a6533aa0e2",
+   "bytes": 183958
+  },
+  "data/protocol_snapshot/records/milk_cvd.json": {
+   "sha256": "1c5f13dae60be847a814f66588e9569b111f663731ee1f006e086fd1689d8e78",
+   "bytes": 178255
+  },
+  "data/protocol_snapshot/records/multivitamin_cancer.json": {
+   "sha256": "44204ff0ae43abdb4cce4eb8ecde5214d5096910ab965de043f8bb71c5832c5a",
+   "bytes": 89935
+  },
+  "data/protocol_snapshot/records/multivitamin_cognition.json": {
+   "sha256": "f2a6e5194c34a86585c1257f0e9c4a79790ef5275fb2f6d265081f58cfd6389c",
+   "bytes": 41683
+  },
+  "data/protocol_snapshot/records/multivitamin_mortality.json": {
+   "sha256": "335ffb6bcbb9abc3dd3d94eac86209a3d519ec31da84e2966065e74d8e5b90b8",
+   "bytes": 52176
+  },
+  "data/protocol_snapshot/records/niacin_cvd.json": {
+   "sha256": "6a01a09dafcad4acd6a84c1bc71ea459730e3154779a91401031a2493987132e",
+   "bytes": 122061
+  },
+  "data/protocol_snapshot/records/niacin_deficiency_pellagra.json": {
+   "sha256": "9abbfaf7b2ac3c6794b416d465f2bad3fdc6ae41d7a659bd4fbf2b41ccd67cd7",
+   "bytes": 16622
+  },
+  "data/protocol_snapshot/records/nuts_cvd.json": {
+   "sha256": "da2f5961adcab457579caaf2d3de6790c4c8a849fd8355b5a348711d2a0f5cea",
+   "bytes": 158678
+  },
+  "data/protocol_snapshot/records/nuts_ldl_cholesterol.json": {
+   "sha256": "562166157df7a72220153cdd5bc0e4210bacda0f25b086ff1a9baddc6bf1a0c9",
+   "bytes": 177591
+  },
+  "data/protocol_snapshot/records/obesity_colorectal_cancer.json": {
+   "sha256": "f5bd4c986cf5410af9ec9f39c69778c478a8c1c01b4615ead13ce73be55f37b0",
+   "bytes": 581111
+  },
+  "data/protocol_snapshot/records/obesity_endometrial_cancer.json": {
+   "sha256": "c1ea5221ea07239bcbd71b6a68c6b499923bd30e4edf70d5fd2b8651ae9dfe0d",
+   "bytes": 293889
+  },
+  "data/protocol_snapshot/records/obesity_esophageal_adenocarcinoma.json": {
+   "sha256": "45bb94b1a09a8c64ef8785696e9b2a65d9d4239216e5148c77c45da413937bbc",
+   "bytes": 156315
+  },
+  "data/protocol_snapshot/records/obesity_kidney_cancer.json": {
+   "sha256": "0f932b7bb34f6a3fe594ad96fe74e179ab0d3962ef520e02fbbe499ed6ac3c04",
+   "bytes": 134809
+  },
+  "data/protocol_snapshot/records/obesity_pancreatic_cancer.json": {
+   "sha256": "7ecfa2093a428096ea71220c23ab7ade7a5520d29479eabd3a3663c2a4f77cff",
+   "bytes": 183443
+  },
+  "data/protocol_snapshot/records/obesity_postmenopausal_breast_cancer.json": {
+   "sha256": "d6691ddcbec23a09e348d0709f186fbb6d44bf8eaaa480f4fa034ead42a2b945",
+   "bytes": 333064
+  },
+  "data/protocol_snapshot/records/obesity_type2_diabetes.json": {
+   "sha256": "b84c369acbcb3ff50ace3e7f8b6345f45defd083dfb7c85cd620a5ce6d588586",
+   "bytes": 171335
+  },
+  "data/protocol_snapshot/records/olive_oil_cvd.json": {
+   "sha256": "359c34453cd250e388d600e0f11d625d2776a12fdaa122d33823ad447e3737a5",
+   "bytes": 131984
+  },
+  "data/protocol_snapshot/records/omega3_cancer.json": {
+   "sha256": "ad366cf09cc43326dff29130f28fc3625b5884306dc7f9340ebbb3dfbcb31c6f",
+   "bytes": 19685
+  },
+  "data/protocol_snapshot/records/omega3_cognition.json": {
+   "sha256": "ccd60d763332214dd4002e64d6a7e2fed6ce7e0f223e814c2bc1f7a005cd7fe5",
+   "bytes": 188951
+  },
+  "data/protocol_snapshot/records/omega3_cvd.json": {
+   "sha256": "1dbf68682537c84aacfbf1a0583cbd3dcb7337ec56f68c0f288dd4300e055768",
+   "bytes": 13317
+  },
+  "data/protocol_snapshot/records/omega3_dry_eye.json": {
+   "sha256": "77995454b28c6a7d7d0b95e2a79f945170d57762a80d60f0020bca313589ad43",
+   "bytes": 269272
+  },
+  "data/protocol_snapshot/records/omega3_triglycerides.json": {
+   "sha256": "37b05e277b63937ea3a303b20cbaaa4e5c929054757c636432320039a3c96ecf",
+   "bytes": 14183
+  },
+  "data/protocol_snapshot/records/oral_iron_hemoglobin_response.json": {
+   "sha256": "c4f3e08f4d96a6443b540b11bd468fd9a4f505f898270f49cc01aa678c72fa18",
+   "bytes": 130322
+  },
+  "data/protocol_snapshot/records/peanut_early_introduction_allergy_prevention.json": {
+   "sha256": "e17e70d89d84bb49573f57b3907eb56ea0fa60f8c65f6fb8d5c82435bb01f65a",
+   "bytes": 53609
+  },
+  "data/protocol_snapshot/records/physical_activity_colon_cancer.json": {
+   "sha256": "5160534036b3a1c3e1546e4f2b0f09ed58dca409b6bf26ac84eab6203939101e",
+   "bytes": 176970
+  },
+  "data/protocol_snapshot/records/physical_activity_endometrial_cancer.json": {
+   "sha256": "ea61c402784b68c033637a592c9c6d819387f75a1dba5d7b6dc64ce081a961cd",
+   "bytes": 41048
+  },
+  "data/protocol_snapshot/records/physical_activity_postmenopausal_breast_cancer.json": {
+   "sha256": "7195a7f3c15e9cf9eadcd3d576e76c5cb692c8e50d0a3b6fe1f38e43aa9a71a4",
+   "bytes": 177387
+  },
+  "data/protocol_snapshot/records/plant_based_diet_bone_fracture.json": {
+   "sha256": "f3d81a2634242ec94bbd9717da8ef0c7af87e814549aff6a3eadac0da86400d5",
+   "bytes": 21135
+  },
+  "data/protocol_snapshot/records/plant_based_diet_cancer.json": {
+   "sha256": "73cec633fb076139d7cf2610f74feb44c655afa40e49540bb7b6b6275a580c16",
+   "bytes": 60669
+  },
+  "data/protocol_snapshot/records/plant_sterols_ldl_cholesterol.json": {
+   "sha256": "a3a724c507837649f56ebdeb237b06165653c6fcafd47c7bbc75720c2f6a8cdf",
+   "bytes": 191025
+  },
+  "data/protocol_snapshot/records/prebiotics_obesity.json": {
+   "sha256": "5331ac44b5679429e330d5a55f8c7780976627940441bd68c8f340d7784a7c23",
+   "bytes": 261946
+  },
+  "data/protocol_snapshot/records/probiotics_antibiotic_associated_diarrhea.json": {
+   "sha256": "4e7023e0eb066a50fa9d2673c95f12065b1f8a1e7d9043d5e385eb31c2040183",
+   "bytes": 124311
+  },
+  "data/protocol_snapshot/records/probiotics_atopic_dermatitis.json": {
+   "sha256": "12fe969360243d0e5e95e510ef5a78a4d13324a29a7a9205d288140a70e158c6",
+   "bytes": 195777
+  },
+  "data/protocol_snapshot/records/probiotics_hypercholesterolemia.json": {
+   "sha256": "63c1f58cbf550c0f7c7280e9f88d76485922a3b226890ad9adc61d25c1ffaeb8",
+   "bytes": 56147
+  },
+  "data/protocol_snapshot/records/probiotics_ibs.json": {
+   "sha256": "31aed0643f5f7d33777c7dc0179f1f1c2167f91cd17623cb5b9ff421c4f45f89",
+   "bytes": 194846
+  },
+  "data/protocol_snapshot/records/probiotics_necrotizing_enterocolitis.json": {
+   "sha256": "970a587925afb41cec9c192a11074926341f2cb97b7d81f6dea9961e0c75c515",
+   "bytes": 180447
+  },
+  "data/protocol_snapshot/records/processed_meat_colorectal_cancer.json": {
+   "sha256": "6c148fa94b4ea000ec0363637581a868a147f8e31d6a9e8bafc6df8a1da8c9c5",
+   "bytes": 28244
+  },
+  "data/protocol_snapshot/records/protein_energy_malnutrition_child_growth.json": {
+   "sha256": "3e68de2737c0e29a147565611b36b386ae38f1657c269597111fb20824856f86",
+   "bytes": 163442
+  },
+  "data/protocol_snapshot/records/red_meat_cancer.json": {
+   "sha256": "3cbf0745ed6f3e1c4edd909589f79dbe058318a6cedd6c126d2b3189da5e7148",
+   "bytes": 173954
+  },
+  "data/protocol_snapshot/records/red_meat_cvd.json": {
+   "sha256": "35c47cb88106ce3d95c61a3a925b5f78a24d5c9c87e884506a14ccb486f835c5",
+   "bytes": 90551
+  },
+  "data/protocol_snapshot/records/red_meat_type2_diabetes.json": {
+   "sha256": "6daf275108267e75b07f48bbe7339fa7f91cbdd31340c59ca01420d4292bd083",
+   "bytes": 72713
+  },
+  "data/protocol_snapshot/records/replacing_saturated_fat_polyunsaturated_fat_cvd.json": {
+   "sha256": "5c490504ec18d4a9933053bb07cd516f19fd920de1583865e5b6a245fb249599",
+   "bytes": 54171
+  },
+  "data/protocol_snapshot/records/selenium_cognition.json": {
+   "sha256": "6b9cd3b2f17b8dcfb4e8f89047162070d465bf6ef6b8765ab3cde34f8ee1352f",
+   "bytes": 30886
+  },
+  "data/protocol_snapshot/records/selenium_cvd.json": {
+   "sha256": "2a3f687853e964d07b0fd4b0432617d2e7bbacf0100c9f16d3f8f58568c3c623",
+   "bytes": 103148
+  },
+  "data/protocol_snapshot/records/selenium_male_fertility.json": {
+   "sha256": "d6f534a0e04eaabe1e3ee8b9122a91ea98b2904496feb138e2a045ce514d77f0",
+   "bytes": 97262
+  },
+  "data/protocol_snapshot/records/selenium_prostate_cancer.json": {
+   "sha256": "90ac1cfdfb3705676ab9ad5972c4c525d83cf304b9688585c888a39d1d571885",
+   "bytes": 131194
+  },
+  "data/protocol_snapshot/records/sodium_bp.json": {
+   "sha256": "da346cd7411f0f3df963000d1d8dc2aa172895643897ec70efa0407cc526bc3c",
+   "bytes": 14183
+  },
+  "data/protocol_snapshot/records/soluble_fiber_ldl_cholesterol.json": {
+   "sha256": "21bb35ab47d3d62b95991c5d509220a68aecfbac705552b94cf73d264bc5283f",
+   "bytes": 71835
+  },
+  "data/protocol_snapshot/records/soy_menopause.json": {
+   "sha256": "367d28de0ae0061e3153f951ae1a5525a17d501d601c1701f7ad69bd14d319db",
+   "bytes": 12739
+  },
+  "data/protocol_snapshot/records/sugar_sweetened_beverages_dental_caries.json": {
+   "sha256": "d3a7fc4f4350e76c829394fd58ecd5cb469f542918cd69843a058b4e3fad1246",
+   "bytes": 38183
+  },
+  "data/protocol_snapshot/records/sugar_sweetened_beverages_type2_diabetes.json": {
+   "sha256": "42bf36461806489ea067d2f86e9e3ae6691f5d09d0ccf6f5b946306f26f68692",
+   "bytes": 76952
+  },
+  "data/protocol_snapshot/records/sugar_sweetened_obesity.json": {
+   "sha256": "f7ab853a5154ce9a7090c3fa7f06f3260652ca321ba622c0546c540389440aff",
+   "bytes": 182416
+  },
+  "data/protocol_snapshot/records/tea_cvd.json": {
+   "sha256": "6f635818e9d02e4151ee900e573a9ce026857afed1591e9702be9af29d42b635",
+   "bytes": 134031
+  },
+  "data/protocol_snapshot/records/thiamin_deficiency_beriberi.json": {
+   "sha256": "79881417d4ecdf718f01f12a8b1b6c5fb161e17c3f0650a5c8bb5154880e99c1",
+   "bytes": 138360
+  },
+  "data/protocol_snapshot/records/time_restricted_eating_circadian_metabolism.json": {
+   "sha256": "7717a5e7190b81c6927165b8fbc4bc8ee5f7f43790e99d96c5206684cd82d20d",
+   "bytes": 199902
+  },
+  "data/protocol_snapshot/records/time_restricted_eating_glycemic_control.json": {
+   "sha256": "14bdd8655d1a4969163ffcc79ae8d46509e8c1b63e603a17a3eada194b46effb",
+   "bytes": 166441
+  },
+  "data/protocol_snapshot/records/time_restricted_eating_obesity.json": {
+   "sha256": "a35f928a4f81a8d00b0de8e17f2b989c23c9343c89ff9f885c7aa430098ca87d",
+   "bytes": 184803
+  },
+  "data/protocol_snapshot/records/trans_fat_cvd.json": {
+   "sha256": "4189e973ab0b974a26aeb228ac90bc1440991d373bf13b5a6f2b220b6e7a2a76",
+   "bytes": 68847
+  },
+  "data/protocol_snapshot/records/trans_fat_ldl_cholesterol.json": {
+   "sha256": "320aa38a3d24919b0872406f331f76458e1050bb89ab33e4455dfd4ac3b404e2",
+   "bytes": 130207
+  },
+  "data/protocol_snapshot/records/ultra_processed_foods_ibd.json": {
+   "sha256": "d144113d0c1330bb5f365f01706480ef51f2b76c0c28f88a40f52fcd002703f2",
+   "bytes": 117587
+  },
+  "data/protocol_snapshot/records/vitamin_a_cancer.json": {
+   "sha256": "0a6ce6752b1898d9c331706eccf8b0c3395da6605008c240d7f7d064a05e6e35",
+   "bytes": 172797
+  },
+  "data/protocol_snapshot/records/vitamin_a_deficiency_night_blindness.json": {
+   "sha256": "3edc47c3dc136a28b613111ca4c2f5172f470e5ea8f0586d78dbd6ef2c941341",
+   "bytes": 100564
+  },
+  "data/protocol_snapshot/records/vitamin_b12_cancer.json": {
+   "sha256": "bb53432cc3eafdb8341a475a5f08f5b81303e33e99ef8586be78ffb04a7112b5",
+   "bytes": 173644
+  },
+  "data/protocol_snapshot/records/vitamin_b12_cognition.json": {
+   "sha256": "cb616d64f6027c75985d09c124ba46d32f96b837d73eb1b30d74f43725d1e318",
+   "bytes": 47278
+  },
+  "data/protocol_snapshot/records/vitamin_b12_dementia.json": {
+   "sha256": "81a836fb56633483167444f0677290d33e03614540b104a6a064332eeaa5493b",
+   "bytes": 122982
+  },
+  "data/protocol_snapshot/records/vitamin_b12_vegan_deficiency_risk.json": {
+   "sha256": "9329dcdd131e66cb73e27a54c138723a422dac00dad01aba169e669dbbadda70",
+   "bytes": 23352
+  },
+  "data/protocol_snapshot/records/vitamin_c_cancer.json": {
+   "sha256": "23e33d828061f045c16dd80adae6b877f6137bca9167d97ac3ebcc7025ab41d9",
+   "bytes": 175755
+  },
+  "data/protocol_snapshot/records/vitamin_c_cognition.json": {
+   "sha256": "94613efbfb7d4c9a5d653413f27d53ac522d9c3ad60a8e7f2ae752b53e4d9f8e",
+   "bytes": 19057
+  },
+  "data/protocol_snapshot/records/vitamin_c_common_cold.json": {
+   "sha256": "3fbe3d2b045518c1646038a8db85fde78e59380ac77ac0ad2f83a56c0e242b22",
+   "bytes": 195058
+  },
+  "data/protocol_snapshot/records/vitamin_c_cvd_prevention.json": {
+   "sha256": "ab9914ccd549d65acfb8a4f453df7990026f974a56d9edf8e6c240860ce7863d",
+   "bytes": 175063
+  },
+  "data/protocol_snapshot/records/vitamin_c_deficiency_scurvy.json": {
+   "sha256": "2d726f7c427a7acf16fddc700889399b80033b9017a6f5d6885759dbaee044e2",
+   "bytes": 143682
+  },
+  "data/protocol_snapshot/records/vitamin_c_nonheme_iron_absorption.json": {
+   "sha256": "4212d3675d26a8b5f00929df79f39049eb4673a4dd71aeda3084d0695c34e47f",
+   "bytes": 175364
+  },
+  "data/protocol_snapshot/records/vitamin_d_deficiency_rickets.json": {
+   "sha256": "f2447e70a7046f6f163340658e422961b8ec33f22aafc603981829e9cb2ed99b",
+   "bytes": 160481
+  },
+  "data/protocol_snapshot/records/vitamin_d_depression.json": {
+   "sha256": "31f595d2a20b5735e5d3f1091c642b48960960fb91255b20abe8b79725403a5d",
+   "bytes": 173630
+  },
+  "data/protocol_snapshot/records/vitamin_d_multiple_sclerosis.json": {
+   "sha256": "04bfcc33cfd09109ae5bc39dc2bf3fd3f49947b6b90d8d99d5c03cbd04fe6458",
+   "bytes": 164847
+  },
+  "data/protocol_snapshot/records/vitamin_d_type2_diabetes.json": {
+   "sha256": "5311d9dc4b9281cd0d360eda120cc98e6a90d967d49cf69423a1458e8db8de54",
+   "bytes": 17364
+  },
+  "data/protocol_snapshot/records/vitamin_d_weight_loss.json": {
+   "sha256": "15f28f63d6ead2fd031eaa98cebbf9866b29eaab2b728adacee621a4b93b392d",
+   "bytes": 173197
+  },
+  "data/protocol_snapshot/records/vitamin_e_alzheimers_progression.json": {
+   "sha256": "d3209c41799696c58393320b1f551b2f014a6ad2a616d4af84caae5bcffc5a58",
+   "bytes": 174446
+  },
+  "data/protocol_snapshot/records/vitamin_e_cognition.json": {
+   "sha256": "6603c2e8ca71e043fb6ea0a78e803ed9ba5441383cc74d0c30d3250e60248399",
+   "bytes": 46332
+  },
+  "data/protocol_snapshot/records/vitamin_e_cvd.json": {
+   "sha256": "d945d76043173cc8b820c3728086901afaf395b9c72caa6dbcab9af3c76946a8",
+   "bytes": 180017
+  },
+  "data/protocol_snapshot/records/vitamin_k_deficiency_bleeding.json": {
+   "sha256": "8ffec84100b70beb4c473f7c5518cb467ca9446d7a6f8f5d99411c5c42567cac",
+   "bytes": 116270
+  },
+  "data/protocol_snapshot/records/vitamin_k_newborn_bleeding_prevention.json": {
+   "sha256": "92a291db2a22110d9f86184f74688b990b8483d628fb026e4d0b24e895edfd77",
+   "bytes": 94248
+  },
+  "data/protocol_snapshot/records/whole_grains_colorectal_cancer.json": {
+   "sha256": "3d58e596fb20a4c8b7b88652fffdb5a1b65f114e42b0ec7dd0855c9de466fa88",
+   "bytes": 24329
+  },
+  "data/protocol_snapshot/records/whole_grains_type2_diabetes.json": {
+   "sha256": "ba3241fab45e955432071670d5d03cfad5f9f49747b9c8c128a886e407d07714",
+   "bytes": 68537
+  },
+  "data/protocol_snapshot/records/yogurt_type2_diabetes.json": {
+   "sha256": "189812f28943f09a7d64ff62a6d2188c79187bba57a52f47a630e6e020193c7c",
+   "bytes": 112597
+  },
+  "data/protocol_snapshot/records/zinc_childhood_diarrhea_duration.json": {
+   "sha256": "58305cca3854d8bbf87f2f2d45d802468af1e981ad7ce145c40b62925d2c610f",
+   "bytes": 530796
+  },
+  "data/protocol_snapshot/records/zinc_common_cold_duration.json": {
+   "sha256": "f32cac55cfd44ff3aa2631b01e7884966b09e45e3370ab79987a11fb6130a326",
+   "bytes": 530789
+  },
+  "data/protocol_snapshot/records/zinc_type2_diabetes.json": {
+   "sha256": "d2e6512e57979043525d0ce48050e02ee0b610fd27bf9db4f27047aa5cab5cac",
+   "bytes": 227703
+  },
+  "data/record_embeddings.npz": {
+   "sha256": "fe851ba8c610c72ea13e86d911058c8a022831c55fca8edbe9d7f4311f89a1c3",
+   "bytes": 136620831
+  },
+  "data/reretrieved_years.json": {
+   "sha256": "2ff5e67444f936d855aa70a750ac9c8c73d85b218acc92d8c5dabb397d49bc46",
+   "bytes": 1394442
+  },
+  "data/units.csv": {
+   "sha256": "38322fd2a0538259664e17317949d54b4b24e31c9e613dbf02cd770b4daaa3aa",
+   "bytes": 39721
+  },
+  "figures/fig4_analytic_vs_simulation.pdf": {
+   "sha256": "e02ce92584fff3e99dd3c20034e92cc90a58c49433260eb87eced68023b7e3e1",
+   "bytes": 33627
+  },
+  "figures/fig5_calendar_cohort.pdf": {
+   "sha256": "1d2d764a6e99503ce930c8ddf44a464d04c38d2ae6d70140f99d74bbdf5ff80e",
+   "bytes": 21048
+  },
+  "figures/fig6_null_audit.pdf": {
+   "sha256": "282dcb88ea9970439f18d8cb364c702b2c4f72eb7b46fef980acfdfea1d7eac4",
+   "bytes": 20647
+  },
+  "figures/nutrifig.pdf": {
+   "sha256": "e7367f5a29337c359bbd1ad0a522c36d073bdcf534993288ba34fef6f679203f",
+   "bytes": 35010
+  },
+  "figures/preview/fig4_analytic_vs_simulation.png": {
+   "sha256": "86216bb37cd8ca8272a3c2914a9276df28f874c11bcf0244ddd0c27d1bc4c63b",
+   "bytes": 81567
+  },
+  "figures/preview/fig5_calendar_cohort.png": {
+   "sha256": "aeb1a2cfb4c71763b28b0fc8fc260ff39d61464f1f852dae2e6fb58bddbdc32b",
+   "bytes": 133134
+  },
+  "figures/preview/fig6_null_audit.png": {
+   "sha256": "810f1cbd8612803ed37ce8bbad6253601f6eec4a4d32faefce3b7a942634241e",
+   "bytes": 80737
+  },
+  "figures/src/nutrifig.tex": {
+   "sha256": "9ff5a8e1bc0cd42fac49938b6ecceba3880951b352f992557a8809c6d60e2c88",
+   "bytes": 8883
+  },
+  "logs/E11_power.log": {
+   "sha256": "fcbeb1029864df761da313216ba8b641d61a082ac2b006242ae81f52edfb216f",
+   "bytes": 8105
+  },
+  "logs/E12_union.log": {
+   "sha256": "c339f7a66fca08e02d1c15f9f34d62cc7ffacce6788c6bc762cfa8e5424e3f40",
+   "bytes": 648
+  },
+  "logs/E13_drift.log": {
+   "sha256": "aff59caa21fda6a349f0b3ed26cbb1afe7face88311bd8d53db0da3b83bb0240",
+   "bytes": 1274
+  },
+  "logs/E13_probe.log": {
+   "sha256": "b67fa0fcf89633ead9f17f90e71a82b94db46ddf0e694f886524a18055bf4000",
+   "bytes": 1025
+  },
+  "logs/E14_figure.log": {
+   "sha256": "30da7e315124bf90573d017bd4ba7345aadf6f0ab4aa02841f78649e17456699",
+   "bytes": 252
+  },
+  "logs/E15_cap.log": {
+   "sha256": "890e8a683e9231127e0cfbe839cd59283cf41bc79a0f55651ebe85a17a07f299",
+   "bytes": 5957
+  },
+  "logs/E17_drift.log": {
+   "sha256": "ba808b42ea176fa7bec8a57df5b7e0e870e08d048346f64828dc2b335cb86b15",
+   "bytes": 1126
+  },
+  "logs/E17_nullC_consensus.log": {
+   "sha256": "3e83923281852e2f4e7952a99e4f50d1cf7022f3337c8af2fc2a9d122b998201",
+   "bytes": 1282
+  },
+  "logs/E17_nullC_primary.log": {
+   "sha256": "db2ecf533bbf4e6577d66fcc55b712e3de61cc168323b7fa786b51a2214b6f5b",
+   "bytes": 1276
+  },
+  "logs/E17_nullC_second.log": {
+   "sha256": "8b201281b94ae7eac78780ec4c1fc3bb2251432d5f860251c1839eef26739e2c",
+   "bytes": 1275
+  },
+  "logs/E18_compare.log": {
+   "sha256": "70e6c3fbd2d97ab11e17842998eaaaa8758e57a747e5a89833ce24007637b51a",
+   "bytes": 1653
+  },
+  "logs/E18_fetch.log": {
+   "sha256": "1c643d786a91de1e6fc5769d38b25091ced039e762f9472d1671bba824392288",
+   "bytes": 684
+  },
+  "logs/E1_coef.log": {
+   "sha256": "6d5b7bf23b14764b650b3bd3f1d465d4765d80e598081b28c766fbe12b7b3ee8",
+   "bytes": 720
+  },
+  "logs/E1_rebuild.log": {
+   "sha256": "7f047d21c1b47de0de96503d37429f1cd62ff84375fdc5f1edbb446d8913b7ea",
+   "bytes": 1330
+  },
+  "logs/E2_null_consensus.log": {
+   "sha256": "2cf9661b68ffe8e126b29146d7e312f8fb389a95c895f5fc30038ec067a08e3d",
+   "bytes": 916
+  },
+  "logs/E2_null_primary.log": {
+   "sha256": "86a76772571de5026461383352bde931a799b6aac623d3134374fa49262d654f",
+   "bytes": 911
+  },
+  "logs/E2_null_second.log": {
+   "sha256": "b0c9abe06dfe167c7ff74c6d8b23272281b60115e0834a012f24714b87fdbe8e",
+   "bytes": 909
+  },
+  "logs/E3_common.log": {
+   "sha256": "2cc26f0bd5efea59f33634f486fb36cc0399c522efda9bdeae306bb0e9c20b0b",
+   "bytes": 2454
+  },
+  "logs/E4_stratum_consensus.log": {
+   "sha256": "924685908ce827a5458cb9fbbcb60eee87101ebee446414f386b8a8dc5746be6",
+   "bytes": 810
+  },
+  "logs/E4_stratum_primary.log": {
+   "sha256": "a1c8ced17d74fdf442c1fc43cf535d99cdb8e3c297521564701d48fe3730437d",
+   "bytes": 1252
+  },
+  "logs/E4_stratum_second.log": {
+   "sha256": "7f95fb352a27283ad735fa031ff6e5c46865819d6dc4b9f121ddc57dc0e3bd98",
+   "bytes": 1261
+  },
+  "logs/E5_decisive.log": {
+   "sha256": "f2bfbcda95923e7a0e7e60f349d78331acd21d025ac922ac6e948e31b494e9db",
+   "bytes": 1562
+  },
+  "logs/E6_accrual.log": {
+   "sha256": "81e066ebe7a537aeb2da2e8a28602b395fd5b2510ec6339bcf319f634f45dfe5",
+   "bytes": 2211
+  },
+  "logs/E7_retrieval.log": {
+   "sha256": "cb61a7dfbb7b4bb8923c7bd01d21fa97e4056d8edbc458b80db7e05bb1988387",
+   "bytes": 7740
+  },
+  "logs/E8_Aprime_gpu0.log": {
+   "sha256": "874ec0d3f5d00c45931d678969aaa7440ae5b76d59c33bde6fb9b1bbc8457c04",
+   "bytes": 1419
+  },
+  "logs/E8_Aprime_gpu1.log": {
+   "sha256": "85356b3a7e5913ebb7e8df785e36cc0f05e5fbd3635f215c0b6e53a5db117b52",
+   "bytes": 1419
+  },
+  "logs/E8_Aprime_gpu2.log": {
+   "sha256": "f011d234136cbafbc2a038a71d4df06289be42053ff36701802e73399424feb5",
+   "bytes": 1419
+  },
+  "logs/E8_Aprime_gpu3.log": {
+   "sha256": "c1066b41003f9d213a5e0ee40c7c913f29f6901b9eaa6b4b9d6655aceae28536",
+   "bytes": 1419
+  },
+  "logs/E8_Aprime_gpu4.log": {
+   "sha256": "93541d559b58caeeb13238272815b8c48d90763c912659b0f0d11dac5bfd4274",
+   "bytes": 1419
+  },
+  "logs/E8_B_gpu0.log": {
+   "sha256": "37b3ac3e9f36345e6e7c57253db7d8b0ab2c41d8a5b1178b52b7f4d2385d0cfe",
+   "bytes": 1409
+  },
+  "logs/E8_B_gpu1.log": {
+   "sha256": "441f96432ba269b44724d1e9e1e02ffb6fcf1aac0816a5903429969b5b59abc2",
+   "bytes": 1409
+  },
+  "logs/E8_B_gpu2.log": {
+   "sha256": "03b93edc7b784d4791e91144571571cf80e8cb1f7bdd3918a513304708af7091",
+   "bytes": 1409
+  },
+  "logs/E8_B_gpu3.log": {
+   "sha256": "0d526c6a795bf200daebd99cd7dc2a6fb98a42405fde93c0b26bff24ef350eb9",
+   "bytes": 1409
+  },
+  "logs/E8_B_gpu4.log": {
+   "sha256": "eb7b3d39b2f20317623a9ebc0caa41e9b205e26c03cf240df38cf9e762017867",
+   "bytes": 1409
+  },
+  "logs/E8_C_gpu0.log": {
+   "sha256": "ed1ec039a052c816c0685baece4a54c05a5b8aa788c5b07eafc045d0052c169e",
+   "bytes": 1508
+  },
+  "logs/E8_C_gpu1.log": {
+   "sha256": "73f7eb03bf28a13e4738c083ff3a160520e2ec445d90896065f409571dce45bd",
+   "bytes": 1508
+  },
+  "logs/E8_C_gpu2.log": {
+   "sha256": "cd38c88b2dcd46c208cd592a1be68ce0eadc9ec99972191a53419ecc522e71fb",
+   "bytes": 1508
+  },
+  "logs/E8_C_gpu3.log": {
+   "sha256": "9bec7c028db3819afdc0810a2a0ba41bdb446d9b5fd308fec119ba1d0fd958a4",
+   "bytes": 1508
+  },
+  "logs/E8_C_gpu4.log": {
+   "sha256": "1b2f0bf9e30ebd6813566907cbe84ed57f3c1adca744bd096d00acb49c072dd1",
+   "bytes": 1508
+  },
+  "logs/E8_D_gpu0.log": {
+   "sha256": "edc9bf638864c25420fb037d097c18ce7379edd597fdc82691b6f5704286d3a0",
+   "bytes": 1508
+  },
+  "logs/E8_D_gpu1.log": {
+   "sha256": "fc1717c03054591d3b4718a527efaabc8b175e8b9aff70effd293eced379a7e7",
+   "bytes": 1508
+  },
+  "logs/E8_D_gpu2.log": {
+   "sha256": "a99e8d974a4897bf758ca26750ac234570aeea114451b959ff96377e9196a974",
+   "bytes": 1508
+  },
+  "logs/E8_D_gpu3.log": {
+   "sha256": "7a3111a99faae00e8a79d2d7ec7b93d02ac6c93dc3c5838eb1749ae658cb259b",
+   "bytes": 1508
+  },
+  "logs/E8_D_gpu4.log": {
+   "sha256": "ef3b134a18e2d22179ca787389da62e5537cdd28861138bea26542df48bcb0c3",
+   "bytes": 1508
+  },
+  "logs/E8_analysis.log": {
+   "sha256": "bcdbbaaa66a3fcabce74ea448d5a3cb2a832d097f423a879ce614babe8b3be6c",
+   "bytes": 5186
+  },
+  "logs/E8_driver.log": {
+   "sha256": "9e3845bc3518838403a721daa5927e1b4c1ed48889ad7b85caa1b8c98e0c4d87",
+   "bytes": 341
+  },
+  "logs/E9_eval.log": {
+   "sha256": "2e9bb4446fea77607c865d38cd9efb6c8cab4df031dca2ea057f389c0e58ba74",
+   "bytes": 9197
+  },
+  "logs/E9_llama70_digest_gpu0.log": {
+   "sha256": "88f66f26c1bcc3eecbb3d3cd219682ca947bb676ff5c0068898f97fc88395ec2",
+   "bytes": 1047
+  },
+  "logs/E9_llama70_digest_gpu1.log": {
+   "sha256": "7609f48c758b6ae65e97aa2ad1e7e025e7597edfa7bf1fd4c0eed19ab65fa57a",
+   "bytes": 1047
+  },
+  "logs/E9_llama70_digest_gpu2.log": {
+   "sha256": "5b55ac179b3d16db5aa6d5e8b2112a321d9b3c81134f2dcfc850fcac9b44fede",
+   "bytes": 1047
+  },
+  "logs/E9_llama70_digest_gpu3.log": {
+   "sha256": "4e66c0b649b422a013b39946f5d6233aebb3a69ccbe7aaa724de18c0d163d7ea",
+   "bytes": 1047
+  },
+  "logs/E9_llama70_digest_gpu4.log": {
+   "sha256": "275b4d90840a736ad9d7ab07d4a40079081cf87aac56d434be8ea811f0a09b83",
+   "bytes": 1047
+  },
+  "logs/E9_llama70_masked_gpu0.log": {
+   "sha256": "12e2de4b913c6246dd85bd1ac286323357e8a1991951ee731c77f6122ac3c5bd",
+   "bytes": 1048
+  },
+  "logs/E9_llama70_masked_gpu1.log": {
+   "sha256": "8291daa85bf07f258611d378f89995b6d3d408d213e567a31ca80ea3e2929d0c",
+   "bytes": 1048
+  },
+  "logs/E9_llama70_masked_gpu2.log": {
+   "sha256": "cad5c5ba4b1b227a501a5c50f71022e6aa83d25f504b3e98ed0bcbd8be75c50b",
+   "bytes": 1048
+  },
+  "logs/E9_llama70_masked_gpu3.log": {
+   "sha256": "2e3cfcb37ae25ce6db7ed69c9f7d5db4cce275a830c36d017af29c500ce17d0f",
+   "bytes": 1048
+  },
+  "logs/E9_llama70_masked_gpu4.log": {
+   "sha256": "590858d7f12c0279ae8ba4663db690588474c173ec08080ed3650b19649ed006",
+   "bytes": 1048
+  },
+  "logs/E9_llama70_text_gpu0.log": {
+   "sha256": "9b86c5929952269d37ad516b55f2b431887fabf2b9445965088eda1c56f707c5",
+   "bytes": 1044
+  },
+  "logs/E9_llama70_text_gpu1.log": {
+   "sha256": "d3bf919c70a1d56375cf141a5972b6976b279c2f13a85b6c250ce833f60e2a9e",
+   "bytes": 1044
+  },
+  "logs/E9_llama70_text_gpu2.log": {
+   "sha256": "3ae3064add74f38d9e16edfbeb65c85757bccbc1fa204fb010029080169174a6",
+   "bytes": 1044
+  },
+  "logs/E9_llama70_text_gpu3.log": {
+   "sha256": "e7ae06bfb231b8bf01764f1f85d81c2274c9847884e7bdc6e0821cd374981831",
+   "bytes": 1044
+  },
+  "logs/E9_llama70_text_gpu4.log": {
+   "sha256": "013894385c494a81e1ec88e5977da14aae4cc5609882cf89a7d5c7295574e93e",
+   "bytes": 1044
+  },
+  "logs/E9_llama_digest.log": {
+   "sha256": "3bfbbbb191157927f46160dab831b3e17984bf7191f0641d817eb5ea00234966",
+   "bytes": 1990
+  },
+  "logs/E9_llama_masked.log": {
+   "sha256": "42b714744896fcafe703daa5522a6b53c205ec59d1e44a707dcfdc3a143e29f2",
+   "bytes": 2007
+  },
+  "logs/E9_llama_text.log": {
+   "sha256": "c99ae2901c6e80eadf50dfe962c6c7e86d6657e2429b8259c41a642aae082e22",
+   "bytes": 2003
+  },
+  "logs/E9_qwen72_digest_gpu0.log": {
+   "sha256": "458ac578bbf26d023e356f4d3533bf6c7e907c63a53ea01029b92b30f9c3fa0e",
+   "bytes": 1296
+  },
+  "logs/E9_qwen72_digest_gpu1.log": {
+   "sha256": "5862d7f891aefa16669ac0f345984ac72683c97e8b6b566b35b5f171cb718456",
+   "bytes": 1296
+  },
+  "logs/E9_qwen72_digest_gpu2.log": {
+   "sha256": "a67664e80a950fc59ab081b6a4b0e08c1be2a2a36e56f4e6ccb758238cbbaa66",
+   "bytes": 1296
+  },
+  "logs/E9_qwen72_digest_gpu3.log": {
+   "sha256": "89c62d4d20306ed2fb3321035da7a8a5312933982c4a22d21b6cb96ea886095b",
+   "bytes": 1296
+  },
+  "logs/E9_qwen72_digest_gpu4.log": {
+   "sha256": "345ebc7bd989f70e8cf5bd805aae79f7cc9965a1c0c70d55349241859a853c4e",
+   "bytes": 1296
+  },
+  "logs/E9_qwen_digest.log": {
+   "sha256": "84b135fdb202c10ebc8a121d5de15e998f9f63241c13ea461ff45b65c076e1d1",
+   "bytes": 2093
+  },
+  "logs/E9_qwen_text.log": {
+   "sha256": "0bd8450f08c9d5a4b78dc4d998b708d5b832ebd501cef26b314e4cf741d1a598",
+   "bytes": 2108
+  },
+  "logs/E9b_embed.log": {
+   "sha256": "f5a0bb93ff0b699ea8fc23081751598a91950fa085a1d5671376dcfe4383941d",
+   "bytes": 320
+  },
+  "logs/E9b_eval.log": {
+   "sha256": "ed3f4b739c4245ee00a75123cd0819a02fab971119e2139505b46daa3304581c",
+   "bytes": 1399
+  },
+  "logs/N1_N3_anchor.log": {
+   "sha256": "7d2a8402a3bdcb90dca70ace4d3aba16bb8bce17f7d6e3761c6c306be3a46613",
+   "bytes": 4063
+  },
+  "logs/N2_N5_branch.log": {
+   "sha256": "0d0626137aa19d2f43a6d720ecd6ab85d44726cc1bc1983806854a18806a989b",
+   "bytes": 3188
+  },
+  "logs/N4_N8.log": {
+   "sha256": "b49c37a1914f681aeed0c2a7824074d6f57332d89dee738c8672e242f1d5d0fb",
+   "bytes": 3582
+  },
+  "logs/N6_wild.log": {
+   "sha256": "d686d1717448c2534b35f9fdf6313d403fffe063230da4d0a97097ca3153d67b",
+   "bytes": 1519
+  },
+  "logs/N7_nullvariants.log": {
+   "sha256": "124fed1e8128d9b85a4915660decb5fc3d2919981ba6ee88aca8ad4fe36e6afd",
+   "bytes": 1624
+  },
+  "logs/R1_agreement.log": {
+   "sha256": "6d8fd976ec0dd8155fe78e27eaf7f4b846205f34af84949af1dab2d08b8f1a73",
+   "bytes": 3995
+  },
+  "logs/R2_grid_consensus.log": {
+   "sha256": "179a264e39fc96057fb83a2dc13a54d4cb78c1dcf8d88e67c6b47b4e678b8412",
+   "bytes": 1629
+  },
+  "logs/R2_grid_second.log": {
+   "sha256": "adf160e98d9ad91f10d8c4a6b3f789f246a262bc8b81430987cb60b0b89fc609",
+   "bytes": 1623
+  },
+  "logs/R3_decomp.log": {
+   "sha256": "a512bc56535c3340a949f4378d0408b3b8029aac42068d5576caa6f2b3b7fbf2",
+   "bytes": 2478
+  },
+  "logs/R5_inference.log": {
+   "sha256": "725599f9fff85593513384743e888b80b4268683fca88ad968cc231f1d819c18",
+   "bytes": 990
+  },
+  "logs/R5b_table23.log": {
+   "sha256": "91b97337545e5c08489f1526fcbb5ba4f185cf3b27527763f922c35f30ca2366",
+   "bytes": 3610
+  },
+  "logs/R5b_table23_refit.log": {
+   "sha256": "a8ff6c1444e28b6eb3bc24d99c68be241ca5345d739c3d5895ffbb4128eff847",
+   "bytes": 3857
+  },
+  "logs/R5c_calendar_refit.log": {
+   "sha256": "3a18e8ee0151fea6f645d8a526d566b046ccefaa4b8634e5054eef2fdd3207e4",
+   "bytes": 895
+  },
+  "logs/R6_incomplete_origins.log": {
+   "sha256": "e0c0fb8729e648f3fd515059d07a7249dc7ee390631c10f87167488e145fa62f",
+   "bytes": 2527
+  },
+  "logs/R7_table31_paired.log": {
+   "sha256": "371a07b46de4806201d50bf5393a6f0b1bdb96e357dcf5562250dead71a611fb",
+   "bytes": 1889
+  },
+  "logs/R8_nullD_audit.log": {
+   "sha256": "1ad2759b4dbedb37999cdade597de237aae501968ef8500ff84de1916d468289",
+   "bytes": 2113
+  },
+  "logs/cell_origprompt_analysis.log": {
+   "sha256": "861c3eaf7ce544ec129493f691702640f5b8c06e7ac1cfd7788e30f138024630",
+   "bytes": 4052
+  },
+  "logs/cpu_suite.log": {
+   "sha256": "ffc4300f036927d229f1bf6912712c596b0128363485ce39b849733ebc438c68",
+   "bytes": 174
+  },
+  "logs/fetch_llama70b.log": {
+   "sha256": "82a6aa53ecca9cbc9622d8aaa1ccf797a887ab3bd955bc3cf699688c26a28d07",
+   "bytes": 554
+  },
+  "logs/finalise.log": {
+   "sha256": "b2cbcf6791ddecc59e8d0c1484ba3115f9c15b50dc4648ca4ba0ada2fc788dfe",
+   "bytes": 249
+  },
+  "logs/finalize_guide.log": {
+   "sha256": "9e6928ff9eb5ed04c1e8faedcf5beb04cbd88f56e749e4e3e1dbd52e45c930e1",
+   "bytes": 397
+  },
+  "logs/finalize_plan.log": {
+   "sha256": "640c8784b2864c87800addd97f1691d98fd6a4dead166b0ea20a75993ddea75a",
+   "bytes": 336
+  },
+  "logs/finalize_plan2.log": {
+   "sha256": "3373783faedf5f6ca2c59a28dc59cee17c36860a93ad74c6f4d8a27dd5664e49",
+   "bytes": 115
+  },
+  "logs/gpu_queue.log": {
+   "sha256": "9f2ea26f6db01902153c06e75b13e01896d274aec51a6add5bfc2f939f9ad876",
+   "bytes": 209
+  },
+  "logs/guide_checks.log": {
+   "sha256": "898c80129e27c09310ba4cc1f7769bb98a3e40dcfc223bf885a9ba96d29289dc",
+   "bytes": 5024
+  },
+  "logs/guide_endpoint_contract.log": {
+   "sha256": "d9d30a020cbb5822f8d7158bd220e6987f9fba97030d38a791c700279128267f",
+   "bytes": 1280
+  },
+  "logs/guide_recalibrated_order.log": {
+   "sha256": "e44969535d5285ef5626ff8a5fecd861103f0e4f55b1e4a887b6a1493d03c0ff",
+   "bytes": 748
+  },
+  "logs/guide_smoke_test.log": {
+   "sha256": "f9e8994bb2e47801ea7ff5fe4cf59a09d5e9432353e3bac2b75408660b9b8c4e",
+   "bytes": 737
+  },
+  "logs/issue1_stationary_baselines.log": {
+   "sha256": "36f2d9f0da76b079a43b31cfd9a905f50404d315343034070c580af6aeee57f1",
+   "bytes": 2120
+  },
+  "logs/issue2_temporal_offset.log": {
+   "sha256": "223697ade50d71c0c964d4ec6060b50fdef8b091b3268994d91db5894cf9558e",
+   "bytes": 1793
+  },
+  "logs/issue3_sign_invariant.log": {
+   "sha256": "d2156fec26978b15f97be025478294171d2c06e2554786964e0f7c45e20bffb1",
+   "bytes": 1119
+  },
+  "logs/issue4_full_metrics.log": {
+   "sha256": "da82fc85c6c45af5335f13106474ac5ac7210694409d03f0a0b62ec572f2d091",
+   "bytes": 13177
+  },
+  "logs/issue5_origin_cohort.log": {
+   "sha256": "0388095b5490cf4b0cc3dc3f317a3146491ed6453a3d7b688ed2a50bd0661827",
+   "bytes": 40970
+  },
+  "logs/issue6_extractor_agreement.log": {
+   "sha256": "d650c988c058583784ac2ae92c51690929a6000d57e39681860566f9d39bbad4",
+   "bytes": 7010
+  },
+  "logs/issue9_validation_addendum.log": {
+   "sha256": "854871263e13fdeeed22fd2e7242cfd68c4500a2613b598f6efec31b220705d6",
+   "bytes": 815
+  },
+  "logs/make_calendar_figure.log": {
+   "sha256": "8221ac66be71558c921fb44cfb66f7997699aea754d917763882d6d9eddc836e",
+   "bytes": 5
+  },
+  "logs/mpl/fontlist-v390.json": {
+   "sha256": "3dce392f83b9cf4bb0d9d23309b43ce9c459f80a990a3d35bafb2bd253544f18",
+   "bytes": 30531
+  },
+  "logs/post70b.log": {
+   "sha256": "3c27495f95280c8e99a24031bf105ef308ef68089aa8086e83badcacf04a03ca",
+   "bytes": 99
+  },
+  "logs/reextract_orig_shard0.log": {
+   "sha256": "6e7d90ec9e8f58ef02e3babab39eb749958bbfbb51fe424cbc3975b2cfac62e9",
+   "bytes": 2594
+  },
+  "logs/reextract_orig_shard1.log": {
+   "sha256": "fc543301dbfa0353c3fed8179a1f06b8906b0db590d8edb47e335c032256f8b7",
+   "bytes": 2594
+  },
+  "logs/reextract_orig_shard2.log": {
+   "sha256": "b5c8c6205e39ceda546fdd9413326cc3b75eb523c05799e20f9cd018b33da5eb",
+   "bytes": 2594
+  },
+  "logs/reextract_orig_shard3.log": {
+   "sha256": "f08c7736b3bf32e554baf37826e4ef3ef85a6913307e87e16a8595cb39342491",
+   "bytes": 2594
+  },
+  "logs/reextract_orig_shard4.log": {
+   "sha256": "9453389c8a8469c69412e4012c9d408402e571827849e938f72db6d635c2ba7b",
+   "bytes": 2594
+  },
+  "logs/reextract_shard0.log": {
+   "sha256": "490922b46c82cd36306319ac4366cac722d49ee644894d19b3c04e20caf192ca",
+   "bytes": 3742
+  },
+  "logs/reextract_shard1.log": {
+   "sha256": "88c0554b747f91f5781a222a1d15afa828326e645d21ba2bacde58905aacd0f5",
+   "bytes": 3742
+  },
+  "logs/reextract_shard2.log": {
+   "sha256": "0cb754e98f8574219c6aec71c1b657ce3c68f1d1dbd085528b3b16beb280be3b",
+   "bytes": 3742
+  },
+  "logs/report.log": {
+   "sha256": "a3bc91de5908adc810bb1650c42309a3fda2810c34284a3db302fea3ccc883d8",
+   "bytes": 22614
+  },
+  "logs/reretrieve.log": {
+   "sha256": "bd60426643a9135aa880f757b2a63648504017712151800f475884cc85017f5b",
+   "bytes": 17648
+  },
+  "logs/run_70b.log": {
+   "sha256": "00fa7915bafa5c0c22c1dcc08499d3ef1324eae6d247a2dca60f02e272a77acc",
+   "bytes": 1372
+  },
+  "paper/NutriTURN.pdf": {
+   "sha256": "5cb853d97fee1d4956640faa63432a1aa0f08bae833d01d1b001fd1f0e460f3e",
+   "bytes": 803803
+  },
+  "paper/NutriTURN.tex": {
+   "sha256": "b244c2852fa8d9da209e4dc42414eaa0c8ba8e09463b555b50ab6621ad74c35d",
+   "bytes": 237391
+  },
+  "requirements.txt": {
+   "sha256": "ce98f39ade4eaee4d5686c1b243267907f7cd6a9bae3cb6e0e1f19b8982426d3",
+   "bytes": 695
+  },
+  "results/E11_power.json": {
+   "sha256": "f81a96ca143b5b7fec2c3e729066e8b5d2494b20959ac87b79988a041408b74c",
+   "bytes": 26489
+  },
+  "results/E12_matched_nonevents.csv": {
+   "sha256": "97a9cf96920faaf2ce65a1d07696b0cf8b578a829a64f6684a0bc500ef8d272c",
+   "bytes": 1977
+  },
+  "results/E12_union_events.csv": {
+   "sha256": "543244146d727a46231798ccbc8351433e1e76ba54bc508df278d7ade79968ec",
+   "bytes": 5720
+  },
+  "results/E13_drift.json": {
+   "sha256": "a61c9498dc2f0f09206735d1f69e2f3bb4d93c5bbc57b8b03a644155c7dcfc48",
+   "bytes": 2699
+  },
+  "results/E13_probe.json": {
+   "sha256": "aad2a8ee35af3f0c37f101a0f3024e930a657bb130223cbc7edd19313a20fe79",
+   "bytes": 334
+  },
+  "results/E13_probe_records.csv": {
+   "sha256": "83c84772282e974eec9885a3f5708450a36de8df953e375e943e0cffb3f3959b",
+   "bytes": 116857
+  },
+  "results/E15_cap_census.csv": {
+   "sha256": "525b383f2c0d3b08901b1c6aa17a6add5eade6764d637be6ae8e3f403a6ccf52",
+   "bytes": 9355
+  },
+  "results/E15_cap_sensitivity.json": {
+   "sha256": "e04376cbacfc8950c6fd3d0336ac4627abceebb211787ed7317a43b6b45bead4",
+   "bytes": 19324
+  },
+  "results/E17_drift_within.json": {
+   "sha256": "e4a173d9d18b03b847c3e717a30a3848c9d8533bbfff54d528df84c3fa60ae18",
+   "bytes": 1362
+  },
+  "results/E18_cap_years.csv": {
+   "sha256": "f0a345c8be9491cb5cd936c3d8e9db4313c4365ee2c7888fedd3adab4adb9cf5",
+   "bytes": 3399
+  },
+  "results/E18_cap_years.json": {
+   "sha256": "b17b74fa2cdff7261514efb6f5dc7632ac770f15704bc7bceab62ebafbc51637",
+   "bytes": 16658
+  },
+  "results/E1_coef.json": {
+   "sha256": "e93a591ea03b388e23fbcd2ae5502610ab9186cca9cbc166cc538cad625e6255",
+   "bytes": 1340
+  },
+  "results/E1_rebuild.json": {
+   "sha256": "9c414bb3287b4da501533bfb48dca869ed92f9909ee02bd6230467615af7f93f",
+   "bytes": 1707
+  },
+  "results/E2_draws_consensus_A.npz": {
+   "sha256": "ae8fa60bd8992ba18d0941c34b7cc76077024bd527c5989ab5d152b1824b9c73",
+   "bytes": 23717
+  },
+  "results/E2_draws_consensus_B.npz": {
+   "sha256": "8cc41b7638382d1d43de68e793ddb2739464d901705549eeccc8416050b2cd32",
+   "bytes": 24005
+  },
+  "results/E2_draws_consensus_C.npz": {
+   "sha256": "95b14561f060d3a857e8d27772cbe7fbcb14ad91ab42ae4d7f3458211d9f841a",
+   "bytes": 23104
+  },
+  "results/E2_draws_consensus_C20.npz": {
+   "sha256": "09e1b9ea7ccf76ea1cad150362d4b83aa819ff3a1154143a6f06732a7535dd10",
+   "bytes": 23180
+  },
+  "results/E2_draws_consensus_C5.npz": {
+   "sha256": "174624487eaba18b7b9aae540633b14e3cb3b4871a87e6a85e48cd172df6f58c",
+   "bytes": 22785
+  },
+  "results/E2_draws_consensus_Cs.npz": {
+   "sha256": "04c94bb6f76d8b014c49595933f200715f95ef08df5e012381465dbc329ce016",
+   "bytes": 22827
+  },
+  "results/E2_draws_primary_A.npz": {
+   "sha256": "3172c3cf5d116b4f3b39ed286d0c751abf6d19c5944a9e4d62a4446affb6501f",
+   "bytes": 23428
+  },
+  "results/E2_draws_primary_B.npz": {
+   "sha256": "18aadb36e90fec53e197224b1a48171dc4ec17662b8cf917b2096be2799b65c0",
+   "bytes": 23662
+  },
+  "results/E2_draws_primary_C.npz": {
+   "sha256": "c43d47958231f365e3fd333bcf41693083106feaabde8612fafcbcd7ace9be0e",
+   "bytes": 22895
+  },
+  "results/E2_draws_primary_C20.npz": {
+   "sha256": "ad3e32afb9dcbf46c10d9b566fc7021c4466a824412010ae147ddef8c6ceece7",
+   "bytes": 23204
+  },
+  "results/E2_draws_primary_C5.npz": {
+   "sha256": "612a0b518c6c4292ecc9626b9d80c6fcdb35f6bbc5b38aa4e8e1c83ec341faa0",
+   "bytes": 22432
+  },
+  "results/E2_draws_primary_Cs.npz": {
+   "sha256": "842ea48d7cf17f94fd30fd33f4b5d625d14f430e58902049750271539239aef1",
+   "bytes": 22741
+  },
+  "results/E2_draws_primary_D.npz": {
+   "sha256": "9286591fa702a313b20bbad983e0b30313c06bc5779c1fe372449000e6558403",
+   "bytes": 23923
+  },
+  "results/E2_draws_second_A.npz": {
+   "sha256": "d1879ee5e0e1100feb256aa6febef97cbe071f3755e0be4b2b234de4988daecb",
+   "bytes": 23674
+  },
+  "results/E2_draws_second_B.npz": {
+   "sha256": "8aa748b04448a8a80458a05d8ac9b00930b04e154ec04c78c2d654efee36f240",
+   "bytes": 23955
+  },
+  "results/E2_draws_second_C.npz": {
+   "sha256": "710a5f0dc284346807ce6ca95f89b18f8e5c57e1f95166ef674be913b3dc12c7",
+   "bytes": 22752
+  },
+  "results/E2_draws_second_C20.npz": {
+   "sha256": "a541c88f26549734b71699b5b27317a1c89b706371387afb3ed227df99c176b4",
+   "bytes": 23080
+  },
+  "results/E2_draws_second_C5.npz": {
+   "sha256": "0a113ff7ffe27c1e8566f1ae5fc24124f810534727a0f8c0a715f3d7c782b61a",
+   "bytes": 22318
+  },
+  "results/E2_draws_second_Cs.npz": {
+   "sha256": "81a0016a4c686480a4b16512a55f561775d933de1ab137e413286069c7b4fe0d",
+   "bytes": 22760
+  },
+  "results/E2_null_consensus.json": {
+   "sha256": "055b7669719672e0c199a88f80cc5f479d656effba3bd84a1dcf75ded11d269e",
+   "bytes": 2754
+  },
+  "results/E2_null_primary.json": {
+   "sha256": "83a7788521e8ae8330ae246b77d2c258614d34764b58d5fdafddb0d0203fbbd8",
+   "bytes": 4642
+  },
+  "results/E2_null_second.json": {
+   "sha256": "0e71f7a82a0e407fe9a47d2721cb05bf6ea10c1904770ba10d4b63d35165cb9a",
+   "bytes": 2753
+  },
+  "results/E3_common_support.csv": {
+   "sha256": "e820ec81dd91c3e6cdb376cd789f7b742fc1ba0365a96c527463edc61c844451",
+   "bytes": 4291
+  },
+  "results/E3_common_support.json": {
+   "sha256": "89da47824fa97dc14f620293d2f5a0f81a64040c51e5f3dd86bd3b073575fb40",
+   "bytes": 8609
+  },
+  "results/E4_stratum_consensus.json": {
+   "sha256": "1ba1a57d3ef9ce8a4f2aa8d12db12e3eb2b041ae998130c0ae67cddb5674bc1f",
+   "bytes": 1224
+  },
+  "results/E4_stratum_primary.json": {
+   "sha256": "d3fc32aed0d1c93d70cea869cc94cccdd8ca5832e5a25c8e3ef8c7291711d727",
+   "bytes": 2294
+  },
+  "results/E4_stratum_second.json": {
+   "sha256": "5354f744b7a40fbaec8935aad52dc8179af93e8024d3d55d5000a46ecdb44438",
+   "bytes": 2270
+  },
+  "results/E5_decisive.csv": {
+   "sha256": "331770b0d3593461c020d5c8d383909cf772daef004ed42bc6a05ccfcc766c0b",
+   "bytes": 3340
+  },
+  "results/E5_decisive.json": {
+   "sha256": "bfadacfbf90c8c6ef5f7cf2edfab7da269421ba5edb7fbf23ccead0c23a8c504",
+   "bytes": 6906
+  },
+  "results/E6_accrual.json": {
+   "sha256": "e077963e1d1a7246e934eb59b7934da8ffdc1ee7e528f2a63e21c9521f154716",
+   "bytes": 3664
+  },
+  "results/E7_per_claim_audit.csv": {
+   "sha256": "4641a8ba7ffcb97bfa535a515a96471494bd5ee5f23f8677ab264e560b43a7cb",
+   "bytes": 35611
+  },
+  "results/E7_retrieval.json": {
+   "sha256": "7b9c3258161c95420fbc2c290ebeb1ead9176507b8d590d7187c9204825445d5",
+   "bytes": 8144
+  },
+  "results/E8_controlled_annotation.json": {
+   "sha256": "0d689354250da16344e5b9338978c79fe1d7d03ab1ce2de5e891c9107cd4d2a1",
+   "bytes": 10810
+  },
+  "results/E8_partial_dryrun.json.bak": {
+   "sha256": "665461ee5d672d21a625e1badfe23dfcffd6319d4ba42889f87d4174311e5d2a",
+   "bytes": 4402
+  },
+  "results/E9a_E10_llm_forecasters.json": {
+   "sha256": "27fa2ff1f44c00cd7f1b4b05d8bdff694b4afa876c0860da0de3b109a7e56cee",
+   "bytes": 26775
+  },
+  "results/E9b_embeddings.json": {
+   "sha256": "490c974df356a124dd40e1917e3dab3fe1b004872410c2fe1ecb5c84a785b487",
+   "bytes": 3012
+  },
+  "results/N1_N3_anchor.json": {
+   "sha256": "8c6d3c020f69d1afdbeba5681231a33ebf950c3ec3b8cd64f3f175cb9aefba2a",
+   "bytes": 6352
+  },
+  "results/N2_N5_branch_class.json": {
+   "sha256": "80ffa954e94ab4c16158ec2e793716c80ff35cb3440a7ceeeb3195de216bb822",
+   "bytes": 8228
+  },
+  "results/N4_N8_reversals_coef.json": {
+   "sha256": "5fb696829d7e3520bd7ae66cb616270cee7156292bc553c17136d3c4726f1817",
+   "bytes": 6716
+  },
+  "results/N4_eligible_cutoffs.json": {
+   "sha256": "a4d8a91f0c982d9947dd1090aefd393468528511b11daacbed4f83f2e2c73a07",
+   "bytes": 1732
+  },
+  "results/N6_wild_bootstrap.json": {
+   "sha256": "8dc3fb935a087fedbfe28f9dd040228509fa1c12248a3530cedef3455a90d751",
+   "bytes": 4183
+  },
+  "results/N7_null_variants.json": {
+   "sha256": "ad6e689b3a369be51641bbecb27566ad39344245458dbc3286177cf3dd8ba8b6",
+   "bytes": 2552
+  },
+  "results/R1_agreement_branch.json": {
+   "sha256": "d7283c82d7499867bb2a3393e16bea205cebe72cae26c54374b63dbe5a80042f",
+   "bytes": 17864
+  },
+  "results/R2_invariance_units_primary_C10.csv": {
+   "sha256": "9b77ebfd14b308d4193b626fa39a4ba764257c858be3053d34b0da9fed80b8c8",
+   "bytes": 48300
+  },
+  "results/R2_nullc_invariance.json": {
+   "sha256": "9e463a4b310ffbd6b0146fa1147a7359073731869245b75bc151b53d3410cb6f",
+   "bytes": 3252
+  },
+  "results/R3_pair_decomposition.json": {
+   "sha256": "ac1bb8f98c4d6b3a45dc42797aa458c4e477a61594e1f52528fd1e8ad671f2cc",
+   "bytes": 5627
+  },
+  "results/R4_anchor_extended.json": {
+   "sha256": "fd2c63d8fd5e1ed3eca1f8eaa54a5a04f6f65b4722b0b70ddcd60bb9c67b3040",
+   "bytes": 2413
+  },
+  "results/R4b_anchor_slope_differences.json": {
+   "sha256": "b50781e12fa41b00b9259f55519accd36ea0a3a159d19420967fa7893981c3b3",
+   "bytes": 464
+  },
+  "results/R4c_pivotal_sources.json": {
+   "sha256": "0a501b19309a0dec70d33a97284c310a9d3693caafb0ecfe434d54b870ebdd37",
+   "bytes": 2770
+  },
+  "results/R5_inference.json": {
+   "sha256": "7ba32824a25926dd29fbaec00d4e9a0cd390a10a686da85ed881574ec315b115",
+   "bytes": 2715
+  },
+  "results/R5b_table23.json": {
+   "sha256": "2e873531839e99e8f18baffc27d9cbb47a7cddc814956535dba62c87365a8f03",
+   "bytes": 6868
+  },
+  "results/R5c_calendar_refit.json": {
+   "sha256": "47191f2195722026b5b9a38ab0b88dd845e1d632ebf60bf56bd1dfa885902657",
+   "bytes": 899
+  },
+  "results/R6_incomplete_origins.json": {
+   "sha256": "246adc994daddd5e0efb942b3dfbb899cb23723ce4253e4e5223caee9f37dfa3",
+   "bytes": 3262
+  },
+  "results/R6_query_unconfirmed_manifest.csv": {
+   "sha256": "6a05a281003de2938d05f50aac28ff7baf376ef9ed65d2ca83b114e5a38aa3da",
+   "bytes": 4713
+  },
+  "results/R6_table_numbers.json": {
+   "sha256": "ba58205744cb29f67bf5a4816a60ae7b7c939fafd45f244bc34a820eae2d4716",
+   "bytes": 3641
+  },
+  "results/R8_nullD_audit.json": {
+   "sha256": "1844e6ab1ba0f06a4fa4f56e764b92d48fd26b16c237ec50d64bafbd5183e762",
+   "bytes": 43989
+  },
+  "results/REPORT.md": {
+   "sha256": "536aa24180fbcc5c8d973b9659b1d127ef578d87789639b1ab4f4635cf2365b1",
+   "bytes": 36736
+  },
+  "results/agreement_sensitivity.json": {
+   "sha256": "dc2f5ed9dfb6f75e10920ff3f428999c91a0a52e4086c37854feb0fcde4fc3f9",
+   "bytes": 13377
+  },
+  "results/agreement_v2/scores_two_var.npy": {
+   "sha256": "ecd95db9652cf49e9121505da225a53ef7bfc2ef80fb6891db102b9f3c1f22cd",
+   "bytes": 32512
+  },
+  "results/calendar_forward/feasibility_by_origin.csv": {
+   "sha256": "1b382aacc4ec58401f5dbf5236f2ea10900e19bf6208e07c6cb31c095069297a",
+   "bytes": 3847
+  },
+  "results/calendar_forward_results.json": {
+   "sha256": "1e7d28e1c378b05a2510477674b2020bd65873ba37fae4cf73a02d41ab2bd7f7",
+   "bytes": 24545
+  },
+  "results/cumulative_endpoint_results.json": {
+   "sha256": "637f99f4a248a136bbff317fc244ddf2b7be5dd0bc497fab9d4f9c393bcb9715",
+   "bytes": 29526
+  },
+  "results/guide/cell_origprompt.json": {
+   "sha256": "1086035490e2f08d0cb264e772fa3112da64d8513b6288e1557914058a843fe3",
+   "bytes": 5223
+  },
+  "results/guide/checks.json": {
+   "sha256": "8c8dd405015bd94f83c1f5ae2253aeb8193367c12c8fdcf1f53681a386dd8a98",
+   "bytes": 5373
+  },
+  "results/guide/endpoint_contract.json": {
+   "sha256": "b1058e36d468d214c73b5329c509963ec07669c228c2b605a1177f16a5f0572e",
+   "bytes": 4490
+  },
+  "results/guide/numbers.json": {
+   "sha256": "9b3f1a4b0a94a72684e74f80f1edd9e1a704f1c60ba4a314ee4577bcf20e5160",
+   "bytes": 2888
+  },
+  "results/guide/recalibrated_order.json": {
+   "sha256": "dd4fe295014d423d743d96276e02d4ed257655fc63a5ade5c3290750cfab157c",
+   "bytes": 2772
+  },
+  "results/guide/smoke_test.json": {
+   "sha256": "62074c7a27ff718c712001587ad0bddbcc497f7f34d07ac88bad0bdd4a18bc89",
+   "bytes": 736
+  },
+  "results/guide/snapshot_provenance.json": {
+   "sha256": "5c8223385e64cebbfbeb35f8fd0df677a478d7c91d930a82ed5fee0fb5a0fe52",
+   "bytes": 1150
+  },
+  "results/guide/states_cross_pipeline.json": {
+   "sha256": "45493c027a25681e164259b067ced12db5303fe8d10c369c7e7b172aa57102f5",
+   "bytes": 5959
+  },
+  "results/guide/unit_audit_source.csv": {
+   "sha256": "7031651d41740a1a5d8135cd694b7c100a019e0e7c23e86b3a69aa8a55f234a6",
+   "bytes": 272148
+  },
+  "results/historical_rawsign/guide/checks.json": {
+   "sha256": "e01b0f37ace4102743ee164d77bf19f41ce85aaa2d290385719d45ea95b65a25",
+   "bytes": 5014
+  },
+  "results/historical_rawsign/guide/recalibrated_order.json": {
+   "sha256": "4b14229876e1e70068a51ec7cb1fa537b9bf0767bd814c23d2b6f4709a589cd8",
+   "bytes": 2769
+  },
+  "results/historical_rawsign/issue1/source_scores.csv": {
+   "sha256": "883cd4f3ea67657de6a60ebedaa0020305e9be39ce4a9eab2c919c67c178a51f",
+   "bytes": 150933
+  },
+  "results/historical_rawsign/issue1/stationary_baselines.json": {
+   "sha256": "9b8184b074d562d88be2719c43f9fc1253b5cb09aa066212ba5e4f0697782809",
+   "bytes": 9795
+  },
+  "results/historical_rawsign/issue2/source_scores.csv": {
+   "sha256": "e9095c04d77efbec1665b7c5e2e61acc9a638359ebfb795830f0b15b8423cebb",
+   "bytes": 188791
+  },
+  "results/historical_rawsign/issue2/temporal_offset.json": {
+   "sha256": "25a1bdd1307e5073eddbecadd62dee85dbc3b4af91b38533345fe126ad11c5f6",
+   "bytes": 13094
+  },
+  "results/historical_rawsign/issue4/full_metrics.csv": {
+   "sha256": "00b80566d1596b483e9375792bf0770235353d796329b9a79ea5797b1806d4f7",
+   "bytes": 11188
+  },
+  "results/historical_rawsign/issue4/full_metrics.json": {
+   "sha256": "f1680b73e629f36fbf119a315c3bc5947407ea41907d2dac37f6ae102727fab8",
+   "bytes": 30359
+  },
+  "results/historical_rawsign/issue5/by_origin.csv": {
+   "sha256": "96d071407c59e03d9fd505671778080a8c4fe0bc88e1fa019a1703e480ed71ae",
+   "bytes": 4233
+  },
+  "results/historical_rawsign/issue5/census.csv": {
+   "sha256": "93ae5ab61d5680e7c0c550067676facaae10fb30c13331f63a97b54472512382",
+   "bytes": 1670
+  },
+  "results/historical_rawsign/issue5/origin_cohort.json": {
+   "sha256": "fa32bcf003551b74c8828801137cf0c5fbdde16a1e6d174f63b8d24058247ef8",
+   "bytes": 29545
+  },
+  "results/historical_rawsign/issue5/pooled_scores_H10.csv": {
+   "sha256": "3331d7eb5309a256ba30f4f028b654676495e8fd1ec5ee973c3778fee52e1daa",
+   "bytes": 86166
+  },
+  "results/historical_rawsign/issue5/pooled_scores_H3.csv": {
+   "sha256": "1018e6bc630a98dd35f492b58b30ef04a59fe18a813a20a435b71edec0648443",
+   "bytes": 131971
+  },
+  "results/historical_rawsign/issue5/pooled_scores_H5.csv": {
+   "sha256": "20b00a2da86c1a6b6146b82904545a251ce9ca3473bb312483feafe6351e329e",
+   "bytes": 109608
+  },
+  "results/historical_rawsign/issue6/extractor_agreement.json": {
+   "sha256": "cbb52ccb0f65b588b5c3131bfd79682dd18d51495fd254cf64b72e84a4533e43",
+   "bytes": 5857
+  },
+  "results/issue1/source_scores.csv": {
+   "sha256": "754f8197d1391e82b30208ce0c05be6247ede92066247e4dc2b98394d0684651",
+   "bytes": 187332
+  },
+  "results/issue1/stationary_baselines.json": {
+   "sha256": "9727877a384fadaee35ba4a4e5c884a2b4735572a0fa40727b6243770236349c",
+   "bytes": 12065
+  },
+  "results/issue2/source_scores.csv": {
+   "sha256": "1aeef77532ab1892715b6a28347ae1a414e3cc838399bc8b655ba70aedeecf74",
+   "bytes": 188751
+  },
+  "results/issue2/temporal_offset.json": {
+   "sha256": "5975743004ed2fb6b2303c8d204ba013cf573ac2608e18074b2c7cca45d838de",
+   "bytes": 13076
+  },
+  "results/issue3/sign_invariant.json": {
+   "sha256": "e6313e873118b54d2d2cc4a55f91ef17aafbe1eefd319d76fd52b4b194affee2",
+   "bytes": 8448
+  },
+  "results/issue3/source_scores.csv": {
+   "sha256": "b7bfdc5d0d5069260ed94e91870328c2de019ca2ffee4b7b6e148265e11df1a8",
+   "bytes": 88656
+  },
+  "results/issue4/full_metrics.csv": {
+   "sha256": "3a5fa337ff74ce9c4dbd4cdb97ee6af23096bbb6b23fb729e9e9a9452f61ff1a",
+   "bytes": 11185
+  },
+  "results/issue4/full_metrics.json": {
+   "sha256": "f9d5d1726c9f297c47b83afbff6e27d93d9250835407484774386e29d9bddda7",
+   "bytes": 30356
+  },
+  "results/issue5/by_origin.csv": {
+   "sha256": "96d071407c59e03d9fd505671778080a8c4fe0bc88e1fa019a1703e480ed71ae",
+   "bytes": 4233
+  },
+  "results/issue5/census.csv": {
+   "sha256": "93ae5ab61d5680e7c0c550067676facaae10fb30c13331f63a97b54472512382",
+   "bytes": 1670
+  },
+  "results/issue5/origin_cohort.json": {
+   "sha256": "fa32bcf003551b74c8828801137cf0c5fbdde16a1e6d174f63b8d24058247ef8",
+   "bytes": 29545
+  },
+  "results/issue5/pooled_scores_H10.csv": {
+   "sha256": "37b2b0cb4edb5c974cab4d073fd0cdb6a51020d14ebcddf58a73a6f8c9339783",
+   "bytes": 87976
+  },
+  "results/issue5/pooled_scores_H3.csv": {
+   "sha256": "b6fce892b0dd8f1483557b9dbc4f59fae96c4c9a1143c5dc6e32befad8e75a6b",
+   "bytes": 134810
+  },
+  "results/issue5/pooled_scores_H5.csv": {
+   "sha256": "8a58334d2bf5eb7e0025e94ee824b246a85936339283603d850cc3fd98da2930",
+   "bytes": 111922
+  },
+  "results/issue6/extractor_agreement.json": {
+   "sha256": "00bdcece935fcaa30588874dd25203a8f139c0763d9a653a6dc7b5ed4ed0629c",
+   "bytes": 7756
+  },
+  "results/issue6/unit_scores_consensus.csv": {
+   "sha256": "8b8f4c79de34720e11c95466b895d031a8be7983bd70fcbc9b4eb32a30e70d76",
+   "bytes": 94109
+  },
+  "results/issue6/unit_scores_llama.csv": {
+   "sha256": "f2b94aa5d84797717fb57547a8b71ecf5e437846c8985d95f0f4e5fc9e528b8d",
+   "bytes": 91617
+  },
+  "results/issue6/unit_scores_qwen.csv": {
+   "sha256": "a07de1d05d1de3cc7e7f9ff5becd322aac08fed3ab3803821f9eb19726fe45f5",
+   "bytes": 89312
+  },
+  "results/issue7/DATASET_CARD.md": {
+   "sha256": "84971eb3f7974e6b0dd13609cc990ad63aa023f1e300d5aa8f6223a12971dbe0",
+   "bytes": 2192
+  },
+  "results/issue7/manifest.json": {
+   "sha256": "f0a2841eccfd5d22e82e1a8a622a331d0fab4fcac64d66ee3ebd3b02ace865f0",
+   "bytes": 47082
+  },
+  "results/issue7/version_comparison.csv": {
+   "sha256": "48fff633b4117125e4b8c9fbb93a3c55823cbf291baed0776bd156e3c06d5000",
+   "bytes": 35788
+  },
+  "results/numeric_anchor_v2_metrics.json": {
+   "sha256": "77322be130605085b30181e52338c699998bb48c0b0229ba596e5ceaf0769dbe",
+   "bytes": 21767
+  },
+  "results/orientation_clean_results.json": {
+   "sha256": "fdc3f976ebb241dad63f6fadeb0894185d960813ea09ace54f07fcdb6857a85c",
+   "bytes": 10628
+  },
+  "results/plan/corrected_effect_features.csv": {
+   "sha256": "d8991ed57eac05b90d18f54cbdc8b5411d958c19f73469a14e1b037630a92a3f",
+   "bytes": 96380
+  },
+  "results/plan/effect_typing.json": {
+   "sha256": "bd0d04be5b5810f5795fdde3c0455ae36dcc09c1a7bc92fe4507593ad4ca535c",
+   "bytes": 6226
+  },
+  "results/plan/forward_complete.json": {
+   "sha256": "a57cdd1ced73261d4ca7929042923bbaaf544135cfa5d6d45319d97fcf0bd452",
+   "bytes": 39117
+  },
+  "results/plan/source_explanatory.json": {
+   "sha256": "8a149e9bac4e87cdf889eaf68503abaa1e2bca088543d2f2226ccaefd2221dcb",
+   "bytes": 14276
+  },
+  "results/plan/source_predictions.csv": {
+   "sha256": "e263d5b4a7517ab2669530ae076559518d70725f7aeee3d8e5a743dabdb7e7af",
+   "bytes": 137454
+  },
+  "results/reextraction/qwen25_7b_shard0.jsonl": {
+   "sha256": "2eb1bd6db7bcad0805a72fb5b09c1195f303e844c47d4a647cb6c2ecf0a786fa",
+   "bytes": 12558383
+  },
+  "results/reextraction/qwen25_7b_shard1.jsonl": {
+   "sha256": "c90226dc000330ed02034d485fd73fb17b96277a43af8b15e23f9b5c8bdb9d10",
+   "bytes": 12561906
+  },
+  "results/reextraction/qwen25_7b_shard2.jsonl": {
+   "sha256": "e875d06678945a8aa617013cf585a7702b3ed651543b82ca3c0332dbbd374455",
+   "bytes": 12562554
+  },
+  "results/reextraction_origprompt/qwen25_7b_shard0.jsonl": {
+   "sha256": "a071d9169bbea368e7d074016190b6016a606a99068c2fe2e0886bf7bb4301ba",
+   "bytes": 7543241
+  },
+  "results/reextraction_origprompt/qwen25_7b_shard1.jsonl": {
+   "sha256": "b9c6e93494587389dc7667be244aff72112e5ee4089234dc1eec6cc8f7a0f666",
+   "bytes": 7545696
+  },
+  "results/reextraction_origprompt/qwen25_7b_shard2.jsonl": {
+   "sha256": "80f8014c61b03970b97c7f12f731d2f0b3d0517a0992aeeb1b28aedc1ad879d3",
+   "bytes": 7543759
+  },
+  "results/reextraction_origprompt/qwen25_7b_shard3.jsonl": {
+   "sha256": "af8013b11bfc01c721c2ee0e8691237f6317ea32e0c76109f8e1e054676953ef",
+   "bytes": 7542680
+  },
+  "results/reextraction_origprompt/qwen25_7b_shard4.jsonl": {
+   "sha256": "d3bd562c1193e5fa80eb44dbca57b3ac4f75bf606bffbca7f353d64270f68e16",
+   "bytes": 7541973
+  },
+  "results/snapshot_20260922T060137Z/comparison.csv": {
+   "sha256": "48fff633b4117125e4b8c9fbb93a3c55823cbf291baed0776bd156e3c06d5000",
+   "bytes": 35788
+  },
+  "results/snapshot_20260922T060137Z/queries.jsonl": {
+   "sha256": "38b88fb90c72cc216a82ef12ae9716e669974494f85ad378496f7c6b342b2d13",
+   "bytes": 1908381
+  },
+  "results/snapshot_20260922T060137Z/summary.json": {
+   "sha256": "9efaf07b6567f145dc8f964d74581a8b6e4ad0cd57d761d3fe45d30e19b05cd9",
+   "bytes": 403
+  },
+  "results/stationary_null/null_A_permutation_A_chunk11.json": {
+   "sha256": "517c5513358d93978499443534f690607127b5d4adf2c46e4263471b9c5cf166",
+   "bytes": 60550
+  },
+  "results/stationary_null/null_A_permutation_A_chunk12.json": {
+   "sha256": "d55ec33cc9de17ad192fbaf40bacfe1c33661482f3405a9f9bb5a002babb8f70",
+   "bytes": 60439
+  },
+  "results/stationary_null/null_A_permutation_A_chunk13.json": {
+   "sha256": "eedc703f329419419c4fb796e49fbe471240324af0512a14bddcbbcf9963e85c",
+   "bytes": 60360
+  },
+  "results/stationary_null/null_A_permutation_A_chunk14.json": {
+   "sha256": "fc1dfa77e8df9e60285839d60647b7732d8f30279e6b4fd4e95bd785bf7475ca",
+   "bytes": 60425
+  },
+  "results/stationary_null/null_A_permutation_A_chunk15.json": {
+   "sha256": "92ca30c0d7654254ea275f3a8f6d9942c09408d1d086328241c39dbfbf1a4a01",
+   "bytes": 60589
+  },
+  "results/stationary_null/null_A_permutation_A_chunk16.json": {
+   "sha256": "d9c4c46b8887a35955ecfe3d2303d6774e9d16400d5022c3edf3f5058dadeb74",
+   "bytes": 60483
+  },
+  "results/stationary_null/null_A_permutation_A_chunk17.json": {
+   "sha256": "2651dc8213504b1aa87bdac27ceb77724d3e097c0d5af7cba58cb6deb72d20f7",
+   "bytes": 60327
+  },
+  "results/stationary_null/null_A_permutation_A_chunk18.json": {
+   "sha256": "9431cfcd775bf2f9229e19982279d54bafd7130ee72b4713e8efe1fba616ff83",
+   "bytes": 60225
+  },
+  "results/stationary_null/null_B_simulation_A_chunk11.json": {
+   "sha256": "3f458dcda3b89495a09c6603c2cf6c3c715cec22909405aecdf3b93f7e4314c1",
+   "bytes": 60545
+  },
+  "results/stationary_null/null_B_simulation_A_chunk12.json": {
+   "sha256": "457267c28d050a0be90fce09ebe4041f624849ea7786ed9937c877b7aebf1f70",
+   "bytes": 60518
+  },
+  "results/stationary_null/null_B_simulation_A_chunk13.json": {
+   "sha256": "a28c68b5416ccddabe7fbbdd3457b55dc36fd77d4c7cbae55987b8019788e0d9",
+   "bytes": 60569
+  },
+  "results/stationary_null/null_B_simulation_A_chunk14.json": {
+   "sha256": "e4d3a1af55027bc4643c7f2c4428b91b4815eb15ac48dc0ee204a9cd41db74e4",
+   "bytes": 60475
+  },
+  "results/stationary_null/null_B_simulation_A_chunk15.json": {
+   "sha256": "a8fca9145ac3a2211ff22b222ee506ae9f708684d191b4a3ecd6e63e41f1a172",
+   "bytes": 60444
+  },
+  "results/stationary_null/null_B_simulation_A_chunk16.json": {
+   "sha256": "79ea13c6de95e0c433cac210062ba3224e92ef6234647a745d4cd7ff989cc885",
+   "bytes": 60411
+  },
+  "results/stationary_null/null_B_simulation_A_chunk17.json": {
+   "sha256": "3488026fa2cc99f386401530eff887ef784e6aab791c1fbc171e12fea8b9d4e7",
+   "bytes": 60642
+  },
+  "results/stationary_null/null_B_simulation_A_chunk18.json": {
+   "sha256": "0fd1f42dd7b061c58221f36c1d040aa507f4a1f54f0b091aa7fa2ad08d88c544",
+   "bytes": 60491
+  },
+  "results/stationary_null_results.json": {
+   "sha256": "861af93514126f41142d68a1897b938f3b0683eae506f3ddfd8d94eb7c53ab72",
+   "bytes": 8584
+  },
+  "results/two_variable_source_external.json": {
+   "sha256": "cbf0e9685a4627af97d0c20f5e88031c074a3f8969a529ceaa86eff92c58cb8f",
+   "bytes": 24433
+  },
+  "scripts/build_file_manifest.py": {
+   "sha256": "b57d744892828e0ce4b83d55550ce01e3b5168187d0dfd186f749dca8d594828",
+   "bytes": 2831
+  },
+  "scripts/build_latex_tables_audit.py": {
+   "sha256": "cc66b9c150bb06c499f58eecfcabab209b213dbb8dae9d7ae37bb9383ba00172",
+   "bytes": 7428
+  },
+  "scripts/build_latex_tables_main.py": {
+   "sha256": "f461e6e6b7b864453a60e82428a1692a87875ab0708c4436fb3b24026db1ddd4",
+   "bytes": 33322
+  },
+  "scripts/build_results_report.py": {
+   "sha256": "13e928f0c3fc7a321c9f227aea2db5d85dd6b906d7f0755bf10a39ff3e08033f",
+   "bytes": 32542
+  },
+  "scripts/collect_paper_numbers.py": {
+   "sha256": "19086480ece7f75af339ae960615f652896089b291e3c6781ae9126280722fe4",
+   "bytes": 8156
+  },
+  "scripts/experiments/accrual_and_censoring.py": {
+   "sha256": "9b4a7fa6f7e9912492a43f074cbe67110e19a3054ddbaf34f068d75eede18ce8",
+   "bytes": 9200
+  },
+  "scripts/experiments/agreement_branch_and_class_prior.py": {
+   "sha256": "1918dc9eea92dd43eb8a863880dfabbeba2b68340489ee1690daf0ec0db906c6",
+   "bytes": 10144
+  },
+  "scripts/experiments/agreement_definition_audit.py": {
+   "sha256": "ea24efd4ed566ef2f9a7daea7789c6af326f46d01dda8ebc5d1072117c5a0843",
+   "bytes": 14914
+  },
+  "scripts/experiments/agreement_definition_variants.py": {
+   "sha256": "46681468c111ccf2d5bf1913d06006a5c1b6519348c49c7aa876e524001a6185",
+   "bytes": 12492
+  },
+  "scripts/experiments/anchor_paired_strata.py": {
+   "sha256": "2035c22c110c3a4ad5f8e95dccad207f3909548a6e2742fd6f8a48d29500dc09",
+   "bytes": 9401
+  },
+  "scripts/experiments/anchor_slope_differences.py": {
+   "sha256": "588aa3f27002ff5cedbb8551c92cc7f6e8d3617fcf084eb40c581e1276007d05",
+   "bytes": 3828
+  },
+  "scripts/experiments/annotation_drift_by_decade.py": {
+   "sha256": "92bbd7da2ff5004f97dcafeae68f434c253ee9df3689256862712b7eeebb5161",
+   "bytes": 10426
+  },
+  "scripts/experiments/auroc_pair_decomposition.py": {
+   "sha256": "4efbbf5d0d57a8fd040282f8d144649326b8ac8968d7b323019c25ae96235946",
+   "bytes": 6831
+  },
+  "scripts/experiments/calendar_forward_evaluation.py": {
+   "sha256": "c425bf154080b4161f6f822462791df018ee7aa5c6a23b147b65d3fd23c52e4b",
+   "bytes": 10529
+  },
+  "scripts/experiments/calendar_refit_bootstrap.py": {
+   "sha256": "d2c2648857e45c6742a483ea761e53d5cfcdd2872bf178a51547881b34a4ed5f",
+   "bytes": 7325
+  },
+  "scripts/experiments/cluster_aware_inference.py": {
+   "sha256": "f8e27088548ca747db23a50ccf5c52b8533e35a2118af7d9671e088951ea16e2",
+   "bytes": 9822
+  },
+  "scripts/experiments/clustered_roc_all_cells.py": {
+   "sha256": "76fd40afe35078ce055b5f9bd97b9370961066b2693d497b8595d43b1d4c56fa",
+   "bytes": 15215
+  },
+  "scripts/experiments/consistency_checks.py": {
+   "sha256": "a5ec1ca001d380cc769bf32e597a9c313a799b578c0d7199232b7369ea738afd",
+   "bytes": 12580
+  },
+  "scripts/experiments/controlled_annotation_design.py": {
+   "sha256": "cc259ff2fe7d1a48e1a8faf8e37d2c6b544cda143a26ba8b5319c3a289cd850c",
+   "bytes": 10407
+  },
+  "scripts/experiments/core_reanalyses.py": {
+   "sha256": "c5ccb9381013b275420d7f89c886edb57f7557720e6059868f780acf565a50e0",
+   "bytes": 23523
+  },
+  "scripts/experiments/cumulative_endpoints.py": {
+   "sha256": "e6d6cbf0bc1c2c7d9d89584c09e4d662ace3c3b440eaad1c6a667150013e4733",
+   "bytes": 9119
+  },
+  "scripts/experiments/dataset_card.py": {
+   "sha256": "5cc16f469173074fa89cd927ef32fe6bbc764c7eabd5e982fa08c3bbd17615ce",
+   "bytes": 6393
+  },
+  "scripts/experiments/documented_reversals.py": {
+   "sha256": "5a96248086bbcbf9b74473d8548937258b380170fb2e40aab33a7edd63168528",
+   "bytes": 7594
+  },
+  "scripts/experiments/effect_typing.py": {
+   "sha256": "dbfebc9ecd1fce66c326d9ad026d8f9dc68571420d352130f8dc2fc8911ceb5e",
+   "bytes": 11265
+  },
+  "scripts/experiments/embedding_forecaster.py": {
+   "sha256": "82f5c46a6b584238400b09f04b5b2039dbab25c801f44408b1e3e4b03f79d032",
+   "bytes": 9514
+  },
+  "scripts/experiments/endpoint_contract.py": {
+   "sha256": "21d6c58ce944b6ba509bfcab247dbe81fe7a094200e31de8e47139199bce5ed5",
+   "bytes": 9127
+  },
+  "scripts/experiments/extractor_agreement.py": {
+   "sha256": "b83ff74f2bca8adc0b1e463bac207d79da160632f47f86e15e1c9714c993d2a2",
+   "bytes": 13399
+  },
+  "scripts/experiments/full_metric_suite.py": {
+   "sha256": "fa8c05a9188f28ea0d0f1c385e332d43a99cf3fe0dc4b4ff552ebb80ff2cd42f",
+   "bytes": 9277
+  },
+  "scripts/experiments/incomplete_origin_windows.py": {
+   "sha256": "50030ba8a65d289b43fd8d7a1a81766fd0eb7ae5e248aaef9fe01f930dfc110e",
+   "bytes": 5853
+  },
+  "scripts/experiments/intersection_anchor_and_confusion.py": {
+   "sha256": "4fd03e63238c7a64f12cde2de58b229c4968ea407e47164a4458ae510ca9f9c4",
+   "bytes": 9465
+  },
+  "scripts/experiments/llm_text_forecasters.py": {
+   "sha256": "a1027a38b0b7c2472c48806f88fa6a71822ada717853efed9b90ddae377814a1",
+   "bytes": 14397
+  },
+  "scripts/experiments/null_c_invariance.py": {
+   "sha256": "2c02941eec226737ba7d2e3f6e9019c9c36f606566b089f5690f7c9201fe8276",
+   "bytes": 4965
+  },
+  "scripts/experiments/null_controls.py": {
+   "sha256": "bc18fe35b65303a3c2f2e239e0b2fa0856ce9e4bc1a1b18ce46eaf1eb45b85ae",
+   "bytes": 11896
+  },
+  "scripts/experiments/null_d_optimizer_audit.py": {
+   "sha256": "396f02bafe318727c334ab956291066481caa867190e609a4d291ea2d17af182",
+   "bytes": 7807
+  },
+  "scripts/experiments/numeric_anchor_by_era.py": {
+   "sha256": "729fc93bbf07004c27951dbcdaa841f6fe318bab29ead28573a4f89817045e60",
+   "bytes": 12920
+  },
+  "scripts/experiments/orientation_audit.py": {
+   "sha256": "fb9bf5fba796facc5cbd7c1da868ebc56c58fc9153f5febaf6891d705c452345",
+   "bytes": 10365
+  },
+  "scripts/experiments/origin_calendar_cohort.py": {
+   "sha256": "f03117b67d2f58c46343d6a3239378e3625b60af2d3db7baf28d4a042a0d4286",
+   "bytes": 12294
+  },
+  "scripts/experiments/origprompt_cell_analysis.py": {
+   "sha256": "94ccd2e042de25f75dc054bbde5a7edac0ba81e74cbacad1ef3881cb682a9601",
+   "bytes": 7004
+  },
+  "scripts/experiments/pivotal_source_resolution.py": {
+   "sha256": "8ea00b033c65aca9af5effd6eb5f8a8df5ff60b86dd3b51760a7664f2b3b525d",
+   "bytes": 5796
+  },
+  "scripts/experiments/recalibrated_order_features.py": {
+   "sha256": "31e90c79f41d34696fb0f4c8f8614fb4aa0408315693f949a7423dfbcc828892",
+   "bytes": 2717
+  },
+  "scripts/experiments/resampling_power.py": {
+   "sha256": "b2b6e1961175c27c6ab786010e88ee459577b9273097377e86ddde4c19abdb0d",
+   "bytes": 9805
+  },
+  "scripts/experiments/retrieval_audit_reconciliation.py": {
+   "sha256": "86943361bf8022ac5c55d270724c18382b355e2de8a7cb40378b83c887ab6297",
+   "bytes": 9922
+  },
+  "scripts/experiments/retrieval_cap_archive_years.py": {
+   "sha256": "f7d72e86edecd105922addf46e01bacf97efc6762827851c0f11ec55315f268a",
+   "bytes": 9677
+  },
+  "scripts/experiments/retrieval_cap_sensitivity.py": {
+   "sha256": "43e03ff747c98ec0122b0748f50cae053ca3b6c6e6c0338617468f0085a104be",
+   "bytes": 11304
+  },
+  "scripts/experiments/sign_invariant_scores.py": {
+   "sha256": "4735167f4385b8768dcb84645a62da9baa1412ab619a0e84cdc9f348308b98f4",
+   "bytes": 7590
+  },
+  "scripts/experiments/smoke_test.py": {
+   "sha256": "054668ff961828187a1225f17e4c800439a5b3b54cea88a8b356349d9923b143",
+   "bytes": 4143
+  },
+  "scripts/experiments/snapshot_provenance.py": {
+   "sha256": "58ea5f6d36f4dbff3e2a4695270c0a9ff17e2e7f20b4390681239e8cb23bb85e",
+   "bytes": 7059
+  },
+  "scripts/experiments/stationary_baselines.py": {
+   "sha256": "36acf17e7d8e1ac211f5bf69095316d9199e274d07df9c8c54fb19ce45ce1dbf",
+   "bytes": 8915
+  },
+  "scripts/experiments/stationary_null_permutation.py": {
+   "sha256": "02e7efbb71474f4af335bee0554579bd10d16dce16f8856bfcfd19a8c8f5a46d",
+   "bytes": 6639
+  },
+  "scripts/experiments/stationary_null_simulation.py": {
+   "sha256": "2a2526b81c07439de2cac96de6c3d45ebcd463f4a9d27b85dcb8003e0cc7f65a",
+   "bytes": 2925
+  },
+  "scripts/experiments/stationary_null_summary.py": {
+   "sha256": "3e6e7cb9bfcfb3210084507ea1c193d9d5c561c7e28823d2ada2cbada6e1ba51",
+   "bytes": 3884
+  },
+  "scripts/experiments/temporal_offset.py": {
+   "sha256": "088a410fb59060d572127e89dc1218776a531ba1faa633addc6a6ca53263f6ac",
+   "bytes": 7407
+  },
+  "scripts/experiments/two_variable_transfer.py": {
+   "sha256": "9e872525cbc2cc9678efe03b9b9e5187d4012c9441cb2826c12a8a69e1900889",
+   "bytes": 9957
+  },
+  "scripts/experiments/validation_addendum.py": {
+   "sha256": "3b64f01ac227fd43827beecc424f05d96a336c1e6dfe8e29bdf26e11a3de5b93",
+   "bytes": 5939
+  },
+  "scripts/experiments/wild_cluster_bootstrap.py": {
+   "sha256": "5a5eb35acf08f597f7ef51b1da0439e3de6cb82574496421d47e997d966dae40",
+   "bytes": 6344
+  },
+  "scripts/experiments/within_claim_label_drift.py": {
+   "sha256": "dafb34e35bea9c978820f8b5e2f5b0d24f6e23eb9ecb8349052378deae5842a5",
+   "bytes": 6715
+  },
+  "scripts/figures/regenerate_main_figures.py": {
+   "sha256": "007e769714b1c891fd2e8afea119dafed795c2f64419068db2b5f7c62ade557f",
+   "bytes": 13399
+  },
+  "scripts/lib/astra_common.py": {
+   "sha256": "f88946c1835df17f8155ed6684f812ea84605f9461716dba13bde7ae313ae54e",
+   "bytes": 10704
+  },
+  "scripts/lib/nfx_common.py": {
+   "sha256": "9b8c01b25efe8b5d76172104ad380143a0b4e6c0fdff92f7b82136dcc0f7c424",
+   "bytes": 17901
+  },
+  "scripts/lib/nutrimature.py": {
+   "sha256": "edb702e73dadb48f7d647004743b4e0d23a6d82035b42e1bd429b9b669205d81",
+   "bytes": 15226
+  },
+  "scripts/lib/nutrimature_features.py": {
+   "sha256": "0782b5ad5c9ed312c9b2198b0c579239589c7f40e0db6a285e7f788f5d165349",
+   "bytes": 14279
+  },
+  "scripts/lib/plan_common.py": {
+   "sha256": "cc58a74854be20da27d2e326b39fc1ee12611e0fef266fb227ea2e83226bac5e",
+   "bytes": 5906
+  },
+  "scripts/lib/pro_common.py": {
+   "sha256": "b7b609526b32b2bdd107a238c135f68ca91a6cc7ac8c6ee94b3d63a454263763",
+   "bytes": 12707
+  },
+  "scripts/pipeline/annotate_controlled_cells.py": {
+   "sha256": "9f40f409db2f7c4918d9fc7727cfb92faba75044ebee7deb9ac741e1b6896ea4",
+   "bytes": 11864
+  },
+  "scripts/pipeline/annotate_second_pipeline.py": {
+   "sha256": "eb50105ad4e0b7df032a211de4aab372d72718eb0277de850f3736742dfef2cf",
+   "bytes": 7333
+  },
+  "scripts/pipeline/annotate_second_pipeline_origprompt.py": {
+   "sha256": "8e3007e8b8740e25dbf4ed2814afe1dc9c7fd38c42db0efab4c64b424c8838bf",
+   "bytes": 7455
+  },
+  "scripts/pipeline/build_benchmark.py": {
+   "sha256": "0ffdfdd4b4a6580cf7f3f5b23295366c1dd83603407d092c29e5983df6348e20",
+   "bytes": 4145
+  },
+  "scripts/pipeline/build_effects_cache.py": {
+   "sha256": "750ffa33669231fc4f82977c8bc06daf835cc4a4459d6e5849573538a671557b",
+   "bytes": 1731
+  },
+  "scripts/pipeline/build_numeric_anchor.py": {
+   "sha256": "80ac9b762be20d72a780e1888688370df93f8ade97c6f6ff85f5fcb5d10f7276",
+   "bytes": 22832
+  },
+  "scripts/pipeline/build_system_scores.py": {
+   "sha256": "2ae1f427b4f7804f31433c938ce4c8934ddf37b633ea3f77e450a6e44fd6e0f1",
+   "bytes": 4454
+  },
+  "scripts/pipeline/fetch_abstracts.py": {
+   "sha256": "965736d688fddf389da2a25311acbf6a9f7c05c85607850b6f0b56ffea03e2b7",
+   "bytes": 4497
+  },
+  "scripts/pipeline/reretrieve_pubmed.py": {
+   "sha256": "1d8a3bcc545f1d3d7b00b19a7f5ad3a0338771a4b46a437754f5aa19e261020b",
+   "bytes": 4509
+  },
+  "scripts/run_all.sh": {
+   "sha256": "fe4528824b5a69057eabf5c7127e37b75c433b6a2ab86350e952bcfaf63e5d99",
+   "bytes": 4738
+  },
+  "scripts/verify_release.py": {
+   "sha256": "bb9a032843cbe301d2367d47307acdb88b5f48f86ed98c9e7e9dd3cbfad21eb4",
+   "bytes": 2693
+  },
+  "tables/Table_Astra_1_numeric_anchor_v2.csv": {
+   "sha256": "c21d9cdc46c94a44bbb692f72ce5872ad8eeb7d243c38bc816f75380b8740337",
+   "bytes": 2436
+  },
+  "tables/Table_Astra_1_numeric_anchor_v2.tex": {
+   "sha256": "25fadff6fa1b8e420591c59c398e254da8fb5ee256026e8816d334f60f59356d",
+   "bytes": 1838
+  },
+  "tables/Table_Astra_2_agreement_sensitivity.csv": {
+   "sha256": "86800ba4cb746c5a7c9b6b10410e2f7e11c15729ec6f69386960e02d2ea78b98",
+   "bytes": 2012
+  },
+  "tables/Table_Astra_2_agreement_sensitivity.tex": {
+   "sha256": "09e261b9d64864bf66452f5086d035190b647befa889114d05249b077ceb8ba6",
+   "bytes": 1360
+  },
+  "tables/Table_Astra_3_subsequent_vs_cumulative_target.csv": {
+   "sha256": "a34cb93ef459fafd1c1ed5f6d8d1d0e473eacf413b648581a0a149776bfdf827",
+   "bytes": 2452
+  },
+  "tables/Table_Astra_3_subsequent_vs_cumulative_target.tex": {
+   "sha256": "f75f4ac34e3d05beb31fcfbde638933c9c72dd1fb413143c08b3978409c7704c",
+   "bytes": 1754
+  },
+  "tables/Table_Astra_4_orientation_clean_sensitivity.csv": {
+   "sha256": "4ee9ad16cb1a2c8ad1fa0ad6ee2bcd415a70bd078c70406d8945eb326e6214e5",
+   "bytes": 922
+  },
+  "tables/Table_Astra_4_orientation_clean_sensitivity.tex": {
+   "sha256": "30a65668452a6f740fe3a654985faef362ac3133158181b2b2ef2541185718b4",
+   "bytes": 1001
+  },
+  "tables/Table_Astra_5_two_variable_source_external.csv": {
+   "sha256": "93db6bf14a68823e76266f15cd8cb11855f0978f3bac7bcbf081733c012cfb8b",
+   "bytes": 2339
+  },
+  "tables/Table_Astra_5_two_variable_source_external.tex": {
+   "sha256": "26406003970f58125513def1fda64eaea39752a2d5365fa9e5b00daed396fb66",
+   "bytes": 1933
+  },
+  "tables/Table_Astra_7_stationary_null.csv": {
+   "sha256": "608cf2e050b21629153cb7f51e02aa269ed7ce15531c36bde1faaeb481d6e251",
+   "bytes": 1944
+  },
+  "tables/Table_Astra_7_stationary_null.tex": {
+   "sha256": "9f6b6ce8381c4a16fad6a910b9dfbf99c4d2f190d296a6f0dad2dee2f36aaac0",
+   "bytes": 2406
+  },
+  "tables/agreement_sensitivity.csv": {
+   "sha256": "86800ba4cb746c5a7c9b6b10410e2f7e11c15729ec6f69386960e02d2ea78b98",
+   "bytes": 2012
+  },
+  "tables/cumulative_endpoint_results.csv": {
+   "sha256": "a34cb93ef459fafd1c1ed5f6d8d1d0e473eacf413b648581a0a149776bfdf827",
+   "bytes": 2452
+  },
+  "tables/numeric_anchor_v2_by_design.csv": {
+   "sha256": "2ca91babf84b39a8f4d1a8d5d4d0952fff89887e930de52a857661779edfb67e",
+   "bytes": 934
+  },
+  "tables/numeric_anchor_v2_confusion.csv": {
+   "sha256": "e698fefc205e743c0773507013e9b1908ed3477e783ca5f4e213b1eddab10fea",
+   "bytes": 857
+  },
+  "tables/numeric_anchor_v2_main.csv": {
+   "sha256": "b5dd99f9ac31ed2f31052d8882837d4f32c65efa4e136575adba299a9a933c78",
+   "bytes": 1809
+  },
+  "tables/orientation_clean_results.csv": {
+   "sha256": "4ee9ad16cb1a2c8ad1fa0ad6ee2bcd415a70bd078c70406d8945eb326e6214e5",
+   "bytes": 922
+  },
+  "tables/plan/Table_B3_parser_validation.csv": {
+   "sha256": "9658120b0929d46c8374716157910aaa36f844dd66e66ec190f1e1166416120c",
+   "bytes": 694
+  },
+  "tables/plan/Table_D1_source_core.csv": {
+   "sha256": "98339d02c192be02414748964b5a3bb1459ae60431687805a5541aefb9334d1e",
+   "bytes": 1851
+  },
+  "tables/plan/Table_E2_strata.csv": {
+   "sha256": "d80cc7858265978106144055706b0aaae9960f8e46626d2d8e964340d25c2a80",
+   "bytes": 1172
+  },
+  "tables/plan/Table_F1_origin_census.csv": {
+   "sha256": "dba8ff70b8e2c6c2c127f49e706206e0538516b22ce5d2c47427e66a6201f9fd",
+   "bytes": 1796
+  },
+  "tables/plan/Table_F2_by_origin.csv": {
+   "sha256": "9a15abf5bb405a1da03a5d0c4d68ad5787d3bccebbbe9119f2f0e4a04e676ab8",
+   "bytes": 7269
+  },
+  "tables/plan/Table_I1_numeric_units.csv": {
+   "sha256": "95b9e4279ad59eba2bd70783ac00661b70fbfaaeda4a2312db61344a021b91b6",
+   "bytes": 12032
+  },
+  "tables/plan/registry_forward_complete.csv": {
+   "sha256": "3713bc54945fdd3fb4b623dc6bde72406848ae8b84a052b4c3723e0620d8a96a",
+   "bytes": 12379
+  },
+  "tables/plan/registry_source_external.csv": {
+   "sha256": "4147bd8ecb47286818d76337d0a0e16acaf597a38041d6c376adc7d40ddf3be7",
+   "bytes": 13772
+  },
+  "tables/pro_census.tex": {
+   "sha256": "0e683524d0e19684d44ba669a9d0f31468599d2cce51bee9907f1d989d509931",
+   "bytes": 2683
+  },
+  "tables/pro_core.tex": {
+   "sha256": "6a35b0365f0de5d01847f922dd505cac5111031b82592f4fa11b4d4238f79de1",
+   "bytes": 1672
+  },
+  "tables/pro_cross.tex": {
+   "sha256": "19f92b0253867f91425a4865235ec94e0bcccb33d1e88084f4ac52ae1f61f4dc",
+   "bytes": 2265
+  },
+  "tables/pro_extractors.tex": {
+   "sha256": "e2838ac6f527c63dbfd9c195cc63ff9fea944c8fce77ce209abf5192ee34d941",
+   "bytes": 1358
+  },
+  "tables/pro_matched.tex": {
+   "sha256": "81ab2d881fdadbfe4d33633cbbd41718b4a8d4d1a74fead53ac237abe680d7db",
+   "bytes": 1227
+  },
+  "tables/pro_metrics.tex": {
+   "sha256": "86c1ffe5c9874de8a72e3b7726c63fc1a5c8c0f8a5758294efde10f50055a6ec",
+   "bytes": 7500
+  },
+  "tables/pro_order.tex": {
+   "sha256": "a3885d0443ad92cd1b345caaff71a53e2ef7013939f86db71ad484238ffed80c",
+   "bytes": 1982
+  },
+  "tables/pro_reextract.tex": {
+   "sha256": "d78c40ec52b1ac60ea14e7596ce2b3ffb08d56e55c0b08ff2b1c43ab793bdded",
+   "bytes": 2485
+  },
+  "tables/pro_signflip.tex": {
+   "sha256": "89a5922381bb5f5edc3ae5dd58adc7c4c85c9058a1a838826cf40b9afb973901",
+   "bytes": 1725
+  },
+  "tables/pro_snapshot.tex": {
+   "sha256": "d123813b177b7843f0021d5dc33b2289cbb9b2c5d96d7f799ecee4ae9e7b6939",
+   "bytes": 1405
+  },
+  "tables/pro_stationary.tex": {
+   "sha256": "c95a58537c50d1c46e4b36cb106008877a7756c833fe4933e09985d0b24f6775",
+   "bytes": 2728
+  },
+  "tables/pro_support.tex": {
+   "sha256": "3863a00a5faf3ce09d0eaa66c70ddb8111a726457fa0f2059b339a4bf76b7592",
+   "bytes": 1783
+  },
+  "tables/stationary_null_results.csv": {
+   "sha256": "608cf2e050b21629153cb7f51e02aa269ed7ce15531c36bde1faaeb481d6e251",
+   "bytes": 1944
+  },
+  "tables/two_variable_source_external.csv": {
+   "sha256": "93db6bf14a68823e76266f15cd8cb11855f0978f3bac7bcbf081733c012cfb8b",
+   "bytes": 2339
+  }
+ }
+}

@@ -1,0 +1,25 @@
+# NutriTURN — pinned to the interpreter that produced every number in the paper.
+# Python 3.10.12 (CPython), Linux 5.15, glibc 2.35.
+#
+# Analysis layer (CPU). Everything in scripts/experiments, scripts/figures and
+# scripts/lib runs with these alone.
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+statsmodels==0.15.0
+xgboost==3.2.0
+matplotlib==3.10.9
+requests==2.34.2
+tqdm==4.67.3
+
+# Annotation layer (GPU). Needed only by scripts/pipeline/* and by the
+# text-reading baselines; not needed to reproduce any reported table from the
+# shipped labels.
+torch==2.5.1+cu121
+transformers==4.51.3
+accelerate==1.13.0
+safetensors==0.7.0
+
+# Optional: PDF page checks only.
+pymupdf==1.28.2
