@@ -1,0 +1,16 @@
+{
+  "interpreter": "CPython 3.10.12",
+  "platform": "Linux 5.15.0, glibc 2.35, x86-64",
+  "required_environment": {
+    "PYTHONHASHSEED": "0",
+    "_why": "audit_experiments/null_controls.py derives each draw's seed from Python's hash() of the control's name. Python salts string hashes per process unless PYTHONHASHSEED is fixed, so an unset value produces different (still valid, but different) draws. Under PYTHONHASHSEED=0 the Null D seeds are 130000-130999.",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "affects speed only, never values"
+  },
+  "hardware": {
+    "analysis_layer": "CPU only; produced on a 64-core x86-64 host",
+    "heaviest_analysis": "audit_experiments/calendar_refit_bootstrap.py, ~3 min across 40 workers, ~25 min single-core",
+    "gpu_needed_for": ["data_annotation/*", "data_preprocessing/05_build_record_embeddings.py", "the text-reading baselines"]
+  },
+  "determinism": "Randomness enters only through seeded resamplers and seeded learners. No result depends on wall-clock time or process scheduling."
+}

@@ -1,0 +1,48 @@
+{
+  "_comment": "Every backbone used to annotate the corpus, with the read-out that defines its cell. Identical text budget and truncation across all cells, so a cell differs from another only in model, prompt and read-out.",
+
+  "shared_configuration": {
+    "text_budget_chars": 3000,
+    "max_prompt_tokens": 1600,
+    "dtype": "bfloat16",
+    "sampling": "none; a single forward pass, no generation",
+    "labels": ["PROTECTIVE", "HARMFUL", "NULL", "UNCLEAR"]
+  },
+
+  "read_outs": {
+    "first_token": "softmax over the logits of the leading token of each label at the answer position",
+    "full_string": "summed log-probabilities of all label tokens, softmax over the four sums; not length-normalised"
+  },
+
+  "prompts": {
+    "P1": "the deployed prompt: direction of the exposure-outcome association, one word",
+    "P2": "P1 with explicit label definitions in the system prompt (NULL = the abstract directly reports no association for the named pair; UNCLEAR = the pair is absent or its direction cannot be determined)"
+  },
+
+  "cells": {
+    "primary": {"model": "meta-llama/Llama-3.1-8B-Instruct", "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+                "prompt": "P1", "read_out": "first_token", "batch": 16,
+                "script": "data_annotation/01_annotate_primary.py",
+                "note": "the deployed pipeline; produces data/protocol_snapshot/directions/"},
+    "A_prime": {"model": "meta-llama/Llama-3.1-8B-Instruct", "prompt": "P1", "read_out": "full_string",
+                "script": "data_annotation/04_annotate_controlled_cells.py --cell Aprime"},
+    "B":       {"model": "meta-llama/Llama-3.1-8B-Instruct", "prompt": "P2", "read_out": "full_string",
+                "script": "data_annotation/04_annotate_controlled_cells.py --cell B"},
+    "C":       {"model": "Qwen/Qwen2.5-7B-Instruct", "prompt": "P1", "read_out": "full_string",
+                "script": "data_annotation/03_annotate_second_pipeline_origprompt.py"},
+    "D_second":{"model": "Qwen/Qwen2.5-7B-Instruct", "prompt": "P2", "read_out": "full_string",
+                "script": "data_annotation/02_annotate_second_pipeline.py",
+                "note": "the second pipeline of the cross-pipeline sensitivity analysis"},
+    "M_third": {"model": "mistralai/Mistral-7B-Instruct-v0.3", "prompt": "P2", "read_out": "full_string",
+                "script": "data_annotation/05_annotate_third_family.py",
+                "note": "the third annotation family; requires text_full.json, not the records snapshot, which carries no abstracts"}
+  },
+
+  "encoder": {
+    "embedding_baseline": "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract",
+    "pooling": "mean over title and abstract, L2-normalised",
+    "script": "data_preprocessing/05_build_record_embeddings.py embed"
+  },
+
+  "duplicate_key_rule": "Where an association key occurs more than once in a re-executed cell, the first occurrence in sorted file order is used. The last-occurrence rule disagrees on 476 of 33,737 duplicated keys and yields the same event count (78)."
+}

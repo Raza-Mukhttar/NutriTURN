@@ -1,0 +1,56 @@
+{
+  "_comment": "Frozen NutriTURN protocol. These values define every reported number; changing one changes the paper. They are duplicated here for inspection, but the executable definitions live in audit_pipeline/lib/nfx_common.py and audit_pipeline/lib/nutrimature.py, which remain authoritative.",
+
+  "randomness": {
+    "SEED": 3,
+    "BOOT": 2000,
+    "bootstrap": "claim-clustered percentile; resampling unit is the claim, not the unit",
+    "wild_cluster_bootstrap": {"draws": 9999, "weights": "Webb six-point"},
+    "MC": 400,
+    "_note": "MC is the Monte Carlo draw count per unit for the count-aware composition reference."
+  },
+
+  "endpoint_contract": {
+    "pooled_direction": "p_t = (h - l) / n over signed pre-cutoff annotations when n >= SPARSE_GATE, else 0",
+    "SPARSE_GATE": 8,
+    "post_cutoff": "ungated: p_post uses every signed post-cutoff annotation",
+    "event": "y = 1 if sgn0(p_post) != sgn0(p_t) else 0",
+    "window": "pre = records with year < t; post = records with year >= t (the cutoff year is post-cutoff)",
+    "MIN_FUTURE": 20,
+    "POST20": 20,
+    "TARGET": "l2_sign_change",
+    "sign_convention": {"PROTECTIVE": -1, "HARMFUL": 1, "NULL": 0, "UNCLEAR": 99}
+  },
+
+  "cutoff_grid": {
+    "min_dated_labelled_records": 45,
+    "lo": "publication year of the 40th record",
+    "hi": "last record year - 1",
+    "skip_if": "hi - lo < 4",
+    "points": "7 equally spaced points from lo + 2 to hi, deduplicated to distinct integers",
+    "yields": "3 to 7 cutoffs per claim"
+  },
+
+  "agreement_definitions": {
+    "A": "a = 0 if n < SPARSE_GATE, else null_share when null_share >= 0.50, else (1 + |p|) / 2",
+    "C": "branch-free: c = (1 + |p|) / 2 under the gate",
+    "_note": "A is the definition used for the reported two-variable system; C is the branch-free intervention reported in the agreement-definition audit."
+  },
+
+  "evaluation": {
+    "split": "leave-one-claim-out; every cutoff of the held-out claim is excluded from fitting",
+    "threshold": "hard-decision threshold chosen on training claims only",
+    "HORIZONS": [3, 5, 10],
+    "calendar_grid": "two-year origin grid"
+  },
+
+  "compact7": ["pooled_direction", "agreement", "n_directional", "n_pre_t", "val_mean", "val_sd", "n_rr"],
+  "full_representation": {"n_variables": 55, "inventory": "paper Table: Inventory of the 55 pre-cutoff variables"},
+
+  "model": {
+    "estimator": "StandardScaler + L2 logistic regression",
+    "C": 1,
+    "class_weight": "balanced",
+    "_note": "C was not tuned; a same-claim sweep was declined as optimistic."
+  }
+}

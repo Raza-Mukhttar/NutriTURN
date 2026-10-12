@@ -1,0 +1,19 @@
+{
+  "_comment": "External-1 and External-2 are the two external evaluations frozen before annotation. This file records exactly what can and cannot be regenerated, because the honest answer differs between the two halves of the pipeline.",
+
+  "external_1": {"claims": 46, "reannotation_kappa_vs_archived": 0.959, "reannotated_associations": 1000},
+  "external_2": {"claims": 180, "reannotation_kappa_vs_archived": 0.967, "reannotated_associations": 2000},
+  "pooled": {"kappa": 0.964, "ci": [0.957, 0.971], "associations": 3000},
+
+  "regenerable": {
+    "unit_construction": "yes - data_preprocessing/external/driver.py rebuilds the claim-cutoff units from the released unit files",
+    "reannotation": "yes for the retained retrieval texts - data_annotation/external/annotate_external.py",
+    "scoring_and_transfer": "yes - audit_experiments/external/score_external.py and audit_experiments/two_variable_transfer.py"
+  },
+
+  "NOT_regenerable": {
+    "retrieval": "The External-1/2 PubMed query strings were never released, so the retrieval cannot be re-run from the query forward. data_preparation/03_reretrieve_audit.py marks them non-regenerable by design.",
+    "text_reading_methods": "The external corpora ship as unit-level label counts without record identifiers, so text-reading methods cannot be evaluated on them. This is what restricts text-reading methods to checks 1-4 in the paper's protocol.",
+    "_consequence": "Population alignment was established (identifier sets and pre/post-cutoff record counts match the original retrieval for all 46 External-1 and 180 External-2 claims), which is not the same as identical input text. Metric replay remains distinct from text-dependent re-execution."
+  }
+}

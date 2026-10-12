@@ -1,0 +1,1157 @@
+{
+ "added_sugar_diabetes": {
+  "query": "(\"dietary sugars\"[MeSH Terms] OR \"dietary sugars\"[Title/Abstract]) AND (\"diabetes\"[MeSH Terms] OR \"diabetes\"[Title/Abstract])",
+  "exposure": "dietary sugars",
+  "outcome": "diabetes",
+  "retrieval_query": "(\"dietary sugars\"[MeSH Terms] OR \"dietary sugars\"[Title/Abstract]) AND (\"diabetes\"[MeSH Terms] OR \"diabetes\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "added_sugar_weight_gain": {
+  "query": "(\"dietary sugars\"[MeSH Terms] OR \"dietary sugars\"[Title/Abstract]) AND (\"weight gain\"[MeSH Terms] OR \"weight gain\"[Title/Abstract])",
+  "exposure": "dietary sugars",
+  "outcome": "weight gain",
+  "retrieval_query": "(\"dietary sugars\"[MeSH Terms] OR \"dietary sugars\"[Title/Abstract]) AND (\"weight gain\"[MeSH Terms] OR \"weight gain\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "aflatoxin_liver_cancer": {
+  "query": "(\"aflatoxins\"[MeSH Terms] OR \"aflatoxins\"[Title/Abstract]) AND (\"liver neoplasms\"[MeSH Terms] OR \"liver neoplasms\"[Title/Abstract])",
+  "exposure": "aflatoxins",
+  "outcome": "liver neoplasms",
+  "retrieval_query": "(\"aflatoxins\"[MeSH Terms] OR \"aflatoxins\"[Title/Abstract]) AND (\"liver neoplasms\"[MeSH Terms] OR \"liver neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "alcohol_breast_cancer": {
+  "query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "exposure": "alcohol drinking",
+  "outcome": "breast neoplasms",
+  "retrieval_query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "alcohol_colorectal_cancer": {
+  "query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "exposure": "alcohol drinking",
+  "outcome": "colorectal neoplasms",
+  "retrieval_query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "alcohol_esophageal_cancer": {
+  "query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"esophageal neoplasms\"[MeSH Terms] OR \"esophageal neoplasms\"[Title/Abstract])",
+  "exposure": "alcohol drinking",
+  "outcome": "esophageal neoplasms",
+  "retrieval_query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"esophageal neoplasms\"[MeSH Terms] OR \"esophageal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "alcohol_laryngeal_cancer": {
+  "query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"laryngeal neoplasms\"[MeSH Terms] OR \"laryngeal neoplasms\"[Title/Abstract])",
+  "exposure": "alcohol drinking",
+  "outcome": "laryngeal neoplasms",
+  "retrieval_query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"laryngeal neoplasms\"[MeSH Terms] OR \"laryngeal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "alcohol_oral_cancer": {
+  "query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"mouth neoplasms\"[MeSH Terms] OR \"mouth neoplasms\"[Title/Abstract])",
+  "exposure": "alcohol drinking",
+  "outcome": "mouth neoplasms",
+  "retrieval_query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"mouth neoplasms\"[MeSH Terms] OR \"mouth neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "alcohol_pharyngeal_cancer": {
+  "query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"pharyngeal neoplasms\"[MeSH Terms] OR \"pharyngeal neoplasms\"[Title/Abstract])",
+  "exposure": "alcohol drinking",
+  "outcome": "pharyngeal neoplasms",
+  "retrieval_query": "(\"alcohol drinking\"[MeSH Terms] OR \"alcohol drinking\"[Title/Abstract]) AND (\"pharyngeal neoplasms\"[MeSH Terms] OR \"pharyngeal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "alcoholic_drinks_liver_cancer": {
+  "query": "(\"alcoholic drinks\"[MeSH Terms] OR \"alcoholic drinks\"[Title/Abstract]) AND (\"liver neoplasms\"[MeSH Terms] OR \"liver neoplasms\"[Title/Abstract])",
+  "exposure": "alcoholic drinks",
+  "outcome": "liver neoplasms",
+  "retrieval_query": "(alcoholic drinks AND liver) OR ((\"alcoholic drinks\"[MeSH Terms] OR \"alcoholic drinks\"[Title/Abstract]) AND (\"liver neoplasms\"[MeSH Terms] OR \"liver neoplasms\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "alternate_day_fasting_weight_loss": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "weight loss",
+  "retrieval_query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "beta_carotene_cancer": {
+  "query": "(\"beta carotene\"[MeSH Terms] OR \"beta carotene\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "beta carotene",
+  "outcome": "cancer",
+  "retrieval_query": "(\"beta carotene\"[MeSH Terms] OR \"beta carotene\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "breakfast_skipping_cvd": {
+  "query": "(\"breakfast\"[MeSH Terms] OR \"breakfast\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "breakfast",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"breakfast\"[MeSH Terms] OR \"breakfast\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "breakfast_skipping_obesity": {
+  "query": "(\"breakfast\"[MeSH Terms] OR \"breakfast\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "exposure": "breakfast",
+  "outcome": "obesity",
+  "retrieval_query": "(\"breakfast\"[MeSH Terms] OR \"breakfast\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "breastfeeding_breast_cancer": {
+  "query": "(\"breast feeding\"[MeSH Terms] OR \"breast feeding\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "exposure": "breast feeding",
+  "outcome": "breast neoplasms",
+  "retrieval_query": "(\"breast feeding\"[MeSH Terms] OR \"breast feeding\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "breastfeeding_childhood_infections": {
+  "query": "(\"breast feeding\"[MeSH Terms] OR \"breast feeding\"[Title/Abstract]) AND (\"infection\"[MeSH Terms] OR \"infection\"[Title/Abstract])",
+  "exposure": "breast feeding",
+  "outcome": "infection",
+  "retrieval_query": "(\"breast feeding\"[MeSH Terms] OR \"breast feeding\"[Title/Abstract]) AND (\"infection\"[MeSH Terms] OR \"infection\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "breastfeeding_necrotizing_enterocolitis_preterm": {
+  "query": "(\"breast feeding\"[MeSH Terms] OR \"breast feeding\"[Title/Abstract]) AND (\"preterm\"[MeSH Terms] OR \"preterm\"[Title/Abstract])",
+  "exposure": "breast feeding",
+  "outcome": "preterm",
+  "retrieval_query": "(\"breast feeding\"[MeSH Terms] OR \"breast feeding\"[Title/Abstract]) AND (\"preterm\"[MeSH Terms] OR \"preterm\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "butter_cvd": {
+  "query": "(\"butter\"[MeSH Terms] OR \"butter\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "butter",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"butter\"[MeSH Terms] OR \"butter\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "calcium_preeclampsia_low_intake": {
+  "query": "(\"calcium dietary\"[MeSH Terms] OR \"calcium dietary\"[Title/Abstract]) AND (\"intake\"[MeSH Terms] OR \"intake\"[Title/Abstract])",
+  "exposure": "calcium dietary",
+  "outcome": "intake",
+  "retrieval_query": "(\"calcium dietary\"[MeSH Terms] OR \"calcium dietary\"[Title/Abstract]) AND (\"intake\"[MeSH Terms] OR \"intake\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "cheese_cvd": {
+  "query": "(\"cheese\"[MeSH Terms] OR \"cheese\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "cheese",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"cheese\"[MeSH Terms] OR \"cheese\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "cocoa_cvd": {
+  "query": "(\"cocoa\"[MeSH Terms] OR \"cocoa\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "cocoa",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"cocoa\"[MeSH Terms] OR \"cocoa\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coconut_oil_ldl_cholesterol": {
+  "query": "(\"coconut oil ldl\"[MeSH Terms] OR \"coconut oil ldl\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "coconut oil ldl",
+  "outcome": "cholesterol",
+  "retrieval_query": "(\"coconut oil ldl\"[MeSH Terms] OR \"coconut oil ldl\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coconut_oil_weight_loss": {
+  "query": "(\"coconut oil\"[MeSH Terms] OR \"coconut oil\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "exposure": "coconut oil",
+  "outcome": "weight loss",
+  "retrieval_query": "(coconut oil AND weight) OR ((\"coconut oil\"[MeSH Terms] OR \"coconut oil\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coffee_blood_pressure": {
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "exposure": "coffee",
+  "outcome": "blood pressure",
+  "retrieval_query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coffee_cancer": {
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "coffee",
+  "outcome": "cancer",
+  "retrieval_query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coffee_cognition": {
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "coffee",
+  "outcome": "cognitive function",
+  "retrieval_query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coffee_cvd": {
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "coffee",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "coffee_gut_microbiome": {
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"microbiome\"[MeSH Terms] OR \"microbiome\"[Title/Abstract])",
+  "exposure": "coffee",
+  "outcome": "microbiome",
+  "retrieval_query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"microbiome\"[MeSH Terms] OR \"microbiome\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dairy_allcause_mortality": {
+  "query": "(\"dairy products\"[MeSH Terms] OR \"dairy products\"[Title/Abstract]) AND (\"mortality\"[MeSH Terms] OR \"mortality\"[Title/Abstract])",
+  "exposure": "dairy products",
+  "outcome": "mortality",
+  "retrieval_query": "(\"dairy products\"[MeSH Terms] OR \"dairy products\"[Title/Abstract]) AND (\"mortality\"[MeSH Terms] OR \"mortality\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dairy_type2_diabetes": {
+  "query": "(\"dairy products\"[MeSH Terms] OR \"dairy products\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "dairy products",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((dairy products) AND (diabetes mellitus type 2)) OR ((\"dairy products\"[MeSH Terms] OR \"dairy products\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dark_chocolate_blood_pressure": {
+  "query": "(\"dark chocolate\"[MeSH Terms] OR \"dark chocolate\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "exposure": "dark chocolate",
+  "outcome": "blood pressure",
+  "retrieval_query": "(\"dark chocolate\"[MeSH Terms] OR \"dark chocolate\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dash_diet_hypertension": {
+  "query": "(\"dash diet\"[MeSH Terms] OR \"dash diet\"[Title/Abstract]) AND (\"hypertension\"[MeSH Terms] OR \"hypertension\"[Title/Abstract])",
+  "exposure": "dash diet",
+  "outcome": "hypertension",
+  "retrieval_query": "(\"dash diet\"[MeSH Terms] OR \"dash diet\"[Title/Abstract]) AND (\"hypertension\"[MeSH Terms] OR \"hypertension\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dietary_cholesterol_cvd": {
+  "query": "(\"dietary cholesterol\"[MeSH Terms] OR \"dietary cholesterol\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "dietary cholesterol",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"dietary cholesterol\"[MeSH Terms] OR \"dietary cholesterol\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dietary_cholesterol_type2_diabetes": {
+  "query": "(\"dietary cholesterol\"[MeSH Terms] OR \"dietary cholesterol\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "dietary cholesterol",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "(\"dietary cholesterol\"[MeSH Terms] OR \"dietary cholesterol\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dietary_fiber_constipation": {
+  "query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"constipation\"[MeSH Terms] OR \"constipation\"[Title/Abstract])",
+  "exposure": "dietary fiber",
+  "outcome": "constipation",
+  "retrieval_query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"constipation\"[MeSH Terms] OR \"constipation\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "dietary_fiber_type2_diabetes": {
+  "query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "dietary fiber",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((dietary fiber) AND (diabetes mellitus type 2)) OR ((\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "dietary_fiber_weight_gain": {
+  "query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"weight gain\"[MeSH Terms] OR \"weight gain\"[Title/Abstract])",
+  "exposure": "dietary fiber",
+  "outcome": "weight gain",
+  "retrieval_query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"weight gain\"[MeSH Terms] OR \"weight gain\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "dietary_pattern_diabetes": {
+  "query": "(\"dietary pattern\"[MeSH Terms] OR \"dietary pattern\"[Title/Abstract]) AND (\"diabetes\"[MeSH Terms] OR \"diabetes\"[Title/Abstract])",
+  "exposure": "dietary pattern",
+  "outcome": "diabetes",
+  "retrieval_query": "(\"dietary pattern\"[MeSH Terms] OR \"dietary pattern\"[Title/Abstract]) AND (\"diabetes\"[MeSH Terms] OR \"diabetes\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "early_time_restricted_eating_blood_pressure": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "blood pressure",
+  "retrieval_query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "eggs_cholesterol": {
+  "query": "(\"eggs\"[MeSH Terms] OR \"eggs\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "eggs",
+  "outcome": "cholesterol",
+  "retrieval_query": "(\"eggs\"[MeSH Terms] OR \"eggs\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "eggs_cvd_events": {
+  "query": "(\"eggs\"[MeSH Terms] OR \"eggs\"[Title/Abstract]) AND (\"cardiovascular events\"[MeSH Terms] OR \"cardiovascular events\"[Title/Abstract])",
+  "exposure": "eggs",
+  "outcome": "cardiovascular events",
+  "retrieval_query": "(eggs AND cardiovascular) OR ((\"eggs\"[MeSH Terms] OR \"eggs\"[Title/Abstract]) AND (\"cardiovascular events\"[MeSH Terms] OR \"cardiovascular events\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "eggs_type2_diabetes": {
+  "query": "(\"eggs\"[MeSH Terms] OR \"eggs\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "eggs",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "(eggs AND diabetes) OR ((\"eggs\"[MeSH Terms] OR \"eggs\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "energy_deficit_weight_loss": {
+  "query": "(\"caloric restriction\"[MeSH Terms] OR \"caloric restriction\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "exposure": "caloric restriction",
+  "outcome": "weight loss",
+  "retrieval_query": "(\"caloric restriction\"[MeSH Terms] OR \"caloric restriction\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "fermented_foods_inflammation": {
+  "query": "(\"fermented foods\"[MeSH Terms] OR \"fermented foods\"[Title/Abstract]) AND (\"inflammation\"[MeSH Terms] OR \"inflammation\"[Title/Abstract])",
+  "exposure": "fermented foods",
+  "outcome": "inflammation",
+  "retrieval_query": "(\"fermented foods\"[MeSH Terms] OR \"fermented foods\"[Title/Abstract]) AND (\"inflammation\"[MeSH Terms] OR \"inflammation\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "fermented_foods_microbiome_diversity": {
+  "query": "(\"fermented foods microbiome\"[MeSH Terms] OR \"fermented foods microbiome\"[Title/Abstract]) AND (\"diversity\"[MeSH Terms] OR \"diversity\"[Title/Abstract])",
+  "exposure": "fermented foods microbiome",
+  "outcome": "diversity",
+  "retrieval_query": "fermented foods microbiome AND diversity",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "fiber_colorectal": {
+  "query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"colorectal\"[MeSH Terms] OR \"colorectal\"[Title/Abstract])",
+  "exposure": "dietary fiber",
+  "outcome": "colorectal",
+  "retrieval_query": "(\"dietary fiber\"[MeSH Terms] OR \"dietary fiber\"[Title/Abstract]) AND (\"colorectal\"[MeSH Terms] OR \"colorectal\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "fish_cvd": {
+  "query": "(\"fish products\"[MeSH Terms] OR \"fish products\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "fish products",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "((fish products) AND (cardiovascular disease)) OR ((\"fish products\"[MeSH Terms] OR \"fish products\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "fish_oil_atrial_fibrillation": {
+  "query": "(\"fish products\"[MeSH Terms] OR \"fish products\"[Title/Abstract]) AND (\"atrial fibrillation\"[MeSH Terms] OR \"atrial fibrillation\"[Title/Abstract])",
+  "exposure": "fish products",
+  "outcome": "atrial fibrillation",
+  "retrieval_query": "(fish AND oil AND fibrillation) OR ((\"fish products\"[MeSH Terms] OR \"fish products\"[Title/Abstract]) AND (\"atrial fibrillation\"[MeSH Terms] OR \"atrial fibrillation\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "folate_cvd": {
+  "query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "folic acid",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "folate_neural_tube": {
+  "query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"neural tube defects\"[MeSH Terms] OR \"neural tube defects\"[Title/Abstract])",
+  "exposure": "folic acid",
+  "outcome": "neural tube defects",
+  "retrieval_query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"neural tube defects\"[MeSH Terms] OR \"neural tube defects\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "folic_acid_b12_lung_cancer": {
+  "query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"lung neoplasms\"[MeSH Terms] OR \"lung neoplasms\"[Title/Abstract])",
+  "exposure": "folic acid",
+  "outcome": "lung neoplasms",
+  "retrieval_query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"lung neoplasms\"[MeSH Terms] OR \"lung neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "folic_acid_colorectal": {
+  "query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"colorectal\"[MeSH Terms] OR \"colorectal\"[Title/Abstract])",
+  "exposure": "folic acid",
+  "outcome": "colorectal",
+  "retrieval_query": "(\"folic acid\"[MeSH Terms] OR \"folic acid\"[Title/Abstract]) AND (\"colorectal\"[MeSH Terms] OR \"colorectal\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "food_additives_colorectal_cancer": {
+  "query": "(\"food additives\"[MeSH Terms] OR \"food additives\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "exposure": "food additives",
+  "outcome": "colorectal neoplasms",
+  "retrieval_query": "(\"food additives\"[MeSH Terms] OR \"food additives\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "fruit_veg_allcause": {
+  "query": "(\"fruit veg\"[MeSH Terms] OR \"fruit veg\"[Title/Abstract]) AND (\"all-cause mortality\"[MeSH Terms] OR \"all-cause mortality\"[Title/Abstract])",
+  "exposure": "fruit veg",
+  "outcome": "all-cause mortality",
+  "retrieval_query": "((fruits) AND (vegetables) AND (mortality)) OR ((\"fruit veg\"[MeSH Terms] OR \"fruit veg\"[Title/Abstract]) AND (\"all-cause mortality\"[MeSH Terms] OR \"all-cause mortality\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "full_fat_dairy_cvd": {
+  "query": "(\"dairy products\"[MeSH Terms] OR \"dairy products\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "dairy products",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"dairy products\"[MeSH Terms] OR \"dairy products\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "gluten_free_diet_celiac_symptom_control": {
+  "query": "(\"gluten free diet celiac symptom\"[MeSH Terms] OR \"gluten free diet celiac symptom\"[Title/Abstract]) AND (\"control\"[MeSH Terms] OR \"control\"[Title/Abstract])",
+  "exposure": "gluten free diet celiac symptom",
+  "outcome": "control",
+  "retrieval_query": "(\"gluten free diet celiac symptom\"[MeSH Terms] OR \"gluten free diet celiac symptom\"[Title/Abstract]) AND (\"control\"[MeSH Terms] OR \"control\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "green_tea_type2_diabetes": {
+  "query": "(\"tea\"[MeSH Terms] OR \"tea\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "tea",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((tea) AND (diabetes mellitus type 2)) OR ((\"tea\"[MeSH Terms] OR \"tea\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "green_tea_weight_loss": {
+  "query": "(\"tea\"[MeSH Terms] OR \"tea\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "exposure": "tea",
+  "outcome": "weight loss",
+  "retrieval_query": "(\"tea\"[MeSH Terms] OR \"tea\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "heme_iron_bioavailability": {
+  "query": "(\"iron dietary\"[MeSH Terms] OR \"iron dietary\"[Title/Abstract]) AND (\"bioavailability\"[MeSH Terms] OR \"bioavailability\"[Title/Abstract])",
+  "exposure": "iron dietary",
+  "outcome": "bioavailability",
+  "retrieval_query": "((iron dietary) AND (bioavailability)) OR ((\"iron dietary\"[MeSH Terms] OR \"iron dietary\"[Title/Abstract]) AND (\"bioavailability\"[MeSH Terms] OR \"bioavailability\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "hormone_replacement_breast_cancer": {
+  "query": "(\"hormone replacement\"[MeSH Terms] OR \"hormone replacement\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "exposure": "hormone replacement",
+  "outcome": "breast neoplasms",
+  "retrieval_query": "(\"hormone replacement\"[MeSH Terms] OR \"hormone replacement\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "hormone_replacement_cvd": {
+  "query": "(\"hormone replacement\"[MeSH Terms] OR \"hormone replacement\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "hormone replacement",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"hormone replacement\"[MeSH Terms] OR \"hormone replacement\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "intermittent_fasting_cvd": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "intermittent_fasting_type2_diabetes": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((intermittent fasting) AND (diabetes mellitus type 2)) OR ((\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "iodine_deficiency_fetal_neurodevelopment": {
+  "query": "(\"iodine deficiency fetal\"[MeSH Terms] OR \"iodine deficiency fetal\"[Title/Abstract]) AND (\"neurodevelopment\"[MeSH Terms] OR \"neurodevelopment\"[Title/Abstract])",
+  "exposure": "iodine deficiency fetal",
+  "outcome": "neurodevelopment",
+  "retrieval_query": "(\"iodine deficiency fetal\"[MeSH Terms] OR \"iodine deficiency fetal\"[Title/Abstract]) AND (\"neurodevelopment\"[MeSH Terms] OR \"neurodevelopment\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "iodine_deficiency_goiter": {
+  "query": "(\"iodine deficiency\"[MeSH Terms] OR \"iodine deficiency\"[Title/Abstract]) AND (\"goiter\"[MeSH Terms] OR \"goiter\"[Title/Abstract])",
+  "exposure": "iodine deficiency",
+  "outcome": "goiter",
+  "retrieval_query": "(\"iodine deficiency\"[MeSH Terms] OR \"iodine deficiency\"[Title/Abstract]) AND (\"goiter\"[MeSH Terms] OR \"goiter\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "iodized_salt_iodine_deficiency_prevention": {
+  "query": "(\"iodized salt iodine deficiency\"[MeSH Terms] OR \"iodized salt iodine deficiency\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "exposure": "iodized salt iodine deficiency",
+  "outcome": "prevention",
+  "retrieval_query": "(\"iodized salt iodine deficiency\"[MeSH Terms] OR \"iodized salt iodine deficiency\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "ketogenic_diet_cvd_events": {
+  "query": "(\"diet ketogenic\"[MeSH Terms] OR \"diet ketogenic\"[Title/Abstract]) AND (\"cardiovascular events\"[MeSH Terms] OR \"cardiovascular events\"[Title/Abstract])",
+  "exposure": "diet ketogenic",
+  "outcome": "cardiovascular events",
+  "retrieval_query": "(diet ketogenic AND cardiovascular) OR ((\"diet ketogenic\"[MeSH Terms] OR \"diet ketogenic\"[Title/Abstract]) AND (\"cardiovascular events\"[MeSH Terms] OR \"cardiovascular events\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "ketogenic_diet_ldl_cholesterol": {
+  "query": "(\"diet ketogenic\"[MeSH Terms] OR \"diet ketogenic\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "diet ketogenic",
+  "outcome": "cholesterol",
+  "retrieval_query": "((diet ketogenic) AND (cholesterol)) OR ((\"diet ketogenic\"[MeSH Terms] OR \"diet ketogenic\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "ketogenic_diet_type2_diabetes_remission": {
+  "query": "(\"diet ketogenic\"[MeSH Terms] OR \"diet ketogenic\"[Title/Abstract]) AND (\"remission\"[MeSH Terms] OR \"remission\"[Title/Abstract])",
+  "exposure": "diet ketogenic",
+  "outcome": "remission",
+  "retrieval_query": "(\"diet ketogenic\"[MeSH Terms] OR \"diet ketogenic\"[Title/Abstract]) AND (\"remission\"[MeSH Terms] OR \"remission\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "lactose_intolerance_lactose_symptoms": {
+  "query": "(\"lactose intolerance lactose\"[MeSH Terms] OR \"lactose intolerance lactose\"[Title/Abstract]) AND (\"symptoms\"[MeSH Terms] OR \"symptoms\"[Title/Abstract])",
+  "exposure": "lactose intolerance lactose",
+  "outcome": "symptoms",
+  "retrieval_query": "((lactose intolerance lactose) AND (symptoms)) OR ((\"lactose intolerance lactose\"[MeSH Terms] OR \"lactose intolerance lactose\"[Title/Abstract]) AND (\"symptoms\"[MeSH Terms] OR \"symptoms\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "late_night_eating_obesity": {
+  "query": "(\"late night eating\"[MeSH Terms] OR \"late night eating\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "exposure": "late night eating",
+  "outcome": "obesity",
+  "retrieval_query": "(late AND night AND obesity) OR ((\"late night eating\"[MeSH Terms] OR \"late night eating\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "legumes_cvd": {
+  "query": "(\"fabaceae\"[MeSH Terms] OR \"fabaceae\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "fabaceae",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"fabaceae\"[MeSH Terms] OR \"fabaceae\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "low_fat_diet_obesity": {
+  "query": "(\"diet fat-restricted\"[MeSH Terms] OR \"diet fat-restricted\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "exposure": "diet fat-restricted",
+  "outcome": "obesity",
+  "retrieval_query": "diet fat-restricted AND obesity",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "magnesium_hypertension": {
+  "query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"hypertension\"[MeSH Terms] OR \"hypertension\"[Title/Abstract])",
+  "exposure": "magnesium",
+  "outcome": "hypertension",
+  "retrieval_query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"hypertension\"[MeSH Terms] OR \"hypertension\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "magnesium_migraine": {
+  "query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"migraine\"[MeSH Terms] OR \"migraine\"[Title/Abstract])",
+  "exposure": "magnesium",
+  "outcome": "migraine",
+  "retrieval_query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"migraine\"[MeSH Terms] OR \"migraine\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "magnesium_osteoporosis": {
+  "query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"osteoporosis\"[MeSH Terms] OR \"osteoporosis\"[Title/Abstract])",
+  "exposure": "magnesium",
+  "outcome": "osteoporosis",
+  "retrieval_query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"osteoporosis\"[MeSH Terms] OR \"osteoporosis\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "magnesium_type2_diabetes": {
+  "query": "(\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "magnesium",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((magnesium) AND (diabetes mellitus type 2)) OR ((\"magnesium\"[MeSH Terms] OR \"magnesium\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "milk_cvd": {
+  "query": "(\"milk\"[MeSH Terms] OR \"milk\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "milk",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"milk\"[MeSH Terms] OR \"milk\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "multivitamin_cancer": {
+  "query": "(\"multivitamin\"[MeSH Terms] OR \"multivitamin\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "multivitamin",
+  "outcome": "cancer",
+  "retrieval_query": "(\"multivitamin\"[MeSH Terms] OR \"multivitamin\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "multivitamin_cognition": {
+  "query": "(\"multivitamin\"[MeSH Terms] OR \"multivitamin\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "multivitamin",
+  "outcome": "cognitive function",
+  "retrieval_query": "(multivitamin AND cognitive) OR ((\"multivitamin\"[MeSH Terms] OR \"multivitamin\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "multivitamin_mortality": {
+  "query": "(\"multivitamin\"[MeSH Terms] OR \"multivitamin\"[Title/Abstract]) AND (\"mortality\"[MeSH Terms] OR \"mortality\"[Title/Abstract])",
+  "exposure": "multivitamin",
+  "outcome": "mortality",
+  "retrieval_query": "(\"multivitamin\"[MeSH Terms] OR \"multivitamin\"[Title/Abstract]) AND (\"mortality\"[MeSH Terms] OR \"mortality\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "niacin_cvd": {
+  "query": "(\"niacin\"[MeSH Terms] OR \"niacin\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "niacin",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"niacin\"[MeSH Terms] OR \"niacin\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "niacin_deficiency_pellagra": {
+  "query": "(\"niacin deficiency\"[MeSH Terms] OR \"niacin deficiency\"[Title/Abstract]) AND (\"pellagra\"[MeSH Terms] OR \"pellagra\"[Title/Abstract])",
+  "exposure": "niacin deficiency",
+  "outcome": "pellagra",
+  "retrieval_query": "(\"niacin deficiency\"[MeSH Terms] OR \"niacin deficiency\"[Title/Abstract]) AND (\"pellagra\"[MeSH Terms] OR \"pellagra\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "nuts_cvd": {
+  "query": "(\"nuts\"[MeSH Terms] OR \"nuts\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "nuts",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"nuts\"[MeSH Terms] OR \"nuts\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "nuts_ldl_cholesterol": {
+  "query": "(\"nuts\"[MeSH Terms] OR \"nuts\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "nuts",
+  "outcome": "cholesterol",
+  "retrieval_query": "(\"nuts\"[MeSH Terms] OR \"nuts\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "obesity_colorectal_cancer": {
+  "query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "exposure": "obesity",
+  "outcome": "colorectal neoplasms",
+  "retrieval_query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "obesity_endometrial_cancer": {
+  "query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"endometrial neoplasms\"[MeSH Terms] OR \"endometrial neoplasms\"[Title/Abstract])",
+  "exposure": "obesity",
+  "outcome": "endometrial neoplasms",
+  "retrieval_query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"endometrial neoplasms\"[MeSH Terms] OR \"endometrial neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "obesity_esophageal_adenocarcinoma": {
+  "query": "(\"obesity esophageal\"[MeSH Terms] OR \"obesity esophageal\"[Title/Abstract]) AND (\"adenocarcinoma\"[MeSH Terms] OR \"adenocarcinoma\"[Title/Abstract])",
+  "exposure": "obesity esophageal",
+  "outcome": "adenocarcinoma",
+  "retrieval_query": "(\"obesity esophageal\"[MeSH Terms] OR \"obesity esophageal\"[Title/Abstract]) AND (\"adenocarcinoma\"[MeSH Terms] OR \"adenocarcinoma\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "obesity_kidney_cancer": {
+  "query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"kidney neoplasms\"[MeSH Terms] OR \"kidney neoplasms\"[Title/Abstract])",
+  "exposure": "obesity",
+  "outcome": "kidney neoplasms",
+  "retrieval_query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"kidney neoplasms\"[MeSH Terms] OR \"kidney neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "obesity_pancreatic_cancer": {
+  "query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"pancreatic neoplasms\"[MeSH Terms] OR \"pancreatic neoplasms\"[Title/Abstract])",
+  "exposure": "obesity",
+  "outcome": "pancreatic neoplasms",
+  "retrieval_query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"pancreatic neoplasms\"[MeSH Terms] OR \"pancreatic neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "obesity_postmenopausal_breast_cancer": {
+  "query": "(\"obesity postmenopausal\"[MeSH Terms] OR \"obesity postmenopausal\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "exposure": "obesity postmenopausal",
+  "outcome": "breast neoplasms",
+  "retrieval_query": "((obesity postmenopausal) AND (breast neoplasms)) OR ((\"obesity postmenopausal\"[MeSH Terms] OR \"obesity postmenopausal\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "obesity_type2_diabetes": {
+  "query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "obesity",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "(\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "olive_oil_cvd": {
+  "query": "(\"olive oil\"[MeSH Terms] OR \"olive oil\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "olive oil",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"olive oil\"[MeSH Terms] OR \"olive oil\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "omega3_cancer": {
+  "query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "fatty acids omega-3",
+  "outcome": "cancer",
+  "retrieval_query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "omega3_cognition": {
+  "query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "fatty acids omega-3",
+  "outcome": "cognitive function",
+  "retrieval_query": "((fatty acids omega-3) AND (cognitive function)) OR ((\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "omega3_dry_eye": {
+  "query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"eye\"[MeSH Terms] OR \"eye\"[Title/Abstract])",
+  "exposure": "fatty acids omega-3",
+  "outcome": "eye",
+  "retrieval_query": "((fatty acids omega-3) AND (eye)) OR ((\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"eye\"[MeSH Terms] OR \"eye\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "oral_iron_hemoglobin_response": {
+  "query": "(\"oral iron hemoglobin\"[MeSH Terms] OR \"oral iron hemoglobin\"[Title/Abstract]) AND (\"response\"[MeSH Terms] OR \"response\"[Title/Abstract])",
+  "exposure": "oral iron hemoglobin",
+  "outcome": "response",
+  "retrieval_query": "(\"oral iron hemoglobin\"[MeSH Terms] OR \"oral iron hemoglobin\"[Title/Abstract]) AND (\"response\"[MeSH Terms] OR \"response\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "peanut_early_introduction_allergy_prevention": {
+  "query": "(\"peanut early introduction allergy\"[MeSH Terms] OR \"peanut early introduction allergy\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "exposure": "peanut early introduction allergy",
+  "outcome": "prevention",
+  "retrieval_query": "(\"peanut early introduction allergy\"[MeSH Terms] OR \"peanut early introduction allergy\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "physical_activity_colon_cancer": {
+  "query": "(\"physical activity colon\"[MeSH Terms] OR \"physical activity colon\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "physical activity colon",
+  "outcome": "cancer",
+  "retrieval_query": "(\"physical activity colon\"[MeSH Terms] OR \"physical activity colon\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "physical_activity_endometrial_cancer": {
+  "query": "(\"physical activity\"[MeSH Terms] OR \"physical activity\"[Title/Abstract]) AND (\"endometrial neoplasms\"[MeSH Terms] OR \"endometrial neoplasms\"[Title/Abstract])",
+  "exposure": "physical activity",
+  "outcome": "endometrial neoplasms",
+  "retrieval_query": "(\"physical activity\"[MeSH Terms] OR \"physical activity\"[Title/Abstract]) AND (\"endometrial neoplasms\"[MeSH Terms] OR \"endometrial neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "physical_activity_postmenopausal_breast_cancer": {
+  "query": "(\"physical activity postmenopausal\"[MeSH Terms] OR \"physical activity postmenopausal\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "exposure": "physical activity postmenopausal",
+  "outcome": "breast neoplasms",
+  "retrieval_query": "(\"physical activity postmenopausal\"[MeSH Terms] OR \"physical activity postmenopausal\"[Title/Abstract]) AND (\"breast neoplasms\"[MeSH Terms] OR \"breast neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "plant_based_diet_bone_fracture": {
+  "query": "(\"plant based diet bone\"[MeSH Terms] OR \"plant based diet bone\"[Title/Abstract]) AND (\"fracture\"[MeSH Terms] OR \"fracture\"[Title/Abstract])",
+  "exposure": "plant based diet bone",
+  "outcome": "fracture",
+  "retrieval_query": "(\"plant based diet bone\"[MeSH Terms] OR \"plant based diet bone\"[Title/Abstract]) AND (\"fracture\"[MeSH Terms] OR \"fracture\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "plant_based_diet_cancer": {
+  "query": "(\"plant based diet\"[MeSH Terms] OR \"plant based diet\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "plant based diet",
+  "outcome": "cancer",
+  "retrieval_query": "(\"plant based diet\"[MeSH Terms] OR \"plant based diet\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "plant_sterols_ldl_cholesterol": {
+  "query": "(\"plant sterols ldl\"[MeSH Terms] OR \"plant sterols ldl\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "plant sterols ldl",
+  "outcome": "cholesterol",
+  "retrieval_query": "(\"plant sterols ldl\"[MeSH Terms] OR \"plant sterols ldl\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "prebiotics_obesity": {
+  "query": "(\"prebiotics\"[MeSH Terms] OR \"prebiotics\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "exposure": "prebiotics",
+  "outcome": "obesity",
+  "retrieval_query": "(\"prebiotics\"[MeSH Terms] OR \"prebiotics\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "probiotics_antibiotic_associated_diarrhea": {
+  "query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"clostridium infections\"[MeSH Terms] OR \"clostridium infections\"[Title/Abstract])",
+  "exposure": "probiotics",
+  "outcome": "clostridium infections",
+  "retrieval_query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"clostridium infections\"[MeSH Terms] OR \"clostridium infections\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "probiotics_atopic_dermatitis": {
+  "query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"dermatitis\"[MeSH Terms] OR \"dermatitis\"[Title/Abstract])",
+  "exposure": "probiotics",
+  "outcome": "dermatitis",
+  "retrieval_query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"dermatitis\"[MeSH Terms] OR \"dermatitis\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "probiotics_hypercholesterolemia": {
+  "query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"hypercholesterolemia\"[MeSH Terms] OR \"hypercholesterolemia\"[Title/Abstract])",
+  "exposure": "probiotics",
+  "outcome": "hypercholesterolemia",
+  "retrieval_query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"hypercholesterolemia\"[MeSH Terms] OR \"hypercholesterolemia\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "probiotics_ibs": {
+  "query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"ibs\"[MeSH Terms] OR \"ibs\"[Title/Abstract])",
+  "exposure": "probiotics",
+  "outcome": "ibs",
+  "retrieval_query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"ibs\"[MeSH Terms] OR \"ibs\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "probiotics_necrotizing_enterocolitis": {
+  "query": "(\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"enterocolitis necrotizing\"[MeSH Terms] OR \"enterocolitis necrotizing\"[Title/Abstract])",
+  "exposure": "probiotics",
+  "outcome": "enterocolitis necrotizing",
+  "retrieval_query": "((probiotics) AND (enterocolitis necrotizing)) OR ((\"probiotics\"[MeSH Terms] OR \"probiotics\"[Title/Abstract]) AND (\"enterocolitis necrotizing\"[MeSH Terms] OR \"enterocolitis necrotizing\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "processed_meat_colorectal_cancer": {
+  "query": "(\"meat products\"[MeSH Terms] OR \"meat products\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "exposure": "meat products",
+  "outcome": "colorectal neoplasms",
+  "retrieval_query": "(\"meat products\"[MeSH Terms] OR \"meat products\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "protein_energy_malnutrition_child_growth": {
+  "query": "(\"protein energy malnutrition child\"[MeSH Terms] OR \"protein energy malnutrition child\"[Title/Abstract]) AND (\"growth\"[MeSH Terms] OR \"growth\"[Title/Abstract])",
+  "exposure": "protein energy malnutrition child",
+  "outcome": "growth",
+  "retrieval_query": "(\"protein energy malnutrition child\"[MeSH Terms] OR \"protein energy malnutrition child\"[Title/Abstract]) AND (\"growth\"[MeSH Terms] OR \"growth\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "red_meat_cancer": {
+  "query": "(\"red meat\"[MeSH Terms] OR \"red meat\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "red meat",
+  "outcome": "cancer",
+  "retrieval_query": "(\"red meat\"[MeSH Terms] OR \"red meat\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "red_meat_cvd": {
+  "query": "(\"red meat\"[MeSH Terms] OR \"red meat\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "red meat",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"red meat\"[MeSH Terms] OR \"red meat\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "red_meat_type2_diabetes": {
+  "query": "(\"red meat\"[MeSH Terms] OR \"red meat\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "red meat",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((red meat) AND (diabetes mellitus type 2)) OR ((\"red meat\"[MeSH Terms] OR \"red meat\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "replacing_saturated_fat_polyunsaturated_fat_cvd": {
+  "query": "(\"replacing saturated fat polyunsaturated fat\"[MeSH Terms] OR \"replacing saturated fat polyunsaturated fat\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "replacing saturated fat polyunsaturated fat",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"replacing saturated fat polyunsaturated fat\"[MeSH Terms] OR \"replacing saturated fat polyunsaturated fat\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "selenium_cognition": {
+  "query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "selenium",
+  "outcome": "cognitive function",
+  "retrieval_query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "selenium_cvd": {
+  "query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "selenium",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "selenium_male_fertility": {
+  "query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"fertility\"[MeSH Terms] OR \"fertility\"[Title/Abstract])",
+  "exposure": "selenium",
+  "outcome": "fertility",
+  "retrieval_query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"fertility\"[MeSH Terms] OR \"fertility\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "selenium_prostate_cancer": {
+  "query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"prostatic neoplasms\"[MeSH Terms] OR \"prostatic neoplasms\"[Title/Abstract])",
+  "exposure": "selenium",
+  "outcome": "prostatic neoplasms",
+  "retrieval_query": "(\"selenium\"[MeSH Terms] OR \"selenium\"[Title/Abstract]) AND (\"prostatic neoplasms\"[MeSH Terms] OR \"prostatic neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "sodium_bp": {
+  "query": "(\"sodium dietary\"[MeSH Terms] OR \"sodium dietary\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "exposure": "sodium dietary",
+  "outcome": "blood pressure",
+  "retrieval_query": "(\"sodium dietary\"[MeSH Terms] OR \"sodium dietary\"[Title/Abstract]) AND (\"blood pressure\"[MeSH Terms] OR \"blood pressure\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "soluble_fiber_ldl_cholesterol": {
+  "query": "(\"soluble fiber ldl\"[MeSH Terms] OR \"soluble fiber ldl\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "soluble fiber ldl",
+  "outcome": "cholesterol",
+  "retrieval_query": "(\"soluble fiber ldl\"[MeSH Terms] OR \"soluble fiber ldl\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "sugar_sweetened_beverages_dental_caries": {
+  "query": "(\"sugar-sweetened beverages\"[MeSH Terms] OR \"sugar-sweetened beverages\"[Title/Abstract]) AND (\"caries\"[MeSH Terms] OR \"caries\"[Title/Abstract])",
+  "exposure": "sugar-sweetened beverages",
+  "outcome": "caries",
+  "retrieval_query": "(\"sugar-sweetened beverages\"[MeSH Terms] OR \"sugar-sweetened beverages\"[Title/Abstract]) AND (\"caries\"[MeSH Terms] OR \"caries\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "sugar_sweetened_beverages_type2_diabetes": {
+  "query": "(\"sugar-sweetened beverages\"[MeSH Terms] OR \"sugar-sweetened beverages\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "sugar-sweetened beverages",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((sugar-sweetened beverages) AND (diabetes mellitus type 2)) OR ((\"sugar-sweetened beverages\"[MeSH Terms] OR \"sugar-sweetened beverages\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "sugar_sweetened_obesity": {
+  "query": "(\"sugar-sweetened beverages\"[MeSH Terms] OR \"sugar-sweetened beverages\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "exposure": "sugar-sweetened beverages",
+  "outcome": "obesity",
+  "retrieval_query": "(\"sugar-sweetened beverages\"[MeSH Terms] OR \"sugar-sweetened beverages\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "tea_cvd": {
+  "query": "(\"tea\"[MeSH Terms] OR \"tea\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "tea",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"tea\"[MeSH Terms] OR \"tea\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "thiamin_deficiency_beriberi": {
+  "query": "(\"thiamin deficiency\"[MeSH Terms] OR \"thiamin deficiency\"[Title/Abstract]) AND (\"beriberi\"[MeSH Terms] OR \"beriberi\"[Title/Abstract])",
+  "exposure": "thiamin deficiency",
+  "outcome": "beriberi",
+  "retrieval_query": "((thiamin deficiency) AND (beriberi)) OR ((\"thiamin deficiency\"[MeSH Terms] OR \"thiamin deficiency\"[Title/Abstract]) AND (\"beriberi\"[MeSH Terms] OR \"beriberi\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "time_restricted_eating_circadian_metabolism": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"metabolism\"[MeSH Terms] OR \"metabolism\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "metabolism",
+  "retrieval_query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"metabolism\"[MeSH Terms] OR \"metabolism\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "time_restricted_eating_glycemic_control": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"control\"[MeSH Terms] OR \"control\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "control",
+  "retrieval_query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"control\"[MeSH Terms] OR \"control\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "time_restricted_eating_obesity": {
+  "query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "exposure": "intermittent fasting",
+  "outcome": "obesity",
+  "retrieval_query": "(\"intermittent fasting\"[MeSH Terms] OR \"intermittent fasting\"[Title/Abstract]) AND (\"obesity\"[MeSH Terms] OR \"obesity\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "trans_fat_cvd": {
+  "query": "(\"trans fatty acids\"[MeSH Terms] OR \"trans fatty acids\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "trans fatty acids",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"trans fatty acids\"[MeSH Terms] OR \"trans fatty acids\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "trans_fat_ldl_cholesterol": {
+  "query": "(\"trans fatty acids\"[MeSH Terms] OR \"trans fatty acids\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "exposure": "trans fatty acids",
+  "outcome": "cholesterol",
+  "retrieval_query": "(\"trans fatty acids\"[MeSH Terms] OR \"trans fatty acids\"[Title/Abstract]) AND (\"cholesterol\"[MeSH Terms] OR \"cholesterol\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "ultra_processed_foods_ibd": {
+  "query": "(\"food processed\"[MeSH Terms] OR \"food processed\"[Title/Abstract]) AND (\"ibd\"[MeSH Terms] OR \"ibd\"[Title/Abstract])",
+  "exposure": "food processed",
+  "outcome": "ibd",
+  "retrieval_query": "(\"food processed\"[MeSH Terms] OR \"food processed\"[Title/Abstract]) AND (\"ibd\"[MeSH Terms] OR \"ibd\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_a_cancer": {
+  "query": "(\"vitamin A\"[MeSH Terms] OR \"vitamin A\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "vitamin A",
+  "outcome": "cancer",
+  "retrieval_query": "(\"vitamin A\"[MeSH Terms] OR \"vitamin A\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_a_deficiency_night_blindness": {
+  "query": "(\"vitamin A\"[MeSH Terms] OR \"vitamin A\"[Title/Abstract]) AND (\"night blindness\"[MeSH Terms] OR \"night blindness\"[Title/Abstract])",
+  "exposure": "vitamin A",
+  "outcome": "night blindness",
+  "retrieval_query": "(\"vitamin A\"[MeSH Terms] OR \"vitamin A\"[Title/Abstract]) AND (\"night blindness\"[MeSH Terms] OR \"night blindness\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_b12_cancer": {
+  "query": "(\"vitamin b12\"[MeSH Terms] OR \"vitamin b12\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "vitamin b12",
+  "outcome": "cancer",
+  "retrieval_query": "(\"vitamin b12\"[MeSH Terms] OR \"vitamin b12\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_b12_cognition": {
+  "query": "(\"vitamin b12\"[MeSH Terms] OR \"vitamin b12\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "vitamin b12",
+  "outcome": "cognitive function",
+  "retrieval_query": "(\"vitamin b12\"[MeSH Terms] OR \"vitamin b12\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_b12_dementia": {
+  "query": "(\"vitamin b12\"[MeSH Terms] OR \"vitamin b12\"[Title/Abstract]) AND (\"dementia\"[MeSH Terms] OR \"dementia\"[Title/Abstract])",
+  "exposure": "vitamin b12",
+  "outcome": "dementia",
+  "retrieval_query": "(\"vitamin b12\"[MeSH Terms] OR \"vitamin b12\"[Title/Abstract]) AND (\"dementia\"[MeSH Terms] OR \"dementia\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_b12_vegan_deficiency_risk": {
+  "query": "(\"vitamin b12 vegan deficiency\"[MeSH Terms] OR \"vitamin b12 vegan deficiency\"[Title/Abstract]) AND (\"risk\"[MeSH Terms] OR \"risk\"[Title/Abstract])",
+  "exposure": "vitamin b12 vegan deficiency",
+  "outcome": "risk",
+  "retrieval_query": "(\"vitamin b12 vegan deficiency\"[MeSH Terms] OR \"vitamin b12 vegan deficiency\"[Title/Abstract]) AND (\"risk\"[MeSH Terms] OR \"risk\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_c_cancer": {
+  "query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "exposure": "ascorbic acid",
+  "outcome": "cancer",
+  "retrieval_query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"cancer\"[MeSH Terms] OR \"cancer\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_c_cognition": {
+  "query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "ascorbic acid",
+  "outcome": "cognitive function",
+  "retrieval_query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_c_common_cold": {
+  "query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"cold\"[MeSH Terms] OR \"cold\"[Title/Abstract])",
+  "exposure": "ascorbic acid",
+  "outcome": "cold",
+  "retrieval_query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"cold\"[MeSH Terms] OR \"cold\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "vitamin_c_cvd_prevention": {
+  "query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "exposure": "ascorbic acid",
+  "outcome": "prevention",
+  "retrieval_query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_c_deficiency_scurvy": {
+  "query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"scurvy\"[MeSH Terms] OR \"scurvy\"[Title/Abstract])",
+  "exposure": "ascorbic acid",
+  "outcome": "scurvy",
+  "retrieval_query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"scurvy\"[MeSH Terms] OR \"scurvy\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_c_nonheme_iron_absorption": {
+  "query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"absorption\"[MeSH Terms] OR \"absorption\"[Title/Abstract])",
+  "exposure": "ascorbic acid",
+  "outcome": "absorption",
+  "retrieval_query": "(\"ascorbic acid\"[MeSH Terms] OR \"ascorbic acid\"[Title/Abstract]) AND (\"absorption\"[MeSH Terms] OR \"absorption\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_d_deficiency_rickets": {
+  "query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"rickets\"[MeSH Terms] OR \"rickets\"[Title/Abstract])",
+  "exposure": "vitamin D",
+  "outcome": "rickets",
+  "retrieval_query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"rickets\"[MeSH Terms] OR \"rickets\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_d_depression": {
+  "query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"depression\"[MeSH Terms] OR \"depression\"[Title/Abstract])",
+  "exposure": "vitamin D",
+  "outcome": "depression",
+  "retrieval_query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"depression\"[MeSH Terms] OR \"depression\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_d_multiple_sclerosis": {
+  "query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"sclerosis\"[MeSH Terms] OR \"sclerosis\"[Title/Abstract])",
+  "exposure": "vitamin D",
+  "outcome": "sclerosis",
+  "retrieval_query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"sclerosis\"[MeSH Terms] OR \"sclerosis\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_d_type2_diabetes": {
+  "query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "vitamin D",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_d_weight_loss": {
+  "query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "exposure": "vitamin D",
+  "outcome": "weight loss",
+  "retrieval_query": "(\"vitamin D\"[MeSH Terms] OR \"vitamin D\"[Title/Abstract]) AND (\"weight loss\"[MeSH Terms] OR \"weight loss\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_e_alzheimers_progression": {
+  "query": "(\"vitamin E\"[MeSH Terms] OR \"vitamin E\"[Title/Abstract]) AND (\"progression\"[MeSH Terms] OR \"progression\"[Title/Abstract])",
+  "exposure": "vitamin E",
+  "outcome": "progression",
+  "retrieval_query": "(\"vitamin E\"[MeSH Terms] OR \"vitamin E\"[Title/Abstract]) AND (\"progression\"[MeSH Terms] OR \"progression\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_e_cognition": {
+  "query": "(\"vitamin E\"[MeSH Terms] OR \"vitamin E\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "exposure": "vitamin E",
+  "outcome": "cognitive function",
+  "retrieval_query": "(\"vitamin E\"[MeSH Terms] OR \"vitamin E\"[Title/Abstract]) AND (\"cognitive function\"[MeSH Terms] OR \"cognitive function\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_e_cvd": {
+  "query": "(\"vitamin E\"[MeSH Terms] OR \"vitamin E\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "vitamin E",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"vitamin E\"[MeSH Terms] OR \"vitamin E\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_k_deficiency_bleeding": {
+  "query": "(\"vitamin k deficiency\"[MeSH Terms] OR \"vitamin k deficiency\"[Title/Abstract]) AND (\"bleeding\"[MeSH Terms] OR \"bleeding\"[Title/Abstract])",
+  "exposure": "vitamin k deficiency",
+  "outcome": "bleeding",
+  "retrieval_query": "(\"vitamin k deficiency\"[MeSH Terms] OR \"vitamin k deficiency\"[Title/Abstract]) AND (\"bleeding\"[MeSH Terms] OR \"bleeding\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "vitamin_k_newborn_bleeding_prevention": {
+  "query": "(\"vitamin k newborn bleeding\"[MeSH Terms] OR \"vitamin k newborn bleeding\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "exposure": "vitamin k newborn bleeding",
+  "outcome": "prevention",
+  "retrieval_query": "(\"vitamin k newborn bleeding\"[MeSH Terms] OR \"vitamin k newborn bleeding\"[Title/Abstract]) AND (\"prevention\"[MeSH Terms] OR \"prevention\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "whole_grains_colorectal_cancer": {
+  "query": "(\"whole grains\"[MeSH Terms] OR \"whole grains\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "exposure": "whole grains",
+  "outcome": "colorectal neoplasms",
+  "retrieval_query": "(\"whole grains\"[MeSH Terms] OR \"whole grains\"[Title/Abstract]) AND (\"colorectal neoplasms\"[MeSH Terms] OR \"colorectal neoplasms\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "whole_grains_type2_diabetes": {
+  "query": "(\"whole grains\"[MeSH Terms] OR \"whole grains\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "whole grains",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((whole grains) AND (diabetes mellitus type 2)) OR ((\"whole grains\"[MeSH Terms] OR \"whole grains\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "yogurt_type2_diabetes": {
+  "query": "(\"yogurt\"[MeSH Terms] OR \"yogurt\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "yogurt",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "(yogurt AND diabetes) OR ((\"yogurt\"[MeSH Terms] OR \"yogurt\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "zinc_childhood_diarrhea_duration": {
+  "query": "(\"zinc\"[MeSH Terms] OR \"zinc\"[Title/Abstract]) AND (\"duration\"[MeSH Terms] OR \"duration\"[Title/Abstract])",
+  "exposure": "zinc",
+  "outcome": "duration",
+  "retrieval_query": "(\"zinc\"[MeSH Terms] OR \"zinc\"[Title/Abstract]) AND (\"duration\"[MeSH Terms] OR \"duration\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "zinc_common_cold_duration": {
+  "query": "(\"zinc\"[MeSH Terms] OR \"zinc\"[Title/Abstract]) AND (\"duration\"[MeSH Terms] OR \"duration\"[Title/Abstract])",
+  "exposure": "zinc",
+  "outcome": "duration",
+  "retrieval_query": "(\"zinc\"[MeSH Terms] OR \"zinc\"[Title/Abstract]) AND (\"duration\"[MeSH Terms] OR \"duration\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "zinc_type2_diabetes": {
+  "query": "(\"zinc\"[MeSH Terms] OR \"zinc\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract])",
+  "exposure": "zinc",
+  "outcome": "diabetes mellitus type 2",
+  "retrieval_query": "((zinc) AND (diabetes mellitus type 2)) OR ((\"zinc\"[MeSH Terms] OR \"zinc\"[Title/Abstract]) AND (\"diabetes mellitus type 2\"[MeSH Terms] OR \"diabetes mellitus type 2\"[Title/Abstract]))",
+  "history_retrieved_in_full_after_800_cap": true
+ },
+ "coffee_arrhythmia": {
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"arrhythmia\"[MeSH Terms] OR \"arrhythmia\"[Title/Abstract])",
+  "exposure": "coffee",
+  "outcome": "arrhythmia",
+  "retrieval_query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"arrhythmia\"[MeSH Terms] OR \"arrhythmia\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "omega3_cvd": {
+  "query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "exposure": "fatty acids omega-3",
+  "outcome": "cardiovascular disease",
+  "retrieval_query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "omega3_triglycerides": {
+  "query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"triglycerides\"[MeSH Terms] OR \"triglycerides\"[Title/Abstract])",
+  "exposure": "fatty acids omega-3",
+  "outcome": "triglycerides",
+  "retrieval_query": "(\"fatty acids omega-3\"[MeSH Terms] OR \"fatty acids omega-3\"[Title/Abstract]) AND (\"triglycerides\"[MeSH Terms] OR \"triglycerides\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ },
+ "soy_menopause": {
+  "query": "(\"soybeans\"[MeSH Terms] OR \"soybeans\"[Title/Abstract]) AND (\"menopause\"[MeSH Terms] OR \"menopause\"[Title/Abstract])",
+  "exposure": "soybeans",
+  "outcome": "menopause",
+  "retrieval_query": "(\"soybeans\"[MeSH Terms] OR \"soybeans\"[Title/Abstract]) AND (\"menopause\"[MeSH Terms] OR \"menopause\"[Title/Abstract])",
+  "history_retrieved_in_full_after_800_cap": false
+ }
+}
