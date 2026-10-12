@@ -1,0 +1,34 @@
+# NutriTURN — pinned to the interpreter that produced every number in the paper.
+# Python 3.10.12 (CPython), Linux 5.15, glibc 2.35, x86-64.
+#
+#   pip install -r requirement.txt
+#
+# Run every script with PYTHONHASHSEED=0 (config/environment.json explains why this is
+# required rather than optional).
+
+# ---- Audit layer (CPU). audit_pipeline/, audit_experiments/ and data_preprocessing/
+# ---- run with these alone, once the data stages have produced data/.
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+statsmodels==0.15.0
+xgboost==3.2.0
+matplotlib==3.10.9
+requests==2.34.2
+tqdm==4.67.3
+
+# ---- Annotation layer (GPU). Needed by data_annotation/* and by
+# ---- data_preprocessing/05_build_record_embeddings.py. Not needed to reproduce any
+# ---- reported table once the annotations exist.
+torch==2.5.1+cu121
+transformers==4.51.3
+accelerate==1.13.0
+safetensors==0.7.0
+
+# ---- Optional: PDF page checks only.
+pymupdf==1.28.2
+
+# Model weights are NOT redistributed. data_annotation/ downloads them from the Hugging Face
+# Hub at the revisions pinned in config/annotation_models.json. The primary cell additionally
+# needs a Hugging Face token with gated-repository read access for Llama-3.1-8B-Instruct.
