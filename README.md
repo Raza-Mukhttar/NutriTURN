@@ -101,3 +101,4 @@ everything else fixed is what makes a cell-to-cell difference attributable to th
 | `verify_release.py` | rebuilds the cohorts from the labels and checks them against the paper |
 | `run_audit.py` | runs the core audit in dependency order (`--list` shows it) |
 
+The annotation models are used under their own licences (Llama 3.1 Community License; Apache-2.0 for Qwen2.5-7B and Mistral-7B; the Qwen licence for Qwen2.5-72B), PubMed records are retrieved through the NCBI E-utilities under NLM terms, and the released data will be available under CC BY 4.0 on publication.
