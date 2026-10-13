@@ -102,3 +102,27 @@ everything else fixed is what makes a cell-to-cell difference attributable to th
 | `run_audit.py` | runs the core audit in dependency order (`--list` shows it) |
 
 The annotation models are used under their own licences (Llama 3.1 Community License; Apache-2.0 for Qwen2.5-7B and Mistral-7B; the Qwen licence for Qwen2.5-72B), PubMed records are retrieved through the NCBI E-utilities under NLM terms, and the released data will be available under CC BY 4.0 on publication.
+
+
+## Compute
+
+- Models: Llama-3.1-8B-Instruct (8.03B parameters), Llama-3.1-70B-Instruct (70.55B),
+  Qwen2.5-7B-Instruct (7.62B), Qwen2.5-72B-Instruct (72.71B), Mistral-7B-Instruct-v0.3 (7.25B),
+  and PubMedBERT base (109M) for the text-reader baseline.
+- Precision: bfloat16 for the 7-8B models; pre-quantised 4-bit NF4 checkpoints with
+  bfloat16 compute for the two 70B-class models.
+- Hardware: five NVIDIA RTX A6000 GPUs (48 GB each).
+- Software: Python 3.10.12, PyTorch 2.5.1 (CUDA 12.1), transformers 4.51.3.
+- Annotation budget: about 266 GPU-hours in total, summed from the completion times
+  in the annotation worker logs.
+
+| stage | GPU-hours |
+|---|---|
+| 70B-class cells (4-bit) | 168.6 |
+| source-corpus cells | 41.5 |
+| external re-annotation | 23.6 |
+| frozen cohort, both pipelines | 19.8 |
+| third family and re-runs | 12.1 |
+| total | 265.6 |
+
+All 59 audit stages run on CPU in about 2.7 hours with `OMP_NUM_THREADS=4`.
