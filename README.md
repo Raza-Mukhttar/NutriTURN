@@ -1,6 +1,6 @@
 # NutriTURN
 
-Code for *High Scores, Fragile Targets: Auditing Change in LLM-Annotated Diet-Health Evidence*.
+Code for *High Scores, Fragile Targets: Auditing LLM-Derived Evidence-Change Prediction*.
 
 NutriTURN audits whether a learned system that predicts **change in LLM-annotated evidence
 direction** is measuring the evidence or the annotation. The repository contains the whole chain:
