@@ -1,6 +1,6 @@
 # NutriTURN
 
-*High Scores, Fragile Targets: Auditing LLM-Derived Evidence-Change Prediction*.
+Code for *High Scores, Fragile Targets: Auditing LLM-Derived Evidence-Change Prediction*.
 
 NutriTURN audits whether a learned system that predicts **change in LLM-annotated evidence
 direction** is measuring the evidence or the annotation. The repository contains the whole chain:
@@ -46,9 +46,7 @@ bash audit_experiments/run_all_experiments.sh
 ```
 
 
----
-
-## Added after submission
+## Added after submission (during rebuttal)
 
 Two self-contained folders, added in response to review. Neither changes any file above, and no
 number in the paper depends on them. Each has its own README with the method, the results and the
@@ -108,7 +106,7 @@ everything else fixed is what makes a cell-to-cell difference attributable to th
 
 ---
 
-## The audit pipeline (during rebuttals)
+## The audit pipeline
 
 `audit_pipeline/` is the study's method, not an experiment:
 
