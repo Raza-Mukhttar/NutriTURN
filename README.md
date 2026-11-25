@@ -1,6 +1,6 @@
 # NutriTURN
 
-Code for *High Scores, Fragile Targets: Auditing LLM-Derived Evidence-Change Prediction*.
+*High Scores, Fragile Targets: Auditing LLM-Derived Evidence-Change Prediction*.
 
 NutriTURN audits whether a learned system that predicts **change in LLM-annotated evidence
 direction** is measuring the evidence or the annotation. The repository contains the whole chain:
@@ -24,7 +24,9 @@ NutriTURN-Repository/
 ├── data_annotation/        stage 2 — every annotation cell, one per (model, prompt, read-out)
 ├── data_preprocessing/     stage 3 — the 55 pre-cutoff variables, caches, anchors, system scores
 ├── audit_pipeline/         the frozen audit method, its metrics, and the driver that runs it
-└── audit_experiments/      one script per experiment in the paper
+├── audit_experiments/      one script per experiment in the paper
+├── cto_audit_proof/        added after submission — the audit applied to a third-party system (CTO)
+└── noise_null_calibration/ added after submission — noise-null calibration of event overlap
 ```
 
 ---
@@ -43,6 +45,24 @@ python audit_pipeline/run_audit.py
 bash audit_experiments/run_all_experiments.sh          
 ```
 
+
+---
+
+## Added after submission
+
+Two self-contained folders, added in response to review. Neither changes any file above, and no
+number in the paper depends on them. Each has its own README with the method, the results and the
+limits.
+
+| Folder | What it is | Run | Needs |
+|---|---|---|---|
+| `cto_audit_proof/` | The audit applied to a system we did not build: CTO (Gao et al., 2024), fifteen weak labelling functions aggregated by a random forest, one of them LLM-derived. Ships CTO's released files unmodified with their SHA-256 hashes, our re-derived labels (74,200 per annotator), one script and a file of expected values. | `python cto_audit_proof/run_cto_audit.py` | CPU, about 3 minutes; numpy, scipy, scikit-learn. Nothing else in this repository. |
+| `noise_null_calibration/` | Is the event overlap between two annotations what record-level disagreement at the measured rate would produce by itself? Three noise nulls and a positive control, on both endpoint rules. | `python noise_null_calibration/noise_null_overlap.py` | CPU, about 8 minutes; numpy. Reads the released labels, identifiers and years in `data_release/`; set `NUTRITURN_DATA_RELEASE` to its path if it is not beside the folder. |
+
+`run_cto_audit.py` recomputes all 136 values of the CTO audit, compares them with
+`expected_numbers.json`, and exits with an error if any differs.
+
+---
 
 ## The three stages, and what each one fixes
 
@@ -88,7 +108,7 @@ everything else fixed is what makes a cell-to-cell difference attributable to th
 
 ---
 
-## The audit pipeline
+## The audit pipeline (during rebuttals)
 
 `audit_pipeline/` is the study's method, not an experiment:
 
