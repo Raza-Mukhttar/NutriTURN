@@ -1,0 +1,12 @@
+contrast                                           units  ev   delta       95% interval est pub       90% interval min bound eq@0.02 eq@0.05
+development, primary: signed minus margin           1012  71 +0.0667   [0.0168, 0.1202] yes ok    [0.0236, 0.1099]    0.1099      no      no
+development, primary: signed minus class-blind      1012  71 +0.0506   [0.0126, 0.0922] yes ok    [0.0185, 0.0837]    0.0837      no      no
+development, second: signed minus margin            1012  52 -0.0957 [-0.1660, -0.0368] yes ok  [-0.1537, -0.0439]    0.1537      no      no
+development, second: signed minus class-blind       1012  52 -0.0907 [-0.1636, -0.0284] yes -   [-0.1502, -0.0367]    0.1502      no      no
+development, consensus: signed minus margin         1012  55 -0.0296  [-0.0938, 0.0226] no  ok   [-0.0826, 0.0155]    0.0826      no      no
+development, consensus: signed minus class-blind    1012  55 -0.0244  [-0.0890, 0.0291] no  -    [-0.0773, 0.0216]    0.0773      no      no
+calendar H3: signed minus margin                     756  58 +0.0059  [-0.0124, 0.0231] no  ok   [-0.0092, 0.0206]    0.0206      no     yes
+calendar H5: signed minus margin                     625  45 +0.0231  [-0.0048, 0.0530] no  ok   [-0.0007, 0.0477]    0.0477      no     yes
+calendar H10: signed minus margin                    492  35 +0.0083  [-0.0320, 0.0468] no  ok   [-0.0244, 0.0398]    0.0398      no     yes
+External-1, frozen transfer: signed minus margin     322  19 +0.0545  [-0.0522, 0.1061] no  ok   [-0.0365, 0.0987]    0.0987      no      no
+External-2, frozen transfer: signed minus margin    1257  95 -0.0736 [-0.1232, -0.0244] yes ok  [-0.1153, -0.0323]    0.1153      no      no

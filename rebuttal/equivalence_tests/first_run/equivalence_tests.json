@@ -1,0 +1,353 @@
+{
+ "protocol": "Two one-sided equivalence tests (TOST) on the learned-minus-reference AUROC contrasts.\n\nFor every contrast the paper reports with a claim-clustered percentile interval, this script\nre-draws the same 2,000 claim resamples (same seed, same cell definitions as the wild-bootstrap\nand clustered-ROC tables) and reports\n\n  * the 95% interval, checked against the published value before anything else is reported;\n  * the 90% interval, which is the TOST interval at alpha = 0.05: the contrast is equivalent to\n    zero within +/- d exactly when the 90% interval lies inside (-d, +d);\n  * the smallest d for which that holds (max absolute end of the 90% interval);\n  * the verdict at each bound in BOUNDS.\n\nThe bounds were not fixed before the data were seen. The smallest equivalence bound is therefore\nthe primary quantity; verdicts at fixed bounds are a reading aid.\n\n  python equivalence_tests.py /path/to/NutriTURN-Repository\n",
+ "resamples": 2000,
+ "seed": 3,
+ "alpha": 0.05,
+ "bounds": [
+  0.02,
+  0.05
+ ],
+ "contrasts": [
+  {
+   "cell": "development, primary: signed minus margin",
+   "units": 1012,
+   "events": 71,
+   "clusters": 160,
+   "delta": 0.06667315262456774,
+   "ci95": [
+    0.016781021993376336,
+    0.12017268259091121
+   ],
+   "established": true,
+   "matches_published": true,
+   "ci90": [
+    0.023614439081988237,
+    0.10988095896041815
+   ],
+   "smallest_equivalence_bound": 0.10988095896041815,
+   "p_lower": {
+    "0.02": 0.0,
+    "0.05": 0.0
+   },
+   "p_upper": {
+    "0.02": 0.963,
+    "0.05": 0.7175
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "development, primary: signed minus class-blind",
+   "units": 1012,
+   "events": 71,
+   "clusters": 160,
+   "delta": 0.0506204068192363,
+   "ci95": [
+    0.012641026898062,
+    0.0922253353801069
+   ],
+   "established": true,
+   "matches_published": true,
+   "ci90": [
+    0.018516817305577065,
+    0.08371075483324938
+   ],
+   "smallest_equivalence_bound": 0.08371075483324938,
+   "p_lower": {
+    "0.02": 0.0,
+    "0.05": 0.0
+   },
+   "p_upper": {
+    "0.02": 0.942,
+    "0.05": 0.484
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "development, second: signed minus margin",
+   "units": 1012,
+   "events": 52,
+   "clusters": 160,
+   "delta": -0.0956730769230768,
+   "ci95": [
+    -0.16598500613622288,
+    -0.036805243618266
+   ],
+   "established": true,
+   "matches_published": true,
+   "ci90": [
+    -0.15365406630475117,
+    -0.04394733873370216
+   ],
+   "smallest_equivalence_bound": 0.15365406630475117,
+   "p_lower": {
+    "0.02": 0.994,
+    "0.05": 0.9225
+   },
+   "p_upper": {
+    "0.02": 0.0,
+    "0.05": 0.0
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "development, second: signed minus class-blind",
+   "units": 1012,
+   "events": 52,
+   "clusters": 160,
+   "delta": -0.09068509615384612,
+   "ci95": [
+    -0.16364839422768485,
+    -0.028373423130296994
+   ],
+   "established": true,
+   "matches_published": null,
+   "ci90": [
+    -0.15022968652864924,
+    -0.03665598610713742
+   ],
+   "smallest_equivalence_bound": 0.15022968652864924,
+   "p_lower": {
+    "0.02": 0.991,
+    "0.05": 0.892
+   },
+   "p_upper": {
+    "0.02": 0.0,
+    "0.05": 0.0
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "development, consensus: signed minus margin",
+   "units": 1012,
+   "events": 55,
+   "clusters": 160,
+   "delta": -0.0295715778474398,
+   "ci95": [
+    -0.0938019862190423,
+    0.022563622072771038
+   ],
+   "established": false,
+   "matches_published": true,
+   "ci90": [
+    -0.08257905221978681,
+    0.015489020425368425
+   ],
+   "smallest_equivalence_bound": 0.08257905221978681,
+   "p_lower": {
+    "0.02": 0.591,
+    "0.05": 0.2345
+   },
+   "p_upper": {
+    "0.02": 0.033,
+    "0.05": 0.001
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "development, consensus: signed minus class-blind",
+   "units": 1012,
+   "events": 55,
+   "clusters": 160,
+   "delta": -0.02437541559798606,
+   "ci95": [
+    -0.08895416721414318,
+    0.029135699900330006
+   ],
+   "established": false,
+   "matches_published": null,
+   "ci90": [
+    -0.07726844020075686,
+    0.02162745324723812
+   ],
+   "smallest_equivalence_bound": 0.07726844020075686,
+   "p_lower": {
+    "0.02": 0.527,
+    "0.05": 0.185
+   },
+   "p_upper": {
+    "0.02": 0.0575,
+    "0.05": 0.002
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "calendar H3: signed minus margin",
+   "units": 756,
+   "events": 58,
+   "clusters": 158,
+   "delta": 0.0059406185159569525,
+   "ci95": [
+    -0.012367086705736852,
+    0.023074432203402204
+   ],
+   "established": false,
+   "matches_published": true,
+   "ci90": [
+    -0.00921939189714706,
+    0.020552001263033602
+   ],
+   "smallest_equivalence_bound": 0.020552001263033602,
+   "p_lower": {
+    "0.02": 0.0045,
+    "0.05": 0.0
+   },
+   "p_upper": {
+    "0.02": 0.0595,
+    "0.05": 0.0
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": true
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "calendar H5: signed minus margin",
+   "units": 625,
+   "events": 45,
+   "clusters": 142,
+   "delta": 0.023141762452107195,
+   "ci95": [
+    -0.004820980082472251,
+    0.0529825179778422
+   ],
+   "established": false,
+   "matches_published": true,
+   "ci90": [
+    -0.000703914406667366,
+    0.04770144904834547
+   ],
+   "smallest_equivalence_bound": 0.04770144904834547,
+   "p_lower": {
+    "0.02": 0.001,
+    "0.05": 0.0
+   },
+   "p_upper": {
+    "0.02": 0.536,
+    "0.05": 0.037
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": true
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "calendar H10: signed minus margin",
+   "units": 492,
+   "events": 35,
+   "clusters": 122,
+   "delta": 0.008346358236948848,
+   "ci95": [
+    -0.03195230760288297,
+    0.04683676685909462
+   ],
+   "established": false,
+   "matches_published": true,
+   "ci90": [
+    -0.024408153501882572,
+    0.03977724028172466
+   ],
+   "smallest_equivalence_bound": 0.03977724028172466,
+   "p_lower": {
+    "0.02": 0.076,
+    "0.05": 0.0025
+   },
+   "p_upper": {
+    "0.02": 0.249,
+    "0.05": 0.0215
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": true
+   },
+   "usable_resamples": 2000
+  },
+  {
+   "cell": "External-1, frozen transfer: signed minus margin",
+   "units": 322,
+   "events": 19,
+   "clusters": 46,
+   "delta": 0.0545422963348966,
+   "ci95": [
+    -0.05215538655233426,
+    0.10614532775210356
+   ],
+   "established": false,
+   "matches_published": true,
+   "ci90": [
+    -0.036503402560219035,
+    0.09870441098079477
+   ],
+   "smallest_equivalence_bound": 0.09870441098079477,
+   "p_lower": {
+    "0.02": 0.07657657657657657,
+    "0.05": 0.02952952952952953
+   },
+   "p_upper": {
+    "0.02": 0.7902902902902903,
+    "0.05": 0.536036036036036
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 1998
+  },
+  {
+   "cell": "External-2, frozen transfer: signed minus margin",
+   "units": 1257,
+   "events": 95,
+   "clusters": 180,
+   "delta": -0.07355285804873624,
+   "ci95": [
+    -0.12315178424544154,
+    -0.024401857200441676
+   ],
+   "established": true,
+   "matches_published": true,
+   "ci90": [
+    -0.11526414251567153,
+    -0.03230208244904633
+   ],
+   "smallest_equivalence_bound": 0.11526414251567153,
+   "p_lower": {
+    "0.02": 0.9855,
+    "0.05": 0.83
+   },
+   "p_upper": {
+    "0.02": 0.0,
+    "0.05": 0.0
+   },
+   "equivalent": {
+    "0.02": false,
+    "0.05": false
+   },
+   "usable_resamples": 2000
+  }
+ ]
+}
