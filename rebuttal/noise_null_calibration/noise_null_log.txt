@@ -1,0 +1,23 @@
+112,453 associations   1,012 units   pre entries 316,009  post 427,262
+
+============================================================================================================
+ENDPOINT: gate-corrected
+============================================================================================================
+pair                                         obs J              N1 null mean [95%]            N2 null mean [95%]            N3 null mean [95%]
+headline pair [primary~second]               0.258     0.292 [0.134,0.500]   in   0.209 [0.127,0.307]   in   0.250 [0.174,0.351]   in
+70B-class pair [Llama-70B P2~Qwen-72B P2]    0.392     0.292 [0.200,0.396]   in   0.351 [0.250,0.455]   in   0.324 [0.215,0.426]   in
+scale at fixed prompt [Llama-8B P2~Llama-70B P2]   0.224     0.211 [0.115,0.349]   in   0.197 [0.121,0.284]   in   0.194 [0.129,0.265]   in
+family swap at fixed prompt [Llama-8B P2~Qwen-7B P2]   0.261     0.284 [0.087,0.533]   in   0.215 [0.143,0.286]   in   0.246 [0.179,0.312]   in
+POSITIVE CONTROL [primary~batch-size rerun]   0.857     0.878 [0.800,0.936]   in   0.844 [0.747,0.920]   in   0.860 [0.783,0.932]   in
+
+============================================================================================================
+ENDPOINT: original
+============================================================================================================
+pair                                         obs J              N1 null mean [95%]            N2 null mean [95%]            N3 null mean [95%]
+headline pair [primary~second]               0.281     0.300 [0.130,0.522]   in   0.217 [0.125,0.315]   in   0.258 [0.178,0.351]   in
+70B-class pair [Llama-70B P2~Qwen-72B P2]    0.527     0.326 [0.227,0.443]  OUT   0.399 [0.308,0.493]  OUT   0.424 [0.316,0.526]  OUT
+scale at fixed prompt [Llama-8B P2~Llama-70B P2]   0.250     0.244 [0.116,0.423]   in   0.225 [0.141,0.326]   in   0.228 [0.153,0.314]   in
+family swap at fixed prompt [Llama-8B P2~Qwen-7B P2]   0.312     0.296 [0.086,0.569]   in   0.247 [0.161,0.326]   in   0.279 [0.213,0.352]   in
+POSITIVE CONTROL [primary~batch-size rerun]   0.846     0.876 [0.800,0.936]   in   0.840 [0.747,0.920]   in   0.853 [0.775,0.921]   in
+
+written noise_null_calibration/noise_null_overlap.json
