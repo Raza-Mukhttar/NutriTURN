@@ -1,0 +1,298 @@
+{
+ "check": {
+  "units": 1012,
+  "events_primary": 71,
+  "events_second": 52,
+  "shared": 27,
+  "matches_paper": true
+ },
+ "claim": {
+  "claim_id": "coffee_cvd",
+  "exposure": "coffee",
+  "outcome": "cardiovascular disease",
+  "query": "(\"coffee\"[MeSH Terms] OR \"coffee\"[Title/Abstract]) AND (\"cardiovascular disease\"[MeSH Terms] OR \"cardiovascular disease\"[Title/Abstract])",
+  "associations": 496
+ },
+ "units": [
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 1997,
+   "n_pre": 45,
+   "n_post": 451,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 17,
+     "PROTECTIVE": 3,
+     "NULL": 20,
+     "UNCLEAR": 5
+    },
+    "post_counts": {
+     "HARMFUL": 81,
+     "PROTECTIVE": 267,
+     "NULL": 78,
+     "UNCLEAR": 25
+    },
+    "p_t": 0.7,
+    "p_t_plus": -0.534,
+    "event": 1
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 11,
+     "PROTECTIVE": 5,
+     "NULL": 26,
+     "UNCLEAR": 3
+    },
+    "post_counts": {
+     "HARMFUL": 47,
+     "PROTECTIVE": 233,
+     "NULL": 152,
+     "UNCLEAR": 19
+    },
+    "p_t": 0.375,
+    "p_t_plus": -0.664,
+    "event": 1
+   }
+  },
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 2001,
+   "n_pre": 60,
+   "n_post": 436,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 26,
+     "PROTECTIVE": 6,
+     "NULL": 23,
+     "UNCLEAR": 5
+    },
+    "post_counts": {
+     "HARMFUL": 72,
+     "PROTECTIVE": 264,
+     "NULL": 75,
+     "UNCLEAR": 25
+    },
+    "p_t": 0.625,
+    "p_t_plus": -0.571,
+    "event": 1
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 19,
+     "PROTECTIVE": 7,
+     "NULL": 31,
+     "UNCLEAR": 3
+    },
+    "post_counts": {
+     "HARMFUL": 39,
+     "PROTECTIVE": 231,
+     "NULL": 147,
+     "UNCLEAR": 19
+    },
+    "p_t": 0.462,
+    "p_t_plus": -0.711,
+    "event": 1
+   }
+  },
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 2006,
+   "n_pre": 92,
+   "n_post": 404,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 39,
+     "PROTECTIVE": 18,
+     "NULL": 27,
+     "UNCLEAR": 8
+    },
+    "post_counts": {
+     "HARMFUL": 59,
+     "PROTECTIVE": 252,
+     "NULL": 71,
+     "UNCLEAR": 22
+    },
+    "p_t": 0.368,
+    "p_t_plus": -0.621,
+    "event": 1
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 30,
+     "PROTECTIVE": 18,
+     "NULL": 41,
+     "UNCLEAR": 3
+    },
+    "post_counts": {
+     "HARMFUL": 28,
+     "PROTECTIVE": 220,
+     "NULL": 137,
+     "UNCLEAR": 19
+    },
+    "p_t": 0.25,
+    "p_t_plus": -0.774,
+    "event": 1
+   }
+  },
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 2011,
+   "n_pre": 140,
+   "n_post": 356,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 44,
+     "PROTECTIVE": 43,
+     "NULL": 40,
+     "UNCLEAR": 13
+    },
+    "post_counts": {
+     "HARMFUL": 54,
+     "PROTECTIVE": 227,
+     "NULL": 58,
+     "UNCLEAR": 17
+    },
+    "p_t": 0.011,
+    "p_t_plus": -0.616,
+    "event": 1
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 32,
+     "PROTECTIVE": 40,
+     "NULL": 62,
+     "UNCLEAR": 6
+    },
+    "post_counts": {
+     "HARMFUL": 26,
+     "PROTECTIVE": 198,
+     "NULL": 116,
+     "UNCLEAR": 16
+    },
+    "p_t": -0.111,
+    "p_t_plus": -0.768,
+    "event": 0
+   }
+  },
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 2015,
+   "n_pre": 202,
+   "n_post": 294,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 56,
+     "PROTECTIVE": 83,
+     "NULL": 48,
+     "UNCLEAR": 15
+    },
+    "post_counts": {
+     "HARMFUL": 42,
+     "PROTECTIVE": 187,
+     "NULL": 50,
+     "UNCLEAR": 15
+    },
+    "p_t": -0.194,
+    "p_t_plus": -0.633,
+    "event": 0
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 36,
+     "PROTECTIVE": 70,
+     "NULL": 86,
+     "UNCLEAR": 10
+    },
+    "post_counts": {
+     "HARMFUL": 22,
+     "PROTECTIVE": 168,
+     "NULL": 92,
+     "UNCLEAR": 12
+    },
+    "p_t": -0.321,
+    "p_t_plus": -0.768,
+    "event": 0
+   }
+  },
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 2020,
+   "n_pre": 313,
+   "n_post": 183,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 69,
+     "PROTECTIVE": 150,
+     "NULL": 73,
+     "UNCLEAR": 21
+    },
+    "post_counts": {
+     "HARMFUL": 29,
+     "PROTECTIVE": 120,
+     "NULL": 25,
+     "UNCLEAR": 9
+    },
+    "p_t": -0.37,
+    "p_t_plus": -0.611,
+    "event": 0
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 41,
+     "PROTECTIVE": 129,
+     "NULL": 128,
+     "UNCLEAR": 15
+    },
+    "post_counts": {
+     "HARMFUL": 17,
+     "PROTECTIVE": 109,
+     "NULL": 50,
+     "UNCLEAR": 7
+    },
+    "p_t": -0.518,
+    "p_t_plus": -0.73,
+    "event": 0
+   }
+  },
+  {
+   "claim_id": "coffee_cvd",
+   "cutoff": 2025,
+   "n_pre": 448,
+   "n_post": 48,
+   "primary": {
+    "pre_counts": {
+     "HARMFUL": 89,
+     "PROTECTIVE": 237,
+     "NULL": 94,
+     "UNCLEAR": 28
+    },
+    "post_counts": {
+     "HARMFUL": 9,
+     "PROTECTIVE": 33,
+     "NULL": 4,
+     "UNCLEAR": 2
+    },
+    "p_t": -0.454,
+    "p_t_plus": -0.571,
+    "event": 0
+   },
+   "second": {
+    "pre_counts": {
+     "HARMFUL": 54,
+     "PROTECTIVE": 208,
+     "NULL": 165,
+     "UNCLEAR": 21
+    },
+    "post_counts": {
+     "HARMFUL": 4,
+     "PROTECTIVE": 30,
+     "NULL": 13,
+     "UNCLEAR": 1
+    },
+    "p_t": -0.588,
+    "p_t_plus": -0.765,
+    "event": 0
+   }
+  }
+ ]
+}
