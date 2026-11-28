@@ -1,0 +1,6 @@
+[llama70 bf16, gpus 1,2,3,4] corpus 112,453  to score 20 (20 already present)
+placement GiB per GPU: [41.8, 41.4, 41.4, 6.7]
+loaded in 40 s  parameters 70.55B  dtypes ['torch.bfloat16']  quantised False
+label tokenisations: {'PROTECTIVE': [9295, 35837, 6674], 'HARMFUL': [39, 18394, 50736], 'NULL': [4679], 'UNCLEAR': [12921, 24896]} first tokens distinct: True
+  1/20  0.785 prompts/s  eta 0.0 h
+DONE 20 prompts in 20 s

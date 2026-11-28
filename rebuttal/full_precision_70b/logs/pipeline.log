@@ -1,0 +1,20 @@
+2026-11-25 17:20:29 DOWNLOAD official bfloat16 checkpoint
+2026-11-25 17:52:02 DOWNLOAD official bfloat16 checkpoint
+2026-11-25 19:13:27 gpus 1,2,3,4 caps 43,43,43,24 GiB
+2026-11-25 19:13:27 SMOKE 20 associations
+2026-11-25 19:17:29 FAILED smoke test, see logs/smoke.log
+2026-11-25 19:17:58 DOWNLOAD official bfloat16 checkpoint
+2026-11-25 19:17:59 gpus 1,2,3,4 caps 43,43,43,40 GiB
+2026-11-25 19:17:59 SMOKE 20 associations
+2026-11-25 19:19:22 gpus 1,2,3,4 caps 43,43,43,40 GiB
+2026-11-25 19:19:22 ANNOTATE 112453 associations, gpus 1,2,3,4
+2026-11-25 23:51:34 paused annotation at 6569 rows (full4 scoring) to validate prefix scoring
+2026-11-26 00:00:56 restart from zero with prefix scoring (validated: 295/300 full-string, 300/300 first-token labels equal to full4); full4 rows kept in output/validation/
+2026-11-26 00:00:56 DOWNLOAD official bfloat16 checkpoint
+2026-11-26 00:00:57 gpus 1,2,3,4 caps 43,43,43,9 GiB
+2026-11-26 00:00:57 SMOKE 20 associations
+2026-11-26 00:02:02 gpus 1,2,3,4 caps 43,43,43,9 GiB
+2026-11-26 00:02:02 ANNOTATE 112453 associations, gpus 1,2,3,4
+2026-11-27 08:55:45 ANALYSE CPU
+2026-11-27 08:57:11 CLEANUP removing the weights
+2026-11-27 08:57:13 DONE numbers in output/fp70_numbers.json

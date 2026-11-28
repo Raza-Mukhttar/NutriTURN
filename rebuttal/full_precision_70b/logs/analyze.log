@@ -1,0 +1,66 @@
+
+=== Llama-3.1-70B, 4-bit NF4 weights (the cell of the paper) ===
+records 112,453  label share % PROTECTIVE 36.7 HARMFUL 18.1 NULL 14.1 UNCLEAR 31.1
+events 55 of 1012 units; gated units 21, events from gated units 21; common support 987 units, 33 events
+anchor (n 1,841): agree all 0.6855  resolved 90.4%  agree resolved 0.7584  balanced accuracy 0.6553
+pair                          label k     raw            full   ev k     gate non-ev      common sup
+primary -- Llama-70B           0.4056  0.5626    24/102=0.235  0.341    18/86 =0.209    17/79 =0.215
+second -- Llama-70B            0.3843  0.5316    26/81 =0.321  0.457    17/59 =0.288    16/57 =0.281
+qwen72 -- Llama-70B            0.6148  0.7242    39/74 =0.527  0.672    20/51 =0.392    20/49 =0.408
+llama8_P2 -- Llama-70B         0.4562  0.6109    26/104=0.250  0.360    19/85 =0.224    18/81 =0.222
+contrasts, all (1012 units, 55 events): AUROC A 0.8985  C 0.9651  margin 0.9628  stationary 0.9767
+   A_minus_margin       -0.0642 [-0.1325, +0.0091]
+   A_minus_stationary   -0.0782 [-0.1395, -0.0134] *
+   C_minus_margin       +0.0023 [-0.0115, +0.0170]
+   C_minus_stationary   -0.0116 [-0.0385, +0.0067]
+   C_minus_A            +0.0666 [-0.0038, +0.1337]
+contrasts, common_support (987 units, 33 events): AUROC A 0.8472  C 0.9408  margin 0.9392  stationary 0.9619
+   A_minus_margin       -0.0920 [-0.2348, +0.0276]
+   A_minus_stationary   -0.1148 [-0.2391, -0.0166] *
+   C_minus_margin       +0.0016 [-0.0239, +0.0271]
+   C_minus_stationary   -0.0211 [-0.0689, +0.0135]
+   C_minus_A            +0.0936 [-0.0179, +0.2375]
+
+4-bit cell against the paper: 56 of 56 published values reproduced
+
+full-precision cell: 112,453 records, 0 of 112,453 associations missing
+
+=== Llama-3.1-70B, bfloat16 weights (official checkpoint) ===
+records 112,453  label share % PROTECTIVE 38.1 HARMFUL 20.5 NULL 10.4 UNCLEAR 31.0
+events 34 of 1012 units; gated units 14, events from gated units 14; common support 990 units, 19 events
+anchor (n 1,841): agree all 0.6909  resolved 92.0%  agree resolved 0.7509  balanced accuracy 0.6607
+pair                          label k     raw            full   ev k     gate non-ev      common sup
+primary -- Llama-70B           0.4083  0.5669    18/87 =0.207  0.312    14/76 =0.184    13/70 =0.186
+second -- Llama-70B            0.3533  0.5034    19/67 =0.284  0.418    11/51 =0.216    10/49 =0.204
+qwen72 -- Llama-70B            0.6398  0.7435    29/63 =0.460  0.614    15/42 =0.357    15/41 =0.366
+llama8_P2 -- Llama-70B         0.4920  0.6396    19/90 =0.211  0.317    13/77 =0.169    12/74 =0.162
+contrasts, all (1012 units, 34 events): AUROC A 0.9580  C 0.9533  margin 0.9421  stationary 0.9582
+   A_minus_margin       +0.0159 [-0.0226, +0.0508]
+   A_minus_stationary   -0.0002 [-0.0294, +0.0244]
+   C_minus_margin       +0.0113 [-0.0177, +0.0380]
+   C_minus_stationary   -0.0048 [-0.0341, +0.0223]
+   C_minus_A            -0.0046 [-0.0187, +0.0078]
+contrasts, common_support (990 units, 19 events): AUROC A 0.9260  C 0.9163  margin 0.9094  stationary 0.9328
+   A_minus_margin       +0.0166 [-0.0423, +0.0789]
+   A_minus_stationary   -0.0068 [-0.0476, +0.0421]
+   C_minus_margin       +0.0069 [-0.0322, +0.0491]
+   C_minus_stationary   -0.0165 [-0.0718, +0.0492]
+   C_minus_A            -0.0097 [-0.0482, +0.0161]
+
+=== Precision effect: 4-bit against bfloat16, same model, prompt and read-out ===
+records 112,453: label kappa 0.7614, raw agreement 0.8301, labels changed 19,105
+confusion (rows 4-bit, columns bf16; order PROTECTIVE, HARMFUL, NULL, UNCLEAR)
+   PROTECTIVE    38,284      933      302    1,781
+   HARMFUL          482   19,330      185      357
+   NULL             257      205    9,238    6,175
+   UNCLEAR        3,811    2,633    1,984   26,496
+largest probability change per record: mean 0.1411, median 0.0744, 95th pct 0.5099, above 0.1 in 44.1% of records
+events, all 1,012 units: shared 33/56 = 0.589, event kappa 0.730
+events, gated history a non-event: shared 19/35 = 0.543, event kappa 0.696
+events, 991 units ungated under both: shared 19/35 = 0.543, event kappa 0.696
+reference from the paper: batch-size rerun of the 8B annotator, event Jaccard 0.846, label kappa 0.980
+
+=== Scoring path, on the first 6,569 associations scored both ways (bf16) ===
+four-sequence vs cached-prefix scoring: label kappa 0.9829, labels changed 55, largest probability change median 0.0008, 95th pct 0.0308
+4-bit against bf16 on the same records: kappa 0.7670 (four-sequence), 0.7669 (cached prefix)
+written output/fp70_numbers.json and output/fp70_log.txt (exit 0)

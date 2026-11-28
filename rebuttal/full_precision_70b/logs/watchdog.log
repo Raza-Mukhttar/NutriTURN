@@ -1,0 +1,240 @@
+2026-11-25 17:20:31 [watchdog] download 24.6/141 GB
+2026-11-25 17:30:31 [watchdog] download 47.3/141 GB, about 0h 41m left; annotation (est. 2.5-5 days) starts after
+2026-11-25 17:40:31 [watchdog] download 65.0/141 GB, about 0h 42m left; annotation (est. 2.5-5 days) starts after
+2026-11-25 17:50:31 [watchdog] download 117.7/141 GB, about 0h 4m left; annotation (est. 2.5-5 days) starts after
+2026-11-25 17:52:03 [watchdog] download 129.5/141 GB
+2026-11-25 18:02:03 [watchdog] download 138.8/141 GB, about 0h 2m left; annotation (est. 2.5-5 days) starts after
+2026-11-25 18:12:03 [watchdog] download 138.8/141 GB, about unknown left; annotation (est. 2.5-5 days) starts after
+2026-11-25 18:22:03 [watchdog] download complete; waiting for GPU memory: 95 of 134 GiB usable on the assigned GPUs (other users' jobs are running); remaining time unknown until it starts
+2026-11-25 18:32:03 [watchdog] download complete; waiting for GPU memory: 95 of 134 GiB usable on the assigned GPUs (other users' jobs are running); remaining time unknown until it starts
+2026-11-25 18:42:03 [watchdog] download complete; waiting for GPU memory: 89 of 134 GiB usable on the assigned GPUs (other users' jobs are running); remaining time unknown until it starts
+2026-11-25 18:52:03 [watchdog] download complete; waiting for GPU memory: 89 of 134 GiB usable on the assigned GPUs (other users' jobs are running); remaining time unknown until it starts
+2026-11-25 19:02:03 [watchdog] download complete; waiting for GPU memory: 80 of 134 GiB usable on the assigned GPUs (other users' jobs are running); remaining time unknown until it starts
+2026-11-25 19:12:03 [watchdog] download complete; waiting for GPU memory: 129 of 134 GiB usable on the assigned GPUs (other users' jobs are running); remaining time unknown until it starts
+2026-11-25 19:17:59 [watchdog] smoke test on 20 associations: 
+2026-11-25 19:27:59 [watchdog] annotation 169/112453, no new rows in the last interval (loading or stalled), process running
+2026-11-25 19:37:59 [watchdog] annotation 401/112453 (0.4%), 0.387 assoc/s, about 3d 8h 25m left (finish ~ Sun 29 Nov 04:03), process running
+2026-11-25 19:47:59 [watchdog] annotation 601/112453 (0.5%), 0.333 assoc/s, about 3d 21h 18m left (finish ~ Sun 29 Nov 17:06), process running
+2026-11-25 19:57:59 [watchdog] annotation 834/112453 (0.7%), 0.388 assoc/s, about 3d 7h 54m left (finish ~ Sun 29 Nov 03:52), process running
+2026-11-25 20:08:00 [watchdog] annotation 1034/112453 (0.9%), 0.333 assoc/s, about 3d 20h 56m left (finish ~ Sun 29 Nov 17:04), process running
+2026-11-25 20:18:00 [watchdog] annotation 1269/112453 (1.1%), 0.391 assoc/s, about 3d 6h 59m left (finish ~ Sun 29 Nov 03:17), process running
+2026-11-25 20:28:00 [watchdog] annotation 1535/112453 (1.4%), 0.443 assoc/s, about 2d 21h 32m left (finish ~ Sat 28 Nov 18:00), process running
+2026-11-25 20:38:00 [watchdog] annotation 1769/112453 (1.6%), 0.390 assoc/s, about 3d 6h 50m left (finish ~ Sun 29 Nov 03:28), process running
+2026-11-25 20:48:00 [watchdog] annotation 2001/112453 (1.8%), 0.387 assoc/s, about 3d 7h 16m left (finish ~ Sun 29 Nov 04:04), process running
+2026-11-25 20:58:00 [watchdog] annotation 2368/112453 (2.1%), 0.612 assoc/s, about 2d 1h 57m left (finish ~ Fri 27 Nov 22:55), process running
+2026-11-25 21:08:00 [watchdog] annotation 2635/112453 (2.3%), 0.445 assoc/s, about 2d 20h 33m left (finish ~ Sat 28 Nov 17:41), process running
+2026-11-25 21:18:00 [watchdog] annotation 2869/112453 (2.6%), 0.390 assoc/s, about 3d 6h 3m left (finish ~ Sun 29 Nov 03:21), process running
+2026-11-25 21:28:00 [watchdog] annotation 3101/112453 (2.8%), 0.387 assoc/s, about 3d 6h 29m left (finish ~ Sun 29 Nov 03:57), process running
+2026-11-25 21:38:00 [watchdog] annotation 3301/112453 (2.9%), 0.333 assoc/s, about 3d 19h 3m left (finish ~ Sun 29 Nov 16:41), process running
+2026-11-25 21:48:00 [watchdog] annotation 3535/112453 (3.1%), 0.390 assoc/s, about 3d 5h 34m left (finish ~ Sun 29 Nov 03:22), process running
+2026-11-25 21:58:00 [watchdog] annotation 3769/112453 (3.4%), 0.390 assoc/s, about 3d 5h 24m left (finish ~ Sun 29 Nov 03:22), process running
+2026-11-25 22:08:00 [watchdog] annotation 3968/112453 (3.5%), 0.332 assoc/s, about 3d 18h 46m left (finish ~ Sun 29 Nov 16:54), process running
+2026-11-25 22:18:00 [watchdog] annotation 4235/112453 (3.8%), 0.445 assoc/s, about 2d 19h 33m left (finish ~ Sat 28 Nov 17:51), process running
+2026-11-25 22:28:00 [watchdog] annotation 4435/112453 (3.9%), 0.333 assoc/s, about 3d 18h 6m left (finish ~ Sun 29 Nov 16:34), process running
+2026-11-25 22:38:00 [watchdog] annotation 4669/112453 (4.2%), 0.390 assoc/s, about 3d 4h 46m left (finish ~ Sun 29 Nov 03:24), process running
+2026-11-25 22:48:01 [watchdog] annotation 4935/112453 (4.4%), 0.443 assoc/s, about 2d 19h 25m left (finish ~ Sat 28 Nov 18:13), process running
+2026-11-25 22:58:01 [watchdog] annotation 5169/112453 (4.6%), 0.389 assoc/s, about 3d 4h 36m left (finish ~ Sun 29 Nov 03:34), process running
+2026-11-25 23:08:01 [watchdog] annotation 5470/112453 (4.9%), 0.502 assoc/s, about 2d 11h 11m left (finish ~ Sat 28 Nov 10:19), process running
+2026-11-25 23:18:01 [watchdog] annotation 5701/112453 (5.1%), 0.385 assoc/s, about 3d 5h 1m left (finish ~ Sun 29 Nov 04:19), process running
+2026-11-25 23:28:01 [watchdog] annotation 5969/112453 (5.3%), 0.447 assoc/s, about 2d 18h 10m left (finish ~ Sat 28 Nov 17:38), process running
+2026-11-25 23:38:01 [watchdog] annotation 6201/112453 (5.5%), 0.387 assoc/s, about 3d 4h 15m left (finish ~ Sun 29 Nov 03:53), process running
+2026-11-25 23:48:01 [watchdog] annotation 6435/112453 (5.7%), 0.390 assoc/s, about 3d 3h 30m left (finish ~ Sun 29 Nov 03:18), process running
+2026-11-26 00:00:57 [watchdog] download 141.1/141 GB
+2026-11-26 00:10:57 [watchdog] annotation 469/112453, no new rows in the last interval (loading or stalled), process running
+2026-11-26 00:20:57 [watchdog] annotation 1034/112453 (0.9%), 0.942 assoc/s, about 1d 8h 51m left (finish ~ Fri 27 Nov 09:12), process running
+2026-11-26 00:30:57 [watchdog] annotation 1601/112453 (1.4%), 0.945 assoc/s, about 1d 8h 35m left (finish ~ Fri 27 Nov 09:06), process running
+2026-11-26 00:40:57 [watchdog] annotation 2269/112453 (2.0%), 1.113 assoc/s, about 1d 3h 29m left (finish ~ Fri 27 Nov 04:10), process running
+2026-11-26 00:50:57 [watchdog] annotation 2869/112453 (2.6%), 1.000 assoc/s, about 1d 6h 26m left (finish ~ Fri 27 Nov 07:17), process running
+2026-11-26 01:00:57 [watchdog] annotation 3434/112453 (3.1%), 0.942 assoc/s, about 1d 8h 8m left (finish ~ Fri 27 Nov 09:09), process running
+2026-11-26 01:10:57 [watchdog] annotation 4001/112453 (3.6%), 0.945 assoc/s, about 1d 7h 52m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 01:20:57 [watchdog] annotation 4569/112453 (4.1%), 0.947 assoc/s, about 1d 7h 38m left (finish ~ Fri 27 Nov 08:59), process running
+2026-11-26 01:30:57 [watchdog] annotation 5169/112453 (4.6%), 1.000 assoc/s, about 1d 5h 48m left (finish ~ Fri 27 Nov 07:19), process running
+2026-11-26 01:40:57 [watchdog] annotation 5835/112453 (5.2%), 1.110 assoc/s, about 1d 2h 40m left (finish ~ Fri 27 Nov 04:21), process running
+2026-11-26 01:50:57 [watchdog] annotation 6435/112453 (5.7%), 1.000 assoc/s, about 1d 5h 26m left (finish ~ Fri 27 Nov 07:17), process running
+2026-11-26 02:00:57 [watchdog] annotation 7101/112453 (6.3%), 1.110 assoc/s, about 1d 2h 21m left (finish ~ Fri 27 Nov 04:22), process running
+2026-11-26 02:10:57 [watchdog] annotation 7734/112453 (6.9%), 1.055 assoc/s, about 1d 3h 34m left (finish ~ Fri 27 Nov 05:45), process running
+2026-11-26 02:20:58 [watchdog] annotation 8301/112453 (7.4%), 0.945 assoc/s, about 1d 6h 36m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-26 02:30:58 [watchdog] annotation 8965/112453 (8.0%), 1.105 assoc/s, about 1d 2h 0m left (finish ~ Fri 27 Nov 04:31), process running
+2026-11-26 02:40:58 [watchdog] annotation 9501/112453 (8.4%), 0.893 assoc/s, about 1d 8h 1m left (finish ~ Fri 27 Nov 10:42), process running
+2026-11-26 02:50:58 [watchdog] annotation 10034/112453 (8.9%), 0.888 assoc/s, about 1d 8h 2m left (finish ~ Fri 27 Nov 10:53), process running
+2026-11-26 03:00:58 [watchdog] annotation 10534/112453 (9.4%), 0.833 assoc/s, about 1d 9h 59m left (finish ~ Fri 27 Nov 13:00), process running
+2026-11-26 03:10:58 [watchdog] annotation 11065/112453 (9.8%), 0.885 assoc/s, about 1d 7h 49m left (finish ~ Fri 27 Nov 11:00), process running
+2026-11-26 03:20:58 [watchdog] annotation 11667/112453 (10.4%), 1.003 assoc/s, about 1d 3h 54m left (finish ~ Fri 27 Nov 07:15), process running
+2026-11-26 03:30:58 [watchdog] annotation 12301/112453 (10.9%), 1.057 assoc/s, about 1d 2h 19m left (finish ~ Fri 27 Nov 05:50), process running
+2026-11-26 03:40:58 [watchdog] annotation 12833/112453 (11.4%), 0.887 assoc/s, about 1d 7h 11m left (finish ~ Fri 27 Nov 10:52), process running
+2026-11-26 03:50:58 [watchdog] annotation 13461/112453 (12.0%), 1.047 assoc/s, about 1d 2h 15m left (finish ~ Fri 27 Nov 06:06), process running
+2026-11-26 04:00:58 [watchdog] annotation 14031/112453 (12.5%), 0.950 assoc/s, about 1d 4h 46m left (finish ~ Fri 27 Nov 08:47), process running
+2026-11-26 04:10:58 [watchdog] annotation 14601/112453 (13.0%), 0.950 assoc/s, about 1d 4h 36m left (finish ~ Fri 27 Nov 08:47), process running
+2026-11-26 04:20:58 [watchdog] annotation 15161/112453 (13.5%), 0.933 assoc/s, about 1d 4h 57m left (finish ~ Fri 27 Nov 09:18), process running
+2026-11-26 04:30:58 [watchdog] annotation 15701/112453 (14.0%), 0.900 assoc/s, about 1d 5h 51m left (finish ~ Fri 27 Nov 10:22), process running
+2026-11-26 04:40:58 [watchdog] annotation 16267/112453 (14.5%), 0.943 assoc/s, about 1d 4h 20m left (finish ~ Fri 27 Nov 09:00), process running
+2026-11-26 04:50:58 [watchdog] annotation 16834/112453 (15.0%), 0.945 assoc/s, about 1d 4h 6m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-26 05:00:59 [watchdog] annotation 17401/112453 (15.5%), 0.945 assoc/s, about 1d 3h 56m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-26 05:10:59 [watchdog] annotation 18001/112453 (16.0%), 0.998 assoc/s, about 1d 2h 17m left (finish ~ Fri 27 Nov 07:28), process running
+2026-11-26 05:20:59 [watchdog] annotation 18536/112453 (16.5%), 0.892 assoc/s, about 1d 5h 14m left (finish ~ Fri 27 Nov 10:35), process running
+2026-11-26 05:30:59 [watchdog] annotation 19101/112453 (17.0%), 0.942 assoc/s, about 1d 3h 31m left (finish ~ Fri 27 Nov 09:02), process running
+2026-11-26 05:40:59 [watchdog] annotation 19667/112453 (17.5%), 0.943 assoc/s, about 1d 3h 19m left (finish ~ Fri 27 Nov 09:00), process running
+2026-11-26 05:50:59 [watchdog] annotation 20201/112453 (18.0%), 0.890 assoc/s, about 1d 4h 47m left (finish ~ Fri 27 Nov 10:38), process running
+2026-11-26 06:00:59 [watchdog] annotation 20767/112453 (18.5%), 0.943 assoc/s, about 1d 3h 0m left (finish ~ Fri 27 Nov 09:01), process running
+2026-11-26 06:10:59 [watchdog] annotation 21301/112453 (18.9%), 0.890 assoc/s, about 1d 4h 26m left (finish ~ Fri 27 Nov 10:37), process running
+2026-11-26 06:20:59 [watchdog] annotation 21834/112453 (19.4%), 0.888 assoc/s, about 1d 4h 20m left (finish ~ Fri 27 Nov 10:41), process running
+2026-11-26 06:30:59 [watchdog] annotation 22365/112453 (19.9%), 0.885 assoc/s, about 1d 4h 16m left (finish ~ Fri 27 Nov 10:47), process running
+2026-11-26 06:40:59 [watchdog] annotation 22865/112453 (20.3%), 0.833 assoc/s, about 1d 5h 52m left (finish ~ Fri 27 Nov 12:33), process running
+2026-11-26 06:50:59 [watchdog] annotation 23466/112453 (20.9%), 1.002 assoc/s, about 1d 0h 40m left (finish ~ Fri 27 Nov 07:31), process running
+2026-11-26 07:00:59 [watchdog] annotation 24065/112453 (21.4%), 0.998 assoc/s, about 1d 0h 36m left (finish ~ Fri 27 Nov 07:37), process running
+2026-11-26 07:10:59 [watchdog] annotation 24665/112453 (21.9%), 1.000 assoc/s, about 1d 0h 23m left (finish ~ Fri 27 Nov 07:34), process running
+2026-11-26 07:20:59 [watchdog] annotation 25234/112453 (22.4%), 0.948 assoc/s, about 1d 1h 33m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-26 07:31:00 [watchdog] annotation 25767/112453 (22.9%), 0.888 assoc/s, about 1d 3h 6m left (finish ~ Fri 27 Nov 10:37), process running
+2026-11-26 07:41:00 [watchdog] annotation 26301/112453 (23.4%), 0.889 assoc/s, about 1d 2h 55m left (finish ~ Fri 27 Nov 10:36), process running
+2026-11-26 07:51:00 [watchdog] annotation 26834/112453 (23.9%), 0.888 assoc/s, about 1d 2h 46m left (finish ~ Fri 27 Nov 10:37), process running
+2026-11-26 08:01:00 [watchdog] annotation 27366/112453 (24.3%), 0.887 assoc/s, about 1d 2h 38m left (finish ~ Fri 27 Nov 10:39), process running
+2026-11-26 08:11:00 [watchdog] annotation 27901/112453 (24.8%), 0.892 assoc/s, about 1d 2h 19m left (finish ~ Fri 27 Nov 10:30), process running
+2026-11-26 08:21:00 [watchdog] annotation 28471/112453 (25.3%), 0.950 assoc/s, about 1d 0h 33m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-26 08:31:00 [watchdog] annotation 29036/112453 (25.8%), 0.942 assoc/s, about 1d 0h 35m left (finish ~ Fri 27 Nov 09:06), process running
+2026-11-26 08:41:00 [watchdog] annotation 29669/112453 (26.4%), 1.055 assoc/s, about 21h 47m left (finish ~ Fri 27 Nov 06:28), process running
+2026-11-26 08:51:00 [watchdog] annotation 30201/112453 (26.9%), 0.887 assoc/s, about 1d 1h 45m left (finish ~ Fri 27 Nov 10:36), process running
+2026-11-26 09:01:00 [watchdog] annotation 30765/112453 (27.4%), 0.940 assoc/s, about 1d 0h 8m left (finish ~ Fri 27 Nov 09:09), process running
+2026-11-26 09:11:00 [watchdog] annotation 31301/112453 (27.8%), 0.893 assoc/s, about 1d 1h 14m left (finish ~ Fri 27 Nov 10:25), process running
+2026-11-26 09:21:00 [watchdog] annotation 31865/112453 (28.3%), 0.940 assoc/s, about 23h 48m left (finish ~ Fri 27 Nov 09:09), process running
+2026-11-26 09:31:00 [watchdog] annotation 32432/112453 (28.8%), 0.945 assoc/s, about 23h 31m left (finish ~ Fri 27 Nov 09:02), process running
+2026-11-26 09:41:00 [watchdog] annotation 33001/112453 (29.3%), 0.948 assoc/s, about 23h 16m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-26 09:51:00 [watchdog] annotation 33569/112453 (29.9%), 0.947 assoc/s, about 23h 8m left (finish ~ Fri 27 Nov 08:59), process running
+2026-11-26 10:01:00 [watchdog] annotation 34171/112453 (30.4%), 1.003 assoc/s, about 21h 40m left (finish ~ Fri 27 Nov 07:41), process running
+2026-11-26 10:11:01 [watchdog] annotation 34735/112453 (30.9%), 0.940 assoc/s, about 22h 57m left (finish ~ Fri 27 Nov 09:08), process running
+2026-11-26 10:21:01 [watchdog] annotation 35301/112453 (31.4%), 0.942 assoc/s, about 22h 45m left (finish ~ Fri 27 Nov 09:06), process running
+2026-11-26 10:31:01 [watchdog] annotation 35835/112453 (31.9%), 0.890 assoc/s, about 23h 54m left (finish ~ Fri 27 Nov 10:25), process running
+2026-11-26 10:41:01 [watchdog] annotation 36401/112453 (32.4%), 0.943 assoc/s, about 22h 24m left (finish ~ Fri 27 Nov 09:05), process running
+2026-11-26 10:51:01 [watchdog] annotation 37001/112453 (32.9%), 1.000 assoc/s, about 20h 57m left (finish ~ Fri 27 Nov 07:48), process running
+2026-11-26 11:01:01 [watchdog] annotation 37601/112453 (33.4%), 1.000 assoc/s, about 20h 47m left (finish ~ Fri 27 Nov 07:48), process running
+2026-11-26 11:11:01 [watchdog] annotation 38169/112453 (33.9%), 0.947 assoc/s, about 21h 47m left (finish ~ Fri 27 Nov 08:58), process running
+2026-11-26 11:21:01 [watchdog] annotation 38769/112453 (34.5%), 1.000 assoc/s, about 20h 28m left (finish ~ Fri 27 Nov 07:49), process running
+2026-11-26 11:31:01 [watchdog] annotation 39335/112453 (35.0%), 0.943 assoc/s, about 21h 32m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 11:41:01 [watchdog] annotation 39901/112453 (35.5%), 0.943 assoc/s, about 21h 22m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 11:51:01 [watchdog] annotation 40435/112453 (36.0%), 0.890 assoc/s, about 22h 28m left (finish ~ Fri 27 Nov 10:19), process running
+2026-11-26 12:01:01 [watchdog] annotation 40967/112453 (36.4%), 0.887 assoc/s, about 22h 23m left (finish ~ Fri 27 Nov 10:24), process running
+2026-11-26 12:11:01 [watchdog] annotation 41467/112453 (36.9%), 0.833 assoc/s, about 23h 40m left (finish ~ Fri 27 Nov 11:51), process running
+2026-11-26 12:21:01 [watchdog] annotation 42033/112453 (37.4%), 0.943 assoc/s, about 20h 44m left (finish ~ Fri 27 Nov 09:05), process running
+2026-11-26 12:31:01 [watchdog] annotation 42601/112453 (37.9%), 0.947 assoc/s, about 20h 29m left (finish ~ Fri 27 Nov 09:00), process running
+2026-11-26 12:41:02 [watchdog] annotation 43135/112453 (38.4%), 0.890 assoc/s, about 21h 38m left (finish ~ Fri 27 Nov 10:19), process running
+2026-11-26 12:51:02 [watchdog] annotation 43669/112453 (38.8%), 0.889 assoc/s, about 21h 29m left (finish ~ Fri 27 Nov 10:20), process running
+2026-11-26 13:01:02 [watchdog] annotation 44231/112453 (39.3%), 0.937 assoc/s, about 20h 13m left (finish ~ Fri 27 Nov 09:14), process running
+2026-11-26 13:11:02 [watchdog] annotation 44767/112453 (39.8%), 0.893 assoc/s, about 21h 3m left (finish ~ Fri 27 Nov 10:14), process running
+2026-11-26 13:21:02 [watchdog] annotation 45334/112453 (40.3%), 0.945 assoc/s, about 19h 43m left (finish ~ Fri 27 Nov 09:04), process running
+2026-11-26 13:31:02 [watchdog] annotation 45934/112453 (40.8%), 1.000 assoc/s, about 18h 28m left (finish ~ Fri 27 Nov 07:59), process running
+2026-11-26 13:41:02 [watchdog] annotation 46501/112453 (41.4%), 0.945 assoc/s, about 19h 23m left (finish ~ Fri 27 Nov 09:04), process running
+2026-11-26 13:51:02 [watchdog] annotation 47101/112453 (41.9%), 1.000 assoc/s, about 18h 9m left (finish ~ Fri 27 Nov 08:00), process running
+2026-11-26 14:01:02 [watchdog] annotation 47701/112453 (42.4%), 1.000 assoc/s, about 17h 59m left (finish ~ Fri 27 Nov 08:00), process running
+2026-11-26 14:11:02 [watchdog] annotation 48267/112453 (42.9%), 0.943 assoc/s, about 18h 54m left (finish ~ Fri 27 Nov 09:05), process running
+2026-11-26 14:21:02 [watchdog] annotation 48832/112453 (43.4%), 0.942 assoc/s, about 18h 45m left (finish ~ Fri 27 Nov 09:06), process running
+2026-11-26 14:31:02 [watchdog] annotation 49401/112453 (43.9%), 0.948 assoc/s, about 18h 28m left (finish ~ Fri 27 Nov 08:59), process running
+2026-11-26 14:41:02 [watchdog] annotation 49964/112453 (44.4%), 0.938 assoc/s, about 18h 30m left (finish ~ Fri 27 Nov 09:11), process running
+2026-11-26 14:51:02 [watchdog] annotation 50531/112453 (44.9%), 0.945 assoc/s, about 18h 12m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 15:01:02 [watchdog] annotation 51101/112453 (45.4%), 0.950 assoc/s, about 17h 56m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-26 15:11:03 [watchdog] annotation 51663/112453 (45.9%), 0.937 assoc/s, about 18h 1m left (finish ~ Fri 27 Nov 09:12), process running
+2026-11-26 15:21:03 [watchdog] annotation 52263/112453 (46.5%), 0.998 assoc/s, about 16h 45m left (finish ~ Fri 27 Nov 08:06), process running
+2026-11-26 15:31:03 [watchdog] annotation 52801/112453 (47.0%), 0.897 assoc/s, about 18h 28m left (finish ~ Fri 27 Nov 09:59), process running
+2026-11-26 15:41:03 [watchdog] annotation 53401/112453 (47.5%), 1.000 assoc/s, about 16h 24m left (finish ~ Fri 27 Nov 08:05), process running
+2026-11-26 15:51:03 [watchdog] annotation 54001/112453 (48.0%), 1.000 assoc/s, about 16h 14m left (finish ~ Fri 27 Nov 08:05), process running
+2026-11-26 16:01:03 [watchdog] annotation 54534/112453 (48.5%), 0.888 assoc/s, about 18h 7m left (finish ~ Fri 27 Nov 10:08), process running
+2026-11-26 16:11:03 [watchdog] annotation 55067/112453 (49.0%), 0.888 assoc/s, about 17h 57m left (finish ~ Fri 27 Nov 10:08), process running
+2026-11-26 16:21:03 [watchdog] annotation 55634/112453 (49.5%), 0.945 assoc/s, about 16h 42m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 16:31:03 [watchdog] annotation 56234/112453 (50.0%), 1.000 assoc/s, about 15h 36m left (finish ~ Fri 27 Nov 08:08), process running
+2026-11-26 16:41:03 [watchdog] annotation 56801/112453 (50.5%), 0.945 assoc/s, about 16h 21m left (finish ~ Fri 27 Nov 09:02), process running
+2026-11-26 16:51:03 [watchdog] annotation 57336/112453 (51.0%), 0.892 assoc/s, about 17h 9m left (finish ~ Fri 27 Nov 10:00), process running
+2026-11-26 17:01:03 [watchdog] annotation 57901/112453 (51.5%), 0.942 assoc/s, about 16h 5m left (finish ~ Fri 27 Nov 09:06), process running
+2026-11-26 17:11:03 [watchdog] annotation 58434/112453 (52.0%), 0.888 assoc/s, about 16h 53m left (finish ~ Fri 27 Nov 10:04), process running
+2026-11-26 17:21:03 [watchdog] annotation 59001/112453 (52.5%), 0.945 assoc/s, about 15h 42m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 17:31:03 [watchdog] annotation 59601/112453 (53.0%), 1.000 assoc/s, about 14h 40m left (finish ~ Fri 27 Nov 08:11), process running
+2026-11-26 17:41:04 [watchdog] annotation 60136/112453 (53.5%), 0.892 assoc/s, about 16h 17m left (finish ~ Fri 27 Nov 09:58), process running
+2026-11-26 17:51:04 [watchdog] annotation 60667/112453 (53.9%), 0.884 assoc/s, about 16h 16m left (finish ~ Fri 27 Nov 10:07), process running
+2026-11-26 18:01:04 [watchdog] annotation 61268/112453 (54.5%), 1.002 assoc/s, about 14h 11m left (finish ~ Fri 27 Nov 08:12), process running
+2026-11-26 18:11:04 [watchdog] annotation 61867/112453 (55.0%), 0.998 assoc/s, about 14h 4m left (finish ~ Fri 27 Nov 08:15), process running
+2026-11-26 18:21:04 [watchdog] annotation 62435/112453 (55.5%), 0.947 assoc/s, about 14h 40m left (finish ~ Fri 27 Nov 09:01), process running
+2026-11-26 18:31:04 [watchdog] annotation 62968/112453 (56.0%), 0.888 assoc/s, about 15h 28m left (finish ~ Fri 27 Nov 09:59), process running
+2026-11-26 18:41:04 [watchdog] annotation 63501/112453 (56.5%), 0.888 assoc/s, about 15h 18m left (finish ~ Fri 27 Nov 09:59), process running
+2026-11-26 18:51:04 [watchdog] annotation 64101/112453 (57.0%), 1.000 assoc/s, about 13h 25m left (finish ~ Fri 27 Nov 08:16), process running
+2026-11-26 19:01:04 [watchdog] annotation 64667/112453 (57.5%), 0.943 assoc/s, about 14h 4m left (finish ~ Fri 27 Nov 09:05), process running
+2026-11-26 19:11:04 [watchdog] annotation 65267/112453 (58.0%), 1.000 assoc/s, about 13h 6m left (finish ~ Fri 27 Nov 08:17), process running
+2026-11-26 19:21:04 [watchdog] annotation 65835/112453 (58.5%), 0.947 assoc/s, about 13h 40m left (finish ~ Fri 27 Nov 09:01), process running
+2026-11-26 19:31:04 [watchdog] annotation 66401/112453 (59.0%), 0.943 assoc/s, about 13h 33m left (finish ~ Fri 27 Nov 09:04), process running
+2026-11-26 19:41:04 [watchdog] annotation 67034/112453 (59.6%), 1.055 assoc/s, about 11h 57m left (finish ~ Fri 27 Nov 07:38), process running
+2026-11-26 19:51:04 [watchdog] annotation 67601/112453 (60.1%), 0.945 assoc/s, about 13h 11m left (finish ~ Fri 27 Nov 09:02), process running
+2026-11-26 20:01:04 [watchdog] annotation 68165/112453 (60.6%), 0.940 assoc/s, about 13h 5m left (finish ~ Fri 27 Nov 09:06), process running
+2026-11-26 20:11:05 [watchdog] annotation 68701/112453 (61.1%), 0.893 assoc/s, about 13h 36m left (finish ~ Fri 27 Nov 09:47), process running
+2026-11-26 20:21:05 [watchdog] annotation 69268/112453 (61.6%), 0.943 assoc/s, about 12h 43m left (finish ~ Fri 27 Nov 09:04), process running
+2026-11-26 20:31:05 [watchdog] annotation 69801/112453 (62.1%), 0.888 assoc/s, about 13h 20m left (finish ~ Fri 27 Nov 09:51), process running
+2026-11-26 20:41:05 [watchdog] annotation 70335/112453 (62.5%), 0.890 assoc/s, about 13h 8m left (finish ~ Fri 27 Nov 09:49), process running
+2026-11-26 20:51:05 [watchdog] annotation 70901/112453 (63.0%), 0.943 assoc/s, about 12h 14m left (finish ~ Fri 27 Nov 09:05), process running
+2026-11-26 21:01:05 [watchdog] annotation 71470/112453 (63.6%), 0.948 assoc/s, about 12h 0m left (finish ~ Fri 27 Nov 09:01), process running
+2026-11-26 21:11:05 [watchdog] annotation 72001/112453 (64.0%), 0.885 assoc/s, about 12h 41m left (finish ~ Fri 27 Nov 09:52), process running
+2026-11-26 21:21:05 [watchdog] annotation 72533/112453 (64.5%), 0.887 assoc/s, about 12h 30m left (finish ~ Fri 27 Nov 09:51), process running
+2026-11-26 21:31:05 [watchdog] annotation 73101/112453 (65.0%), 0.947 assoc/s, about 11h 32m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-26 21:41:05 [watchdog] annotation 73665/112453 (65.5%), 0.940 assoc/s, about 11h 27m left (finish ~ Fri 27 Nov 09:08), process running
+2026-11-26 21:51:05 [watchdog] annotation 74201/112453 (66.0%), 0.893 assoc/s, about 11h 53m left (finish ~ Fri 27 Nov 09:45), process running
+2026-11-26 22:01:05 [watchdog] annotation 74761/112453 (66.5%), 0.933 assoc/s, about 11h 13m left (finish ~ Fri 27 Nov 09:14), process running
+2026-11-26 22:11:05 [watchdog] annotation 75301/112453 (67.0%), 0.900 assoc/s, about 11h 28m left (finish ~ Fri 27 Nov 09:39), process running
+2026-11-26 22:21:05 [watchdog] annotation 75865/112453 (67.5%), 0.940 assoc/s, about 10h 48m left (finish ~ Fri 27 Nov 09:09), process running
+2026-11-26 22:31:05 [watchdog] annotation 76467/112453 (68.0%), 1.003 assoc/s, about 9h 57m left (finish ~ Fri 27 Nov 08:29), process running
+2026-11-26 22:41:06 [watchdog] annotation 77067/112453 (68.5%), 1.000 assoc/s, about 9h 49m left (finish ~ Fri 27 Nov 08:30), process running
+2026-11-26 22:51:06 [watchdog] annotation 77701/112453 (69.1%), 1.055 assoc/s, about 9h 9m left (finish ~ Fri 27 Nov 08:00), process running
+2026-11-26 23:01:06 [watchdog] annotation 78301/112453 (69.6%), 1.000 assoc/s, about 9h 29m left (finish ~ Fri 27 Nov 08:30), process running
+2026-11-26 23:11:06 [watchdog] annotation 78901/112453 (70.2%), 1.000 assoc/s, about 9h 19m left (finish ~ Fri 27 Nov 08:30), process running
+2026-11-26 23:21:06 [watchdog] annotation 79470/112453 (70.7%), 0.948 assoc/s, about 9h 39m left (finish ~ Fri 27 Nov 09:00), process running
+2026-11-26 23:31:06 [watchdog] annotation 80034/112453 (71.2%), 0.940 assoc/s, about 9h 34m left (finish ~ Fri 27 Nov 09:05), process running
+2026-11-26 23:41:06 [watchdog] annotation 80664/112453 (71.7%), 1.050 assoc/s, about 8h 24m left (finish ~ Fri 27 Nov 08:05), process running
+2026-11-26 23:51:06 [watchdog] annotation 81263/112453 (72.3%), 0.998 assoc/s, about 8h 40m left (finish ~ Fri 27 Nov 08:31), process running
+2026-11-27 00:01:06 [watchdog] annotation 81835/112453 (72.8%), 0.953 assoc/s, about 8h 55m left (finish ~ Fri 27 Nov 08:56), process running
+2026-11-27 00:11:06 [watchdog] annotation 82373/112453 (73.3%), 0.897 assoc/s, about 9h 18m left (finish ~ Fri 27 Nov 09:30), process running
+2026-11-27 00:21:06 [watchdog] annotation 82901/112453 (73.7%), 0.880 assoc/s, about 9h 19m left (finish ~ Fri 27 Nov 09:40), process running
+2026-11-27 00:31:06 [watchdog] annotation 83431/112453 (74.2%), 0.883 assoc/s, about 9h 7m left (finish ~ Fri 27 Nov 09:38), process running
+2026-11-27 00:41:06 [watchdog] annotation 84001/112453 (74.7%), 0.950 assoc/s, about 8h 19m left (finish ~ Fri 27 Nov 09:00), process running
+2026-11-27 00:51:06 [watchdog] annotation 84567/112453 (75.2%), 0.943 assoc/s, about 8h 12m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-27 01:01:07 [watchdog] annotation 85167/112453 (75.7%), 1.000 assoc/s, about 7h 34m left (finish ~ Fri 27 Nov 08:35), process running
+2026-11-27 01:11:07 [watchdog] annotation 85733/112453 (76.2%), 0.942 assoc/s, about 7h 52m left (finish ~ Fri 27 Nov 09:03), process running
+2026-11-27 01:21:07 [watchdog] annotation 86301/112453 (76.7%), 0.947 assoc/s, about 7h 40m left (finish ~ Fri 27 Nov 09:01), process running
+2026-11-27 01:31:07 [watchdog] annotation 86834/112453 (77.2%), 0.888 assoc/s, about 8h 0m left (finish ~ Fri 27 Nov 09:31), process running
+2026-11-27 01:41:07 [watchdog] annotation 87401/112453 (77.7%), 0.945 assoc/s, about 7h 21m left (finish ~ Fri 27 Nov 09:02), process running
+2026-11-27 01:51:07 [watchdog] annotation 88065/112453 (78.3%), 1.107 assoc/s, about 6h 7m left (finish ~ Fri 27 Nov 07:58), process running
+2026-11-27 02:01:07 [watchdog] annotation 88761/112453 (78.9%), 1.160 assoc/s, about 5h 40m left (finish ~ Fri 27 Nov 07:41), process running
+2026-11-27 02:11:07 [watchdog] annotation 89301/112453 (79.4%), 0.900 assoc/s, about 7h 8m left (finish ~ Fri 27 Nov 09:19), process running
+2026-11-27 02:21:07 [watchdog] annotation 89831/112453 (79.9%), 0.883 assoc/s, about 7h 6m left (finish ~ Fri 27 Nov 09:28), process running
+2026-11-27 02:31:07 [watchdog] annotation 90401/112453 (80.4%), 0.950 assoc/s, about 6h 26m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-27 02:41:07 [watchdog] annotation 90973/112453 (80.9%), 0.953 assoc/s, about 6h 15m left (finish ~ Fri 27 Nov 08:56), process running
+2026-11-27 02:51:07 [watchdog] annotation 91534/112453 (81.4%), 0.935 assoc/s, about 6h 12m left (finish ~ Fri 27 Nov 09:04), process running
+2026-11-27 03:01:07 [watchdog] annotation 92134/112453 (81.9%), 1.000 assoc/s, about 5h 38m left (finish ~ Fri 27 Nov 08:39), process running
+2026-11-27 03:11:07 [watchdog] annotation 92669/112453 (82.4%), 0.892 assoc/s, about 6h 9m left (finish ~ Fri 27 Nov 09:20), process running
+2026-11-27 03:21:07 [watchdog] annotation 93294/112453 (83.0%), 1.042 assoc/s, about 5h 6m left (finish ~ Fri 27 Nov 08:27), process running
+2026-11-27 03:31:08 [watchdog] annotation 93869/112453 (83.5%), 0.958 assoc/s, about 5h 23m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 03:41:08 [watchdog] annotation 94401/112453 (83.9%), 0.885 assoc/s, about 5h 39m left (finish ~ Fri 27 Nov 09:21), process running
+2026-11-27 03:51:08 [watchdog] annotation 95001/112453 (84.5%), 1.000 assoc/s, about 4h 50m left (finish ~ Fri 27 Nov 08:42), process running
+2026-11-27 04:01:08 [watchdog] annotation 95535/112453 (85.0%), 0.890 assoc/s, about 5h 16m left (finish ~ Fri 27 Nov 09:17), process running
+2026-11-27 04:11:08 [watchdog] annotation 96101/112453 (85.5%), 0.943 assoc/s, about 4h 49m left (finish ~ Fri 27 Nov 09:00), process running
+2026-11-27 04:21:08 [watchdog] annotation 96734/112453 (86.0%), 1.055 assoc/s, about 4h 8m left (finish ~ Fri 27 Nov 08:29), process running
+2026-11-27 04:31:08 [watchdog] annotation 97333/112453 (86.6%), 0.998 assoc/s, about 4h 12m left (finish ~ Fri 27 Nov 08:43), process running
+2026-11-27 04:41:08 [watchdog] annotation 97901/112453 (87.1%), 0.947 assoc/s, about 4h 16m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-27 04:51:08 [watchdog] annotation 98601/112453 (87.7%), 1.167 assoc/s, about 3h 17m left (finish ~ Fri 27 Nov 08:08), process running
+2026-11-27 05:01:08 [watchdog] annotation 99163/112453 (88.2%), 0.937 assoc/s, about 3h 56m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-27 05:11:08 [watchdog] annotation 99733/112453 (88.7%), 0.950 assoc/s, about 3h 43m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 05:21:08 [watchdog] annotation 100301/112453 (89.2%), 0.947 assoc/s, about 3h 33m left (finish ~ Fri 27 Nov 08:55), process running
+2026-11-27 05:31:08 [watchdog] annotation 100835/112453 (89.7%), 0.890 assoc/s, about 3h 37m left (finish ~ Fri 27 Nov 09:08), process running
+2026-11-27 05:41:08 [watchdog] annotation 101401/112453 (90.2%), 0.943 assoc/s, about 3h 15m left (finish ~ Fri 27 Nov 08:56), process running
+2026-11-27 05:51:09 [watchdog] annotation 101934/112453 (90.6%), 0.888 assoc/s, about 3h 17m left (finish ~ Fri 27 Nov 09:08), process running
+2026-11-27 06:01:09 [watchdog] annotation 102467/112453 (91.1%), 0.887 assoc/s, about 3h 7m left (finish ~ Fri 27 Nov 09:08), process running
+2026-11-27 06:11:09 [watchdog] annotation 103033/112453 (91.6%), 0.943 assoc/s, about 2h 46m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-27 06:21:09 [watchdog] annotation 103568/112453 (92.1%), 0.892 assoc/s, about 2h 46m left (finish ~ Fri 27 Nov 09:07), process running
+2026-11-27 06:31:09 [watchdog] annotation 104135/112453 (92.6%), 0.945 assoc/s, about 2h 26m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-27 06:41:09 [watchdog] annotation 104765/112453 (93.2%), 1.050 assoc/s, about 2h 2m left (finish ~ Fri 27 Nov 08:43), process running
+2026-11-27 06:51:09 [watchdog] annotation 105432/112453 (93.8%), 1.112 assoc/s, about 1h 45m left (finish ~ Fri 27 Nov 08:36), process running
+2026-11-27 07:01:09 [watchdog] annotation 106034/112453 (94.3%), 1.003 assoc/s, about 1h 46m left (finish ~ Fri 27 Nov 08:47), process running
+2026-11-27 07:11:09 [watchdog] annotation 106601/112453 (94.8%), 0.945 assoc/s, about 1h 43m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 07:21:09 [watchdog] annotation 107165/112453 (95.3%), 0.940 assoc/s, about 1h 33m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 07:31:09 [watchdog] annotation 107733/112453 (95.8%), 0.947 assoc/s, about 1h 23m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 07:41:09 [watchdog] annotation 108297/112453 (96.3%), 0.940 assoc/s, about 1h 13m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 07:51:09 [watchdog] annotation 108833/112453 (96.8%), 0.893 assoc/s, about 1h 7m left (finish ~ Fri 27 Nov 08:58), process running
+2026-11-27 08:01:09 [watchdog] annotation 109401/112453 (97.3%), 0.947 assoc/s, about 0h 53m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 08:11:09 [watchdog] annotation 109967/112453 (97.8%), 0.943 assoc/s, about 0h 43m left (finish ~ Fri 27 Nov 08:55), process running
+2026-11-27 08:21:10 [watchdog] annotation 110534/112453 (98.3%), 0.945 assoc/s, about 0h 33m left (finish ~ Fri 27 Nov 08:54), process running
+2026-11-27 08:31:10 [watchdog] annotation 111067/112453 (98.8%), 0.887 assoc/s, about 0h 26m left (finish ~ Fri 27 Nov 08:57), process running
+2026-11-27 08:41:10 [watchdog] annotation 111635/112453 (99.3%), 0.947 assoc/s, about 0h 14m left (finish ~ Fri 27 Nov 08:55), process running
+2026-11-27 08:51:10 [watchdog] annotation 112201/112453 (99.8%), 0.943 assoc/s, about 0h 4m left (finish ~ Fri 27 Nov 08:55), process running
+2026-11-27 09:01:10 [watchdog] DONE: numbers in output/fp70_numbers.json, weights removed
